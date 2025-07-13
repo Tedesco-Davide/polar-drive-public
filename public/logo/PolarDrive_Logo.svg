@@ -1,0 +1,236 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="5 62 180 70" width="200" height="">
+  <defs>
+    <!-- Gradiente principale ispirato a DataPolar -->
+    <linearGradient id="techBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4FA8C5;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2E86AB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1B4965;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradiente per elementi luminosi -->
+    <linearGradient id="lightBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B8E0ED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4FA8C5;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradiente per effetti elettrici -->
+    <radialGradient id="electricGlow">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4FA8C5;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#1B4965;stop-opacity:0.3" />
+    </radialGradient>
+    
+    <!-- Effetto glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Pattern carbon fiber -->
+    <pattern id="carbon" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="3" height="3" fill="#1B4965"/>
+      <rect x="3" y="3" width="3" height="3" fill="#1B4965"/>
+      <rect width="6" height="6" fill="none" stroke="#2E86AB" stroke-width="0.2" opacity="0.5"/>
+    </pattern>
+    
+    <!-- Gradiente metallico -->
+    <linearGradient id="metallic" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F4F8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#B8E0ED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4FA8C5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Centro del logo -->
+  <g transform="translate(100, 100)">
+    
+    <!-- Effetto velocità estrema -->
+    <g opacity="0.8">
+      <path d="M -60 -8 L -90 -12 M -60 -4 L -85 -6 M -60 0 L -85 0 M -60 4 L -85 6 M -60 8 L -90 12" 
+            stroke="#00D9FF" stroke-width="4" stroke-linecap="round">
+        <animate attributeName="opacity" values="0;0.8;0" dur="1s" repeatCount="indefinite"/>
+      </path>
+      <path d="M -55 -12 L -80 -18 M -55 12 L -80 18" 
+            stroke="#4FA8C5" stroke-width="3" stroke-linecap="round">
+        <animate attributeName="opacity" values="0;0.6;0" dur="1s" begin="0.2s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    
+    <!-- Hypercar body -->
+    <g>
+      <!-- Base super ribassata e larga -->
+      <path d="M -60 8 Q -60 12 -55 12 L 50 12 Q 60 12 60 8 L 60 2 Q 60 -8 55 -12 L 45 -16 Q 40 -18 30 -19 L 10 -20 L -15 -20 Q -30 -19 -40 -17 L -50 -14 Q -55 -12 -58 -8 Q -60 -4 -60 2 Z"
+            fill="url(#techBlue)" stroke="#1B4965" stroke-width="2"/>
+      
+      <!-- Overlay carbon fiber -->
+      <path d="M -60 8 Q -60 12 -55 12 L 50 12 Q 60 12 60 8 L 60 2 Q 60 -8 55 -12 L 45 -16 Q 40 -18 30 -19 L 10 -20 L -15 -20 Q -30 -19 -40 -17 L -50 -14 Q -55 -12 -58 -8 Q -60 -4 -60 2 Z"
+            fill="url(#carbon)" opacity="0.3"/>
+      
+      <!-- Cabina pilota ultra bassa -->
+      <path d="M -20 -17 Q -15 -22 0 -23 Q 15 -22 25 -19 Q 35 -16 40 -12"
+            fill="none" stroke="url(#metallic)" stroke-width="1.5" stroke-linecap="round"/>
+      
+      <!-- Parabrezza a bolla -->
+      <path d="M -20 -17 L -10 -10 L 25 -10 L 40 -12 Q 35 -16 25 -19 Q 15 -22 0 -23 Q -15 -22 -20 -17 Z"
+            fill="#0A1828" opacity="0.9"/>
+      <path d="M -15 -15 L 20 -15" stroke="#00D9FF" stroke-width="0.5" opacity="0.8">
+        <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
+      </path>
+      
+      <!-- Splitter anteriore aggressivo -->
+      <path d="M 55 8 L 58 6 L 60 8 M 52 10 L 55 8 M 57 10 L 60 8" 
+            stroke="#2E86AB" stroke-width="1.5" stroke-linecap="round"/>
+      
+      <!-- Prese d'aria NACA -->
+      <g>
+        <path d="M -45 -2 L -40 -2 L -38 4 L -43 4 Z" fill="#0A1828" opacity="0.9"/>
+        <path d="M -35 -6 L -30 -6 L -28 0 L -33 0 Z" fill="#0A1828" opacity="0.9"/>
+        <path d="M 20 -4 L 25 -4 L 27 2 L 22 2 Z" fill="#0A1828" opacity="0.9"/>
+        <path d="M 30 -6 L 35 -6 L 37 0 L 32 0 Z" fill="#0A1828" opacity="0.9"/>
+      </g>
+      
+      <!-- Alettone posteriore estremo -->
+      <g transform="translate(-55, -5)">
+        <path d="M 0 -5 L 3 -8 L 8 -8 L 10 -5" stroke="#2E86AB" stroke-width="2" fill="none"/>
+        <line x1="4" y1="-8" x2="4" y2="-3" stroke="#4FA8C5" stroke-width="1.5"/>
+        <line x1="7" y1="-8" x2="7" y2="-3" stroke="#4FA8C5" stroke-width="1.5"/>
+      </g>
+      
+      <!-- Diffusore posteriore -->
+      <g transform="translate(-58, 8)">
+        <path d="M 0 0 L 2 -2 M 3 0 L 5 -2 M 6 0 L 8 -2 M 9 0 L 11 -2" 
+              stroke="#2E86AB" stroke-width="1" stroke-linecap="round"/>
+      </g>
+      
+      <!-- Ruote racing ultra larghe -->
+      <g>
+        <!-- Ruota posteriore (più grande) -->
+        <ellipse cx="-35" cy="12" rx="15" ry="14" fill="#0A1828" stroke="#2E86AB" stroke-width="2.5"/>
+        <g transform="translate(-35, 12)">
+          <!-- Cerchio multirazze sportivo -->
+          <circle r="10" fill="none" stroke="#1B4965" stroke-width="2"/>
+          <g>
+            <path d="M 0 -10 L 0 -5 L 3 -3 L 8 -6 M 0 -10 L 0 -5 L -3 -3 L -8 -6
+                     M 0 10 L 0 5 L 3 3 L 8 6 M 0 10 L 0 5 L -3 3 L -8 6
+                     M -10 0 L -5 0 L -3 3 L -6 8 M -10 0 L -5 0 L -3 -3 L -6 -8
+                     M 10 0 L 5 0 L 3 3 L 6 8 M 10 0 L 5 0 L 3 -3 L 6 -8" 
+                  stroke="#4FA8C5" stroke-width="1.5" fill="none" stroke-linecap="round">
+              <animateTransform attributeName="transform" type="rotate" 
+                                from="0 0 0" to="360 0 0" dur="1s" repeatCount="indefinite"/>
+            </path>
+          </g>
+          <circle r="5" fill="url(#metallic)"/>
+          <circle r="3" fill="#1B4965"/>
+        </g>
+        
+        <!-- Ruota anteriore (leggermente più piccola) -->
+        <ellipse cx="35" cy="12" rx="14" ry="13" fill="#0A1828" stroke="#2E86AB" stroke-width="2.5"/>
+        <g transform="translate(35, 12)">
+          <!-- Cerchio multirazze sportivo -->
+          <circle r="9" fill="none" stroke="#1B4965" stroke-width="2"/>
+          <g>
+            <path d="M 0 -9 L 0 -4 L 3 -2 L 7 -5 M 0 -9 L 0 -4 L -3 -2 L -7 -5
+                     M 0 9 L 0 4 L 3 2 L 7 5 M 0 9 L 0 4 L -3 2 L -7 5
+                     M -9 0 L -4 0 L -2 3 L -5 7 M -9 0 L -4 0 L -2 -3 L -5 -7
+                     M 9 0 L 4 0 L 2 3 L 5 7 M 9 0 L 4 0 L 2 -3 L 5 -7" 
+                  stroke="#4FA8C5" stroke-width="1.5" fill="none" stroke-linecap="round">
+              <animateTransform attributeName="transform" type="rotate" 
+                                from="0 0 0" to="360 0 0" dur="1s" repeatCount="indefinite"/>
+            </path>
+          </g>
+          <circle r="4.5" fill="url(#metallic)"/>
+          <circle r="2.5" fill="#1B4965"/>
+        </g>
+      </g>
+      
+      <!-- Fari LED a lama -->
+      <g>
+        <!-- Faro anteriore aggressivo -->
+        <path d="M 52 -6 Q 55 -4 56 -2 Q 57 0 56 2 Q 55 4 52 6 L 48 4 Q 46 2 46 0 Q 46 -2 48 -4 Z"
+              fill="url(#electricGlow)" filter="url(#glow)" opacity="0.9"/>
+        <path d="M 50 -3 L 54 0 L 50 3" fill="#FFFFFF" stroke="#00D9FF" stroke-width="0.5">
+          <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+        </path>
+        
+        <!-- DRL aggressivo -->
+        <path d="M 40 -10 Q 45 -8 52 -6" stroke="#00D9FF" stroke-width="2" stroke-linecap="round">
+          <animate attributeName="stroke-width" values="2;3;2" dur="2s" repeatCount="indefinite"/>
+        </path>
+        
+        <!-- Fanali posteriori a LED -->
+        <g transform="translate(-58, 0)">
+          <rect x="0" y="-4" width="4" height="8" fill="#FF0000" opacity="0.9" rx="0.5">
+            <animate attributeName="opacity" values="0.9;0.4;0.9" dur="2s" repeatCount="indefinite"/>
+          </rect>
+          <rect x="-1" y="-2" width="6" height="4" fill="#FF6600" opacity="0.7" rx="0.5"/>
+          <line x1="0" y1="0" x2="-5" y2="0" stroke="#FF0000" stroke-width="1" opacity="0.5"/>
+        </g>
+      </g>
+      
+      <!-- Dettagli aerodinamici tech -->
+      <g opacity="0.6">
+        <!-- Linea di flusso aerodinamico -->
+        <path d="M -50 -8 Q -20 -12 10 -12 Q 40 -10 55 -6" 
+              stroke="#00D9FF" stroke-width="1" stroke-dasharray="10,3">
+          <animate attributeName="stroke-dashoffset" from="0" to="-13" dur="0.8s" repeatCount="indefinite"/>
+        </path>
+        
+        <!-- Canali aria laterali -->
+        <path d="M -25 -10 L -15 -10 L -13 2 L -23 2 Z" fill="none" stroke="#2E86AB" stroke-width="0.5"/>
+        <path d="M 5 -10 L 15 -10 L 17 2 L 7 2 Z" fill="none" stroke="#2E86AB" stroke-width="0.5"/>
+      </g>
+      
+      <!-- Sensori high-tech -->
+      <g opacity="0.9">
+        <!-- LIDAR centrale -->
+        <ellipse cx="0" cy="-22" rx="5" ry="2" fill="#4FA8C5" stroke="#B8E0ED" stroke-width="0.5"/>
+        <rect x="-2" y="-24" width="4" height="2" fill="#B8E0ED" rx="1">
+          <animate attributeName="height" values="2;3;2" dur="2s" repeatCount="indefinite"/>
+        </rect>
+        
+        <!-- Scanner 360° -->
+        <circle cx="0" cy="-22" r="8" fill="none" stroke="#00D9FF" stroke-width="0.5" 
+                stroke-dasharray="2,4" opacity="0.5">
+          <animateTransform attributeName="transform" type="rotate" 
+                            from="0 0 -22" to="360 0 -22" dur="4s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+    
+    <!-- Effetto terreno tech -->
+    <g opacity="0.4">
+      <ellipse cx="0" cy="15" rx="80" ry="4" fill="url(#techBlue)"/>
+      <ellipse cx="0" cy="15" rx="80" ry="4" fill="none" stroke="#00D9FF" 
+               stroke-width="1" stroke-dasharray="15,5">
+        <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="2s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+    
+    <!-- Particelle turbo -->
+    <g opacity="0.7">
+      <circle r="1" fill="#00D9FF">
+        <animateMotion dur="1.5s" repeatCount="indefinite">
+          <mpath href="#turboPath1"/>
+        </animateMotion>
+      </circle>
+      <circle r="1" fill="#4FA8C5">
+        <animateMotion dur="1.5s" begin="0.3s" repeatCount="indefinite">
+          <mpath href="#turboPath2"/>
+        </animateMotion>
+      </circle>
+      <circle r="1" fill="#B8E0ED">
+        <animateMotion dur="1.5s" begin="0.6s" repeatCount="indefinite">
+          <mpath href="#turboPath3"/>
+        </animateMotion>
+      </circle>
+    </g>
+    
+    <!-- Percorsi turbo -->
+    <path id="turboPath1" d="M -90 0 L 90 0" fill="none"/>
+    <path id="turboPath2" d="M -90 5 L 90 5" fill="none"/>
+    <path id="turboPath3" d="M -90 -5 L 90 -5" fill="none"/>
+  </g>
+</svg>
