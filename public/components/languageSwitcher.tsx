@@ -39,7 +39,7 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <div className="hidden md:flex xl:ml-[69px] items-center space-x-4">
+    <div className="hidden md:flex items-center gap-4">
       <button
         onClick={() => switchTo("it")}
         aria-label="Italiano"
