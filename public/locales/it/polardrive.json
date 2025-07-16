@@ -1,23 +1,23 @@
 {
   "meta": {
     "title": "PolarDrive™ - Piattaforma Intelligente per Mobilità Sostenibile | DataPolar",
-    "description": "PolarDrive™: la piattaforma intelligente che trasforma il movimento in conoscenza. Gestione automatizzata di veicoli elettrici connessi per analisi di sostenibilità e efficienza energetica."
+    "description": "PolarDrive™: la piattaforma intelligente che trasforma il movimento in conoscenza. Gestione automatizzata di veicoli connessi per analisi di sostenibilità e efficienza energetica."
   },
   "hero": {
-    "quote": "Il tramite per un futuro del pianeta migliore, che trasforma il movimento in conoscenza. Un futuro in cui ogni veicolo elettrico diventa un centro di intelligenza attiva",
+    "quote": "Il tramite per un futuro del pianeta migliore, che trasforma il movimento in conoscenza. Un futuro in cui ogni veicolo diventa un centro di intelligenza attiva",
     "description": "Ogni percorso, ogni interazione con l'ambiente, ogni istante operativo viene trasformato in dati oggettivi. Dati che aiutano a prendere decisioni più consapevoli, a migliorare l'impatto ambientale, ed a rendere le aziende più efficienti e trasparenti",
     "ai_powered": "Powered"
   },
   "what_is": {
     "title": "Cos'è PolarDrive™",
-    "point1": "È una piattaforma intelligente sviluppata da DataPolar per la gestione automatizzata di veicoli elettrici connessi, utilizzati per la raccolta, analisi e valorizzazione di dati ambientali, operativi e logistici",
-    "point2": "Integrandosi direttamente con le principali piattaforme API ufficiali di veicoli elettrici di nuova generazione, trasforma ogni dispositivo mobile compatibile in una fonte costante di dati strutturati, raccolti con cadenza continua ed utilizzabili per analisi di efficienza energetica, sostenibilità, pianificazione strategica digitale e territoriale avanzate",
-    "point3": "Attraverso l'automazione totale della raccolta e la generazione ricorrente di report intelligenti, PolarDrive™ consente una tracciabilità completa e certificabile delle dinamiche operative legate alla mobilità elettrica"
+    "point1": "È una piattaforma intelligente sviluppata da DataPolar per la gestione automatizzata di veicoli connessi, utilizzati per la raccolta, analisi e valorizzazione di dati ambientali, operativi e logistici",
+    "point2": "Integrandosi direttamente con le principali piattaforme API ufficiali di veicoli di nuova generazione, trasforma ogni dispositivo mobile compatibile in una fonte costante di dati strutturati, raccolti con cadenza continua ed utilizzabili per analisi di efficienza energetica, sostenibilità, pianificazione strategica digitale e territoriale avanzate",
+    "point3": "Attraverso l'automazione totale della raccolta e la generazione ricorrente di report intelligenti, PolarDrive™ consente una tracciabilità completa e certificabile delle dinamiche operative legate alla mobilità"
   },
   "vision": {
     "title": "Il miglior alleato per la tua Evoluzione Aziendale",
     "subtitle": "Trasformiamo insieme i dati per un'economia più trasparente, efficiente e sostenibile",
-    "description": "Con PolarDrive™ qualunque attività svolta da un veicolo elettrico connesso, diventa parte di un ecosistema intelligente, in cui ogni chilometro percorso, ogni sosta, ogni condizione operativa viene tracciata in tempo reale per generare valore informativo, migliorare i processi e contribuire a un impatto ambientale positivo"
+    "description": "Con PolarDrive™ qualunque attività svolta da un veicolo connesso, diventa parte di un ecosistema intelligente, in cui ogni chilometro percorso, ogni sosta, ogni condizione operativa viene tracciata in tempo reale per generare valore informativo, migliorare i processi e contribuire a un impatto ambientale positivo"
   },
   "benefits": {
     "title": "I Benefici di PolarDrive™",
@@ -31,7 +31,7 @@
     },
     "territory_monitoring": {
       "title": "Monitoraggio avanzato del territorio",
-      "description": "Ottenuto mappando in modo dinamico il comportamento dei veicoli elettrici connessi, fornendo insight preziosi per la progettazione urbana sostenibile, le reti infrastrutturali, i punti di ricarica e l'identificazione di opportunità economiche strategiche legate all'evoluzione delle abitudini di spostamento"
+      "description": "Ottenuto mappando in modo dinamico il comportamento dei veicoli connessi, fornendo insight preziosi per la progettazione urbana sostenibile, le reti infrastrutturali, i punti di ricarica e l'identificazione di opportunità economiche strategiche legate all'evoluzione delle abitudini di spostamento"
     },
     "data_protection": {
       "title": "Protezione e anonimizzazione totale",
@@ -48,7 +48,7 @@
   },
   "target_audience": {
     "title": "A chi è rivolto PolarDrive™",
-    "description": "Progettato per essere integrato in ogni business, in cui veicoli elettrici connessi vogliano essere utilizzati come parte operativa, strategica o analitica dei processi aziendali",
+    "description": "Progettato per essere integrato in ogni business, in cui veicoli connessi vogliano essere utilizzati come parte operativa, strategica o analitica dei processi aziendali",
     "industrial_logistics": {
       "title": "Comparti industriali e logistici",
       "description": "Efficienza operativa e controllo della supply chain"
@@ -58,7 +58,7 @@
       "description": "Tecnologie intelligenti per l'ecosistema della mobilità green"
     },
     "fleet_managers": {
-      "title": "Gestori e fornitori di flotte elettriche",
+      "title": "Gestori e fornitori di flotte",
       "description": "Monitoraggio e ottimizzazione delle flotte aziendali"
     },
     "public_entities": {

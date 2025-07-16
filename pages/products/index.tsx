@@ -33,7 +33,7 @@ export default function Products() {
     name: "PolarDrive™",
     tagline: "La scelta naturale per un futuro digitale sostenibile",
     description:
-      "Sistema avanzato di raccolta e analisi dati dei veicoli elettrici, basato su Intelligenza Artificiale proprietaria. Elaborazione locale, privacy garantita, risultati intelligenti con documentazione certificabile per ottimizzazione di spese aziendali e compliance normativa strutturata",
+      "Sistema avanzato di raccolta e analisi dati dei veicoli, basato su Intelligenza Artificiale proprietaria. Elaborazione locale, privacy garantita, risultati intelligenti con documentazione certificabile per ottimizzazione di spese aziendali e compliance normativa strutturata",
     image: "/logo/DataPolar_Logo_PolarDrive.png",
     href: "/polardrive",
     highlights: [
