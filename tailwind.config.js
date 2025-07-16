@@ -5,6 +5,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    "w-[60px]",
+    "w-[150px]",
+    "px-[8px]",
+    "pl-[5px]",
+    "h-[32px]",
+    "text-[16px]",
+  ],
   theme: {
     container: {
       center: true,
