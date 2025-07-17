@@ -1,183 +1,85 @@
 {
   "meta": {
-    "title": "PolarDrive™ - Automotive Data Intelligence Platform | DataPolar",
-    "description": "PolarDrive™: piattaforma di intelligenza artificiale per l'analisi di dati automotive che trasforma veicoli connessi in fonti di insights scientifici per l'industria automotive del futuro"
+    "title": "PolarDrive™ - Piattaforma Intelligente per Mobilità Sostenibile | DataPolar",
+    "description": "PolarDrive™: la piattaforma intelligente che trasforma il movimento in conoscenza. Gestione automatizzata di veicoli connessi per analisi di sostenibilità e efficienza energetica."
   },
   "hero": {
-    "badge": "Automotive AI & Data Analytics",
-    "subtitle": "Automotive Data Intelligence Platform",
-    "quote": "Dove l'intelligenza artificiale incontra i dati automotive reali. Ogni veicolo connesso diventa una fonte di insights per il futuro della mobilità",
-    "description": "PolarDrive™ analizza dati telematici di veicoli premium connessi tramite API ufficiali. Attraverso algoritmi proprietari di intelligenza artificiale, trasformiamo consumi reali, prestazioni e comportamenti di guida in insights preziosi per l'industria automotive",
-    "ai_powered": "AI Powered"
+    "quote": "Il tramite per un futuro del pianeta migliore, che trasforma il movimento in conoscenza. Un futuro in cui ogni veicolo diventa un centro di intelligenza attiva",
+    "description": "Ogni percorso, ogni interazione con l'ambiente, ogni istante operativo viene trasformato in dati oggettivi. Dati che aiutano a prendere decisioni più consapevoli, a migliorare l'impatto ambientale, ed a rendere le aziende più efficienti e trasparenti",
+    "ai_powered": "Powered"
   },
   "what_is": {
-    "title": "Cos'è PolarDrive™?",
-    "point1": "Una piattaforma AI che analizza dati telematici di veicoli premium connessi tramite API ufficiali (GM, Ford, BMW, Tesla)",
-    "point2": "Un sistema di algoritmi proprietari che calcola emissioni, efficienza energetica e impatto ambientale da dati reali di consumo",
-    "point3": "Una soluzione che genera insights scientifici per supportare ricerca e sviluppo nell'industria automotive globale"
+    "title": "Cos'è PolarDrive™",
+    "point1": "È una piattaforma intelligente sviluppata da DataPolar per la gestione automatizzata di veicoli connessi, utilizzati per la raccolta, analisi e valorizzazione di dati ambientali, operativi e logistici",
+    "point2": "Integrandosi direttamente con le principali piattaforme API ufficiali di veicoli di nuova generazione, trasforma ogni dispositivo mobile compatibile in una fonte costante di dati strutturati, raccolti con cadenza continua ed utilizzabili per analisi di efficienza energetica, sostenibilità, pianificazione strategica digitale e territoriale avanzate",
+    "point3": "Attraverso l'automazione totale della raccolta e la generazione ricorrente di report intelligenti, PolarDrive™ consente una tracciabilità completa e certificabile delle dinamiche operative legate alla mobilità"
   },
   "vision": {
-    "title": "La Nostra Vision: Intelligenza Automotive Basata su Dati Reali",
-    "subtitle": "Trasformare dati telematici in insights scientifici",
-    "description": "PolarDrive™ rappresenta il futuro dell'analisi automotive, dove ogni veicolo connesso diventa una fonte di dati scientifici. La nostra visione è creare un ecosistema di intelligence che colleghi dati reali, algoritmi AI e ricerca per accelerare lo sviluppo di soluzioni automotive sostenibili"
+    "title": "Il miglior alleato per la tua Evoluzione Aziendale",
+    "subtitle": "Trasformiamo insieme i dati per un'economia più trasparente, efficiente e sostenibile",
+    "description": "Con PolarDrive™ qualunque attività svolta da un veicolo connesso, diventa parte di un ecosistema intelligente, in cui ogni chilometro percorso, ogni sosta, ogni condizione operativa viene tracciata in tempo reale per generare valore informativo, migliorare i processi e contribuire a un impatto ambientale positivo"
   },
   "benefits": {
-    "title": "Vantaggi della Piattaforma",
+    "title": "I Benefici di PolarDrive™",
     "automated_analysis": {
-      "title": "Analisi AI Automatizzata",
-      "description": "Algoritmi di intelligenza artificiale che analizzano automaticamente dati telematici, consumi reali e comportamenti di guida da API ufficiali dei costruttori"
+      "title": "Analisi automatizzate e continuative",
+      "description": "Grazie a un motore AI-based, i dati raccolti vengono elaborati e sintetizzati in report periodici intelligenti, pronti per essere utilizzati in contesti operativi, amministrativi o decisionali che richiedono documentazione certificata"
     },
-    "ev_vs_ice_analysis": {
-      "title": "Confronto EV vs ICE su Dati Reali",
-      "description": "Analisi comparativa scientifica tra veicoli elettrici e a combustione basata su consumi reali, emissioni calcolate e impatto ambientale effettivo"
+    "ecological_transition": {
+      "title": "Supporto alla transizione ecologica",
+      "description": "I dati aggregati contribuiscono a individuare aree di miglioramento energetico, ottimizzare i percorsi, limitare le emissioni indirette e favorire l'adozione di comportamenti qualificabili per incentivi e agevolazioni a basso impatto"
     },
-    "premium_vehicle_data": {
-      "title": "Dati da Veicoli Premium",
-      "description": "Raccolta dati telematici da veicoli di alta gamma connessi per ottenere insights di qualità superiore applicabili all'industria automotive"
+    "territory_monitoring": {
+      "title": "Monitoraggio avanzato del territorio",
+      "description": "Ottenuto mappando in modo dinamico il comportamento dei veicoli connessi, fornendo insight preziosi per la progettazione urbana sostenibile, le reti infrastrutturali, i punti di ricarica e l'identificazione di opportunità economiche strategiche legate all'evoluzione delle abitudini di spostamento"
     },
-    "emissions_calculation": {
-      "title": "Calcolo Emissioni CO2",
-      "description": "Algoritmi proprietari per calcolare emissioni CO2 reali basate su consumi telematici e fattori di conversione scientifici"
+    "data_protection": {
+      "title": "Protezione e anonimizzazione totale",
+      "description": "Ogni dato viene trattato secondo i più rigorosi standard europei. Il sistema è GDPR-proof by design e genera documentazione che soddisfa requisiti normativi specifici per trasparenza e tracciabilità"
     },
-    "predictive_modeling": {
-      "title": "Modelli Predittivi AI",
-      "description": "Sviluppo di modelli predittivi per consumi, prestazioni e impatto ambientale basati su machine learning e dati telematici"
+    "document_value": {
+      "title": "Valore documentale",
+      "description": "Generando documentazione certificabile strategicamente rilevante per supportare audit, rendicontazioni, e attività conformi a normative di settore con implicazioni economiche vantaggiose, in ottica di trasparenza e tracciabilità"
     },
-    "full_spectrum_validation": {
-      "title": "Validazione su Spettro Completo",
-      "description": "Algoritmi validati sull'intero spettro automotive, dai veicoli elettrici a zero emissioni ai veicoli ICE ad alte prestazioni, per prevenire bias algoritmico"
-    }
-  },
-  "research_areas": {
-    "title": "Aree di Analisi Dati",
-    "subtitle": "Esplorando insights automotive attraverso analisi di dati telematici reali",
-    "energy_efficiency": {
-      "title": "Efficienza Energetica",
-      "description": "Analisi di consumi reali e efficienza energetica da dati telematici per ottimizzare prestazioni e ridurre impatto ambientale"
-    },
-    "emissions_analysis": {
-      "title": "Analisi Emissioni",
-      "description": "Calcolo emissioni CO2 e impatto ambientale basato su consumi reali telematici e algoritmi di conversione scientifici"
-    },
-    "noise_impact_modeling": {
-      "title": "Modelli Impatto Acustico",
-      "description": "Stima impatto acustico tramite modelli predittivi basati su dati RPM telematici e specifiche tecniche dei motori"
-    },
-    "driving_behavior": {
-      "title": "Comportamento di Guida",
-      "description": "Analisi pattern di guida, accelerazioni e stili di conduzione per ottimizzare consumi e prestazioni"
-    },
-    "battery_performance": {
-      "title": "Prestazioni Batterie",
-      "description": "Analisi telematica delle prestazioni delle batterie in veicoli elettrici: autonomia, degrado, efficienza di ricarica"
-    },
-    "predictive_maintenance": {
-      "title": "Manutenzione Predittiva",
-      "description": "Algoritmi predittivi per anticipare necessità di manutenzione basati su dati telematici e pattern di utilizzo"
-    },
-    "route_optimization": {
-      "title": "Ottimizzazione Percorsi",
-      "description": "Analisi e ottimizzazione percorsi per minimizzare consumi e emissioni basata su dati reali di efficienza"
-    },
-    "extreme_case_analysis": {
-      "title": "Analisi Casi Estremi",
-      "description": "Studio dei casi estremi dello spettro automotive per validazione completa degli algoritmi e prevenzione bias nei modelli AI"
-    }
-  },
-  "data_sources": {
-    "title": "Fonti Dati Automotive",
-    "subtitle": "Raccolta dati da API ufficiali e fonti verificate",
-    "api_integration": {
-      "title": "Integrazione API Ufficiali",
-      "description": "Connessione diretta con API ufficiali: GM OnStar, Ford FordPass, BMW ConnectedDrive, Tesla API, Mercedes me"
-    },
-    "telematic_data": {
-      "title": "Dati Telematici",
-      "description": "Raccolta dati in tempo reale: consumi, velocità, RPM, temperatura motore, livello carburante/batteria, modalità guida"
-    },
-    "controlled_testing": {
-      "title": "Testing Controllato",
-      "description": "Utilizzo di veicoli di riferimento per garantire continuità e qualità dei dati telematici raccolti 24/7 tramite API ufficiali"
-    },
-    "technical_specifications": {
-      "title": "Specifiche Tecniche",
-      "description": "Database proprietario di specifiche tecniche veicoli per correlazioni avanzate e calcoli precisi"
-    }
-  },
-  "analysis_capabilities": {
-    "title": "Capacità di Analisi",
-    "subtitle": "Cosa possiamo calcolare e predire dai dati telematici",
-    "real_consumption": {
-      "title": "Consumi Reali",
-      "description": "Analisi consumi carburante/energia reali da dati telematici con precisione superiore ai cicli standard"
-    },
-    "co2_emissions": {
-      "title": "Emissioni CO2 Calcolate",
-      "description": "Calcolo emissioni CO2 basato su consumi reali telematici e fattori di conversione scientifici validati"
-    },
-    "efficiency_scoring": {
-      "title": "Scoring di Efficienza",
-      "description": "Algoritmi proprietari per valutare efficienza energetica e ambientale su scala 1-100"
-    },
-    "noise_estimation": {
-      "title": "Stima Impatto Acustico",
-      "description": "Modelli predittivi per stimare impatto acustico basati su dati RPM telematici e profili sonori per tipo motore"
-    },
-    "predictive_analytics": {
-      "title": "Analisi Predittive",
-      "description": "Machine learning per predire consumi, prestazioni e impatto ambientale in diversi scenari d'uso"
-    },
-    "bias_prevention": {
-      "title": "Prevenzione Bias Algoritmico",
-      "description": "Validazione algoritmi su dataset completo che copre l'intero spettro automotive per garantire accuratezza scientifica"
-    }
-  },
-  "research_methodology": {
-    "title": "Metodologia di Ricerca",
-    "subtitle": "Approccio scientifico per raccolta e analisi dati automotive",
-    "dataset_completeness": {
-      "title": "Completezza Dataset",
-      "description": "Per validare correttamente gli algoritmi AI, è necessario un dataset completo che copra l'intero spettro automotive: dai veicoli elettrici a zero emissioni ai veicoli ICE ad alte prestazioni"
-    },
-    "algorithm_validation": {
-      "title": "Validazione Algoritmi",
-      "description": "Gli algoritmi AI richiedono dati dai casi estremi dello spettro automotive per calibrazione accurata e prevenzione bias algoritmico"
-    },
-    "continuous_monitoring": {
-      "title": "Monitoraggio Continuo",
-      "description": "Raccolta dati telematici 24/7 per garantire continuità e qualità delle informazioni necessarie alla validazione scientifica"
-    },
-    "scientific_rigor": {
-      "title": "Rigore Scientifico",
-      "description": "Approccio metodologico strutturato per garantire validità e replicabilità dei risultati di ricerca"
+    "predictive_intelligence": {
+      "title": "Intelligence predittiva avanzata",
+      "description": "Algoritmi di machine learning elaborano pattern comportamentali per prevedere tendenze operative future e identificare inefficienze nascoste. Le analisi predittive facilitano investimenti strategici qualificati e supportano la pianificazione di lungo termine con vantaggi competitivi documentabili"
     }
   },
   "target_audience": {
-    "title": "Target di Mercato",
-    "description": "PolarDrive™ serve l'industria automotive con insights basati su dati reali telematici e analisi comparative complete",
-    "oem_manufacturers": {
-      "title": "Costruttori OEM",
-      "description": "Case automobilistiche che necessitano di dati reali di utilizzo per validare prestazioni e sviluppare nuovi veicoli con insights comparativi EV vs ICE"
+    "title": "A chi è rivolto PolarDrive™",
+    "description": "Progettato per essere integrato in ogni business, in cui veicoli connessi vogliano essere utilizzati come parte operativa, strategica o analitica dei processi aziendali",
+    "industrial_logistics": {
+      "title": "Comparti industriali e logistici",
+      "description": "Efficienza operativa e controllo della supply chain"
     },
-    "automotive_suppliers": {
-      "title": "Fornitori Automotive",
-      "description": "Aziende che sviluppano componenti e necessitano di validazione prestazioni su dati reali di utilizzo provenienti dall'intero spettro automotive"
-    },
-    "research_institutes": {
-      "title": "Istituti di Ricerca",
-      "description": "Centri di ricerca che studiano mobilità sostenibile e necessitano di dati reali per validare studi su tutto lo spettro automotive"
-    },
-    "ev_companies": {
-      "title": "Aziende EV",
-      "description": "Produttori di veicoli elettrici che necessitano di analisi comparative reali EV vs ICE basate su dati scientificamente validati"
+    "sustainable_mobility": {
+      "title": "Servizi di mobilità sostenibile",
+      "description": "Tecnologie intelligenti per l'ecosistema della mobilità green"
     },
     "fleet_managers": {
-      "title": "Gestori Flotte",
-      "description": "Aziende che gestiscono flotte e necessitano di ottimizzare consumi e impatto ambientale con insights comparativi completi"
+      "title": "Gestori e fornitori di flotte",
+      "description": "Monitoraggio e ottimizzazione delle flotte aziendali"
     },
-    "sustainability_consultants": {
-      "title": "Consulenti Sostenibilità",
-      "description": "Professionisti che aiutano aziende a ridurre carbon footprint attraverso scelte di mobilità informate basate su dati reali comparativi"
+    "public_entities": {
+      "title": "Comuni, province, enti pubblici e privati",
+      "description": "Raccolta dati territoriali per decisioni strategiche"
+    },
+    "holdings": {
+      "title": "Holdings e gruppi societari",
+      "description": "Soluzioni scalabili per diversificazione strategica e gestione integrata multi-business"
+    },
+    "investment_companies": {
+      "title": "Società di investimento e fondi",
+      "description": "Intelligence data-driven per portafogli sostenibili con performance economiche ottimizzate"
+    },
+    "corporations": {
+      "title": "Grandi corporazioni e multinazionali",
+      "description": "Strategie ESG integrate con impatti patrimoniali misurabili e strutturati"
+    },
+    "family_office": {
+      "title": "Family office e gestioni patrimoniali",
+      "description": "Veicoli di investimento green con gestione patrimoniale efficiente e trasparente"
     }
   },
   "innovation_highlights": {
@@ -240,27 +142,115 @@
       ]
     }
   },
+  "research_methodology": {
+    "title": "Metodologia di Ricerca Avanzata",
+    "subtitle": "Approccio scientifico per raccolta e analisi dati automotive",
+    "dataset_completeness": {
+      "title": "Completezza Dataset",
+      "description": "Per validare correttamente gli algoritmi AI, è necessario un dataset completo che copra l'intero spettro automotive: dai veicoli elettrici a zero emissioni ai veicoli ICE ad alte prestazioni"
+    },
+    "algorithm_validation": {
+      "title": "Validazione Algoritmi",
+      "description": "Gli algoritmi AI richiedono dati dai casi estremi dello spettro automotive per calibrazione accurata e prevenzione bias algoritmico"
+    },
+    "continuous_monitoring": {
+      "title": "Monitoraggio Continuo",
+      "description": "Raccolta dati telematici 24/7 per garantire continuità e qualità delle informazioni necessarie alla validazione scientifica"
+    },
+    "scientific_rigor": {
+      "title": "Rigore Scientifico",
+      "description": "Approccio metodologico strutturato per garantire validità e replicabilità dei risultati di ricerca"
+    }
+  },
+  "reference_vehicle_platform": {
+    "title": "Piattaforma Veicolare di Riferimento ICE",
+    "subtitle": "Infrastruttura strumentale essenziale per validazione algoritmi AI automotive",
+    "scientific_rationale": {
+      "title": "Metodologia di Testing Avanzata",
+      "description": "La validazione scientifica degli algoritmi AI automotive richiede dati da tutto lo spettro tecnologico. La nostra piattaforma di testing include veicoli di riferimento per ogni segmento, garantendo insights accurati e non distorti per l'intera industria automotive"
+    },
+    "technical_requirements": {
+      "title": "Requisiti Tecnici Strumentali",
+      "high_performance_ice": {
+        "title": "Veicolo ICE ad Alte Prestazioni",
+        "description": "Piattaforma di testing mobile equipaggiata con veicolo termico di riferimento per raccolta dati telematici dai segmenti automotive ad alta intensità energetica, garantendo completezza scientifica del dataset"
+      },
+      "advanced_telemetry": {
+        "title": "Telemetria Avanzata Integrata",
+        "description": "Strumentazione proprietaria per raccolta dati real-time: sensori emissioni, analizzatori combustione, monitor prestazioni, datalogger telematici integrati con API OEM"
+      },
+      "controlled_environment": {
+        "title": "Testing su Strada Controllato",
+        "description": "Laboratorio mobile per raccolta dati in condizioni reali di utilizzo, permettendo analisi comportamentali e prestazionali impossibili da ottenere in ambiente statico"
+      }
+    },
+    "algorithm_validation_needs": {
+      "title": "Necessità di Validazione Algoritmica",
+      "bias_prevention": {
+        "title": "Algoritmi Universali",
+        "description": "I nostri algoritmi AI sono validati su ogni tipologia di veicolo per garantire insights accurati e imparziali, applicabili a qualsiasi segmento dell'industria automotive globale"
+      },
+      "edge_case_analysis": {
+        "title": "Analisi Prestazioni Estreme",
+        "description": "I nostri modelli predittivi sono calibrati su dati da veicoli ad alte prestazioni, garantendo accuratezza anche negli scenari di utilizzo più intensi e specializzati"
+      },
+      "scientific_completeness": {
+        "title": "Copertura Completa del Mercato",
+        "description": "I nostri dataset includono dati da ogni categoria veicolare, dall'efficienza massima dei veicoli elettrici alle prestazioni estreme dei motori termici, offrendo una visione completa dell'ecosistema automotive"
+      }
+    },
+    "research_applications": {
+      "title": "Applicazioni di Ricerca",
+      "emissions_algorithms": {
+        "title": "Calcolo Emissioni Real-Time",
+        "description": "Algoritmi proprietari per il calcolo preciso delle emissioni CO2 basato su dati telematici reali, offrendo analisi comparative accurate tra diverse tecnologie automotive"
+      },
+      "predictive_models": {
+        "title": "Modelli Predittivi Cross-Platform",
+        "description": "Modelli AI predittivi validati su tutte le tipologie veicolari, fornendo insights accurati per qualsiasi applicazione nell'industria automotive, dai veicoli elettrici ai motori ad alte prestazioni"
+      },
+      "comparative_analysis": {
+        "title": "Analisi Comparative Multi-Tecnologia",
+        "description": "Insights comparativi basati su dati reali telematici provenienti da diverse tecnologie automotive, offrendo una prospettiva completa per decisioni strategiche nel settore"
+      }
+    },
+    "commercial_necessity": {
+      "title": "Necessità Commerciale Strategica",
+      "market_validation": {
+        "title": "Copertura Mercato Globale",
+        "description": "I nostri algoritmi sono validati su tutto lo spettro veicolare, garantendo insights applicabili al 100% del mercato automotive attuale, dai veicoli elettrici ai motori termici ad alte prestazioni"
+      },
+      "competitive_advantage": {
+        "title": "Leadership Tecnologica",
+        "description": "Prima piattaforma AI automotive con validazione completa su ogni tipologia di veicolo, garantendo una differenziazione tecnologica unica nel panorama dell'analisi dati automotive"
+      },
+      "regulatory_compliance": {
+        "title": "Conformità Normativa",
+        "description": "I nostri algoritmi per il calcolo delle emissioni sono validati su veicoli reali per garantire conformità alle normative europee su reporting ambientale e certificazione"
+      }
+    }
+  },
   "compliance": {
-    "card_title": "Conformità e Sicurezza Dati",
-    "card_description": "PolarDrive™ garantisce la massima conformità normativa e sicurezza nell'elaborazione dati automotive",
-    "title": "Conformità Normativa",
-    "description": "Rispetto completo delle normative europee e italiane per la gestione dei dati automotive e privacy",
-    "gdpr_conformity": "Conformità GDPR per gestione dati telematici automotive",
-    "data_protection_design": "Privacy by design nell'elaborazione dati veicoli",
-    "aggregated_treatment": "Trattamento aggregato e anonimizzato dei dati",
-    "consent_collection": "Raccolta consensi trasparente per elaborazione dati"
+    "card_title": "Conformità Normativa Europea",
+    "card_desciption": "Una soluzione nativa per la conformità alle normative europee, progettata fin dall'origine per rispettare GDPR e standard tecnologici",
+    "title": "Legalità al centro",
+    "description": "PolarDrive™ è progettato per operare in pieno allineamento con le più recenti normative europee su privacy, ambiente e tecnologie digitali",
+    "gdpr_conformity": "Conformità al Regolamento GDPR (art. 5, 6, 25, 32, 35)",
+    "data_protection_design": "Protezione dei dati by design, con minimizzazione e anonimizzazione integrata",
+    "aggregated_treatment": "Trattamento delle informazioni esclusivamente in forma aggregata e cifrata",
+    "consent_collection": "Raccolta e conservazione dei consensi secondo standard verificabili e certificabili"
   },
   "security": {
-    "title": "Sicurezza Dati",
-    "description": "Protezione avanzata dei dati automotive attraverso tecnologie di sicurezza certificate",
-    "encrypted_interactions": "Comunicazioni criptate con API automotive",
-    "secure_processing": "Elaborazione sicura in ambiente cloud certificato",
-    "data_anonymization": "Anonimizzazione automatica dati sensibili",
-    "access_control": "Controllo accessi rigoroso ai dati automotive"
+    "title": "Cybersecurity e integrità operativa",
+    "description": "PolarDrive™ non è solo raccolta dati: è anche protezione delle infrastrutture informative mobili",
+    "encrypted_interactions": "Tutte le interazioni sono cifrate con protocolli end-to-end",
+    "lightweight_engine": "Il motore di raccolta è progettato per essere leggero, isolato e sicuro",
+    "cyber_hygiene": "Policy di cyber hygiene per ridurre i rischi digitali associati alla mobilità connessa",
+    "protection_violations": "Protezione dall'esposizione involontaria a violazioni o trattamenti impropri"
   },
   "cta": {
-    "title": "Trasforma i Tuoi Dati Automotive in Insights",
-    "description": "Scopri il potenziale nascosto nei dati telematici dei tuoi veicoli. Contattaci per una demo personalizzata di PolarDrive™",
-    "button": "Richiedi Demo Gratuita"
+    "title": "Naviga con DataPolar verso il futuro ed ottimizza le tue risorse",
+    "description": "Scopri come PolarDrive™ può convertire le tue spese operative in investimenti intelligenti con ritorni misurabili e vantaggi economici strutturati. La partnership che ridefinisce il ROI della tua organizzazione",
+    "button": "Diventa Partner"
   }
 }
