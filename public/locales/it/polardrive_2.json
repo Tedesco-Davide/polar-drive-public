@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "title": "PolarDrive™ - Automotive R&D Intelligence Platform | DataPolar",
+    "description": "PolarDrive™: piattaforma di ricerca e sviluppo automotive che trasforma veicoli premium in laboratori di innovazione tecnologica per l'industria automotive del futuro"
+  },
+  "hero": {
+    "badge": "Automotive R&D Innovation",
+    "subtitle": "Automotive R&D Intelligence Platform",
+    "quote": "Dove l'innovazione automotive incontra la ricerca scientifica avanzata. Ogni veicolo diventa un laboratorio di sperimentazione per il futuro della mobilità",
+    "description": "PolarDrive™ rappresenta la nuova frontiera della ricerca automotive, trasformando veicoli premium in sofisticati laboratori mobili. Attraverso l'analisi scientifica di prestazioni, efficienza energetica e comportamento dinamico, generiamo insights preziosi per l'industria automotive del futuro",
+    "rd_powered": "Powered"
+  },
+  "what_is": {
+    "title": "Cos'è PolarDrive™?",
+    "point1": "Una piattaforma di ricerca e sviluppo che trasforma veicoli premium in laboratori mobili per l'industria automotive",
+    "point2": "Un sistema avanzato di analisi che studia prestazioni, efficienza energetica e dinamiche di guida su veicoli di alta gamma",
+    "point3": "Una soluzione che genera insights scientifici per supportare l'innovazione nel settore automotive globale"
+  },
+  "vision": {
+    "title": "La Nostra Vision: Pionieri dell'Automotive Intelligence",
+    "subtitle": "Trasformare la ricerca automotive attraverso l'innovazione tecnologica",
+    "description": "PolarDrive™ rappresenta il futuro della ricerca automotive, dove ogni veicolo premium diventa un centro di raccolta dati scientifici. La nostra visione è creare un ecosistema di innovazione che colleghi costruttori, ricercatori e tecnologi per accelerare lo sviluppo di soluzioni automotive sostenibili e performanti"
+  },
+  "benefits": {
+    "title": "Vantaggi della Piattaforma",
+    "automated_analysis": {
+      "title": "Analisi Automatizzata Avanzata",
+      "description": "Sistemi di intelligenza artificiale che analizzano automaticamente prestazioni, consumi e comportamento dinamico dei veicoli premium durante test di ricerca"
+    },
+    "ev_vs_ice_analysis": {
+      "title": "Analisi Comparativa EV vs ICE",
+      "description": "Confronto scientifico dettagliato tra veicoli elettrici e a combustione interna su parametri di efficienza, prestazioni e impatto ambientale"
+    },
+    "premium_vehicle_testing": {
+      "title": "Test su Veicoli Premium",
+      "description": "Ricerca condotta su veicoli di alta gamma per ottenere dati di qualità superiore e insights applicabili all'industria automotive globale"
+    },
+    "tire_technology_research": {
+      "title": "Ricerca Tecnologie Pneumatici",
+      "description": "Analisi avanzata del comportamento dei pneumatici in diverse condizioni operative per supportare lo sviluppo di nuove tecnologie"
+    },
+    "automotive_ai_development": {
+      "title": "Sviluppo AI Automotive",
+      "description": "Piattaforma per lo sviluppo e testing di algoritmi di intelligenza artificiale specifici per applicazioni automotive avanzate"
+    },
+    "sustainability_engineering": {
+      "title": "Ingegneria della Sostenibilità",
+      "description": "Analisi approfondita dell'impatto ambientale e sviluppo di soluzioni per una mobilità più sostenibile e efficiente"
+    }
+  },
+  "research_areas": {
+    "title": "Aree di Ricerca",
+    "subtitle": "Esplorando le frontiere dell'innovazione automotive attraverso ricerca scientifica avanzata",
+    "thermal_management": {
+      "title": "Gestione Termica",
+      "description": "Analisi dei sistemi di raffreddamento e gestione del calore in veicoli premium per ottimizzare prestazioni ed efficienza"
+    },
+    "nvh_engineering": {
+      "title": "Ingegneria NVH",
+      "description": "Studio di rumore, vibrazioni e durezza per migliorare comfort e qualità percepita nei veicoli di alta gamma"
+    },
+    "aerodynamics": {
+      "title": "Aerodinamica",
+      "description": "Ricerca aerodinamica avanzata per ottimizzare resistenza all'aria e stabilità ad alte velocità"
+    },
+    "vehicle_dynamics": {
+      "title": "Dinamica Veicolo",
+      "description": "Studio del comportamento dinamico dei veicoli per migliorare handling, stabilità e sicurezza attiva"
+    },
+    "powertrain_integration": {
+      "title": "Integrazione Powertrain",
+      "description": "Analisi dell'integrazione tra motore, trasmissione e sistemi di controllo per ottimizzare prestazioni globali"
+    },
+    "safety_systems": {
+      "title": "Sistemi di Sicurezza",
+      "description": "Ricerca su sistemi di sicurezza attiva e passiva per veicoli premium e tecnologie di guida assistita"
+    },
+    "battery_technology": {
+      "title": "Tecnologia Batterie",
+      "description": "Studio approfondito delle prestazioni delle batterie in veicoli elettrici premium e sistemi di gestione energetica"
+    },
+    "vehicle_connectivity": {
+      "title": "Connettività Veicolare",
+      "description": "Ricerca su sistemi di comunicazione veicolo-infrastruttura e tecnologie di connettività avanzata"
+    }
+  },
+  "test_vehicles": {
+    "title": "Veicoli di Test Premium",
+    "subtitle": "Ricerca condotta su veicoli di alta gamma per ottenere insights di qualità superiore",
+    "justification": {
+      "title": "Perché Veicoli Premium?",
+      "description": "La ricerca su veicoli premium è giustificata dalla necessità di ottenere dati di qualità superiore e insights tecnologici avanzati. Questi veicoli rappresentano lo stato dell'arte della tecnologia automotive e permettono di studiare soluzioni innovative che successivamente si diffonderanno nel mercato di massa"
+    },
+    "models_label": "Budget di Ricerca",
+    "focus_label": "Focus di Ricerca",
+    "research_justified": "Ricerca Giustificata",
+    "supercar": {
+      "category": "Supercar",
+      "models": "€300.000 - €500.000",
+      "budget": "€300.000 - €500.000",
+      "focus": "Prestazioni estreme, aerodinamica avanzata, materiali compositi, gestione termica ad alte prestazioni"
+    },
+    "electric_luxury": {
+      "category": "Lusso Elettrico",
+      "models": "€150.000 - €300.000",
+      "budget": "€150.000 - €300.000",
+      "focus": "Tecnologie batterie avanzate, sistemi di ricarica rapida, efficienza energetica premium, autonomia estesa"
+    },
+    "luxury_suv": {
+      "category": "SUV Premium",
+      "models": "€100.000 - €200.000",
+      "budget": "€100.000 - €200.000",
+      "focus": "Dinamica veicolo, sistemi di trazione integrale, comfort di guida, tecnologie di sicurezza avanzate"
+    },
+    "hybrid_performance": {
+      "category": "Ibrido Prestazioni",
+      "models": "€80.000 - €150.000",
+      "budget": "€80.000 - €150.000",
+      "focus": "Integrazione powertrain ibrido, gestione energetica, prestazioni sostenibili, ottimizzazione consumi"
+    }
+  },
+  "testing_methodologies": {
+    "title": "Metodologie di Test",
+    "subtitle": "Approcci scientifici rigorosi per la raccolta e analisi dei dati automotive",
+    "thermal": {
+      "title": "Test Termici",
+      "methods": [
+        "Analisi termica a infrarossi",
+        "Test di stress termico",
+        "Ottimizzazione raffreddamento",
+        "Gestione calore batterie"
+      ]
+    },
+    "aerodynamic": {
+      "title": "Test Aerodinamici",
+      "methods": [
+        "Analisi flusso d'aria",
+        "Test resistenza aerodinamica",
+        "Ottimizzazione stabilità",
+        "Riduzione rumore aerodinamico"
+      ]
+    },
+    "nvh": {
+      "title": "Test NVH",
+      "methods": [
+        "Analisi vibrazioni",
+        "Test acustici",
+        "Ottimizzazione comfort",
+        "Riduzione rumore"
+      ]
+    },
+    "dynamics": {
+      "title": "Test Dinamici",
+      "methods": [
+        "Analisi handling",
+        "Test stabilità",
+        "Ottimizzazione sospensioni",
+        "Test frenata"
+      ]
+    },
+    "powertrain": {
+      "title": "Test Powertrain",
+      "methods": [
+        "Analisi prestazioni motore",
+        "Test efficienza",
+        "Ottimizzazione controllo",
+        "Analisi emissioni"
+      ]
+    },
+    "safety": {
+      "title": "Test Sicurezza",
+      "methods": [
+        "Test sistemi ADAS",
+        "Analisi comportamento crash",
+        "Ottimizzazione sicurezza attiva",
+        "Test affidabilità"
+      ]
+    }
+  },
+  "target_audience": {
+    "title": "Target di Mercato",
+    "description": "PolarDrive™ è progettato per supportare l'innovazione nell'industria automotive globale attraverso ricerca scientifica avanzata",
+    "oem_manufacturers": {
+      "title": "Costruttori OEM",
+      "description": "Case automobilistiche che necessitano di dati di ricerca avanzati per lo sviluppo di nuovi veicoli e tecnologie"
+    },
+    "automotive_suppliers": {
+      "title": "Fornitori Automotive",
+      "description": "Aziende che sviluppano componenti e sistemi per l'industria automotive e richiedono validazione scientifica"
+    },
+    "research_institutes": {
+      "title": "Istituti di Ricerca",
+      "description": "Centri di ricerca universitari e industriali che studiano tecnologie automotive avanzate"
+    },
+    "luxury_brands": {
+      "title": "Brand Premium",
+      "description": "Marchi di lusso che vogliono mantenere leadership tecnologica attraverso ricerca e innovazione"
+    },
+    "ev_companies": {
+      "title": "Aziende EV",
+      "description": "Produttori di veicoli elettrici che necessitano di insights per ottimizzare prestazioni e autonomia"
+    },
+    "tech_automotive": {
+      "title": "Tech Automotive",
+      "description": "Aziende tecnologiche che sviluppano soluzioni software e hardware per l'industria automotive"
+    }
+  },
+  "smartstart_compliance": {
+    "title": "Conformità SmartStart",
+    "subtitle": "PolarDrive™ rispetta tutti i requisiti per le Startup Innovative italiane",
+    "innovation": {
+      "title": "Criteri di Innovazione",
+      "points": [
+        "Tecnologia proprietaria per analisi automotive avanzata",
+        "Algoritmi di intelligenza artificiale per ricerca automotive",
+        "Piattaforma innovativa per testing di veicoli premium",
+        "Metodologie scientifiche avanzate per l'industria automotive"
+      ]
+    },
+    "digital": {
+      "title": "Economia Digitale",
+      "points": [
+        "Piattaforma digitale per gestione dati automotive",
+        "Sistemi cloud per analisi e storage dati di ricerca",
+        "Interfacce digitali per monitoraggio test veicoli",
+        "Integrazione con ecosistemi digitali automotive"
+      ]
+    },
+    "research": {
+      "title": "Valorizzazione Ricerca",
+      "points": [
+        "Collaborazione con istituti di ricerca automotive",
+        "Pubblicazione risultati scientifici in campo automotive",
+        "Brevetti e proprietà intellettuale automotive",
+        "Transfer tecnologico verso l'industria"
+      ]
+    },
+    "automotive": {
+      "title": "Focus Automotive R&D",
+      "points": [
+        "Ricerca specializzata nel settore automotive",
+        "Test su veicoli premium per insights avanzati",
+        "Sviluppo tecnologie per mobilità sostenibile",
+        "Innovazione per l'industria automotive globale"
+      ]
+    }
+  },
+  "compliance": {
+    "card_title": "Conformità e Sicurezza",
+    "card_description": "PolarDrive™ garantisce la massima conformità normativa e sicurezza dei dati per la ricerca automotive",
+    "title": "Conformità Normativa",
+    "description": "Rispetto completo delle normative europee e italiane per la gestione dei dati automotive e ricerca scientifica",
+    "gdpr_conformity": "Conformità GDPR per gestione dati automotive",
+    "data_protection_design": "Privacy by design nei sistemi di ricerca",
+    "aggregated_treatment": "Trattamento aggregato dei dati di test",
+    "consent_collection": "Raccolta consensi per ricerca scientifica"
+  },
+  "security": {
+    "title": "Sicurezza Dati",
+    "description": "Protezione avanzata dei dati di ricerca automotive attraverso tecnologie di sicurezza all'avanguardia",
+    "encrypted_interactions": "Interazioni criptate per dati di ricerca",
+    "lightweight_engine": "Motore leggero per elaborazione sicura",
+    "cyber_hygiene": "Igiene informatica per ricerca automotive",
+    "protection_violations": "Protezione da violazioni e accessi non autorizzati"
+  },
+  "cta": {
+    "title": "Accelera la Tua Ricerca Automotive",
+    "description": "Unisciti alla rivoluzione della ricerca automotive. Contattaci per scoprire come PolarDrive™ può supportare i tuoi progetti di innovazione",
+    "button": "Contattaci per la Ricerca"
+  }
+}
