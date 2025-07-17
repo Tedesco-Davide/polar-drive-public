@@ -30,6 +30,17 @@ import {
   Gem,
   Landmark,
   Compass,
+  Lightbulb,
+  Cpu,
+  Target,
+  Database,
+  BarChart3,
+  Settings,
+  FlaskConical,
+  Microscope,
+  Activity,
+  Search,
+  Car,
 } from "lucide-react";
 
 // Register GSAP plugins
@@ -338,6 +349,32 @@ export default function PolarDrivePage() {
     },
   ];
 
+  // Nuove sezioni dal JSON aggiornato
+  const innovationHighlights = [
+    {
+      icon: Cpu,
+      title: t("innovation_highlights.proprietary_algorithms.title"),
+      description: t(
+        "innovation_highlights.proprietary_algorithms.description"
+      ),
+    },
+    {
+      icon: Settings,
+      title: t("innovation_highlights.multi_api_integration.title"),
+      description: t("innovation_highlights.multi_api_integration.description"),
+    },
+    {
+      icon: FlaskConical,
+      title: t("innovation_highlights.scientific_validation.title"),
+      description: t("innovation_highlights.scientific_validation.description"),
+    },
+    {
+      icon: Target,
+      title: t("innovation_highlights.bias_free_ai.title"),
+      description: t("innovation_highlights.bias_free_ai.description"),
+    },
+  ];
+
   const complianceFeatures = [
     t("compliance.gdpr_conformity"),
     t("compliance.data_protection_design"),
@@ -556,6 +593,41 @@ export default function PolarDrivePage() {
           </div>
         </section>
 
+        {/* Innovation Highlights Section - NUOVA SEZIONE */}
+        <section className="relative w-full overflow-hidden pt-5 pb-5 md:pt-24 md:pb-24 px-6">
+          <div className="relative z-20 max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-5xl font-bold text-center mb-8 md:mb-12 bg-gradient-to-r from-coldIndigo to-glacierBlue bg-clip-text text-transparent animate-on-scroll">
+              {t("innovation_highlights.title")}
+            </h2>
+
+            <p className="text-lg text-center mb-12 text-polarNight/80 dark:text-articWhite/80 max-w-4xl mx-auto animate-on-scroll">
+              {t("innovation_highlights.subtitle")}
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {innovationHighlights.map((highlight, index) => {
+                const Icon = highlight.icon;
+                return (
+                  <div
+                    key={index}
+                    className="card-stagger p-8 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-2xl border border-gray-300 dark:border-white/10 hover:border-coldIndigo/30 transition-all duration-300 group"
+                  >
+                    <div className="w-16 h-16 mb-6 bg-gradient-to-br from-coldIndigo/20 to-glacierBlue/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                      <Icon className="w-8 h-8 text-coldIndigo dark:text-glacierBlue" />
+                    </div>
+                    <h3 className="text-xl font-bold mb-4 text-coldIndigo dark:text-glacierBlue">
+                      {highlight.title}
+                    </h3>
+                    <p className="text-polarNight/70 dark:text-articWhite/70 leading-relaxed">
+                      {highlight.description}
+                    </p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+
         {/* Benefits Section */}
         <section className="relative w-full overflow-hidden pt-5 pb-5 md:pt-24 md:pb-24 px-6">
           <div className="relative z-20 max-w-7xl mx-auto">
@@ -618,6 +690,420 @@ export default function PolarDrivePage() {
                   </div>
                 );
               })}
+            </div>
+          </div>
+        </section>
+
+        {/* SmartStart Compliance Section - NUOVA SEZIONE */}
+        <section className="relative w-full overflow-hidden pt-5 pb-8 md:pt-24 md:pb-24 px-6">
+          <div className="relative z-20 max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-5xl font-bold text-center mb-8 md:mb-12 bg-gradient-to-r from-coldIndigo to-glacierBlue bg-clip-text text-transparent animate-on-scroll">
+              {t("smartstart_compliance.title")}
+            </h2>
+
+            <p className="text-lg text-center mb-12 text-polarNight/80 dark:text-articWhite/80 max-w-4xl mx-auto animate-on-scroll">
+              {t("smartstart_compliance.subtitle")}
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {/* Innovation */}
+              <div className="animate-on-scroll">
+                <div className="p-8 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-2xl border border-gray-300 dark:border-white/10">
+                  <div className="flex items-center mb-6">
+                    <div className="w-12 h-12 mr-4 bg-gradient-to-br from-coldIndigo/20 to-glacierBlue/20 rounded-xl flex items-center justify-center">
+                      <Lightbulb className="w-6 h-6 text-coldIndigo dark:text-glacierBlue" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-coldIndigo dark:text-glacierBlue">
+                      {t("smartstart_compliance.innovation.title")}
+                    </h3>
+                  </div>
+                  <ul className="space-y-3">
+                    {(
+                      t("smartstart_compliance.innovation.points", {
+                        returnObjects: true,
+                      }) as string[]
+                    ).map((point: string, index: number) => (
+                      <li key={index} className="flex items-start space-x-3">
+                        <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
+                        <span className="text-sm text-polarNight/70 dark:text-articWhite/70">
+                          {point}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+
+              {/* Digital Economy */}
+              <div className="animate-on-scroll">
+                <div className="p-8 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-2xl border border-gray-300 dark:border-white/10">
+                  <div className="flex items-center mb-6">
+                    <div className="w-12 h-12 mr-4 bg-gradient-to-br from-coldIndigo/20 to-glacierBlue/20 rounded-xl flex items-center justify-center">
+                      <Database className="w-6 h-6 text-coldIndigo dark:text-glacierBlue" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-coldIndigo dark:text-glacierBlue">
+                      {t("smartstart_compliance.digital.title")}
+                    </h3>
+                  </div>
+                  <ul className="space-y-3">
+                    {(
+                      t("smartstart_compliance.digital.points", {
+                        returnObjects: true,
+                      }) as string[]
+                    ).map((point: string, index: number) => (
+                      <li key={index} className="flex items-start space-x-3">
+                        <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
+                        <span className="text-sm text-polarNight/70 dark:text-articWhite/70">
+                          {point}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+
+              {/* Research */}
+              <div className="animate-on-scroll">
+                <div className="p-8 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-2xl border border-gray-300 dark:border-white/10">
+                  <div className="flex items-center mb-6">
+                    <div className="w-12 h-12 mr-4 bg-gradient-to-br from-coldIndigo/20 to-glacierBlue/20 rounded-xl flex items-center justify-center">
+                      <Microscope className="w-6 h-6 text-coldIndigo dark:text-glacierBlue" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-coldIndigo dark:text-glacierBlue">
+                      {t("smartstart_compliance.research.title")}
+                    </h3>
+                  </div>
+                  <ul className="space-y-3">
+                    {(
+                      t("smartstart_compliance.research.points", {
+                        returnObjects: true,
+                      }) as string[]
+                    ).map((point: string, index: number) => (
+                      <li key={index} className="flex items-start space-x-3">
+                        <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
+                        <span className="text-sm text-polarNight/70 dark:text-articWhite/70">
+                          {point}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+
+              {/* Automotive Focus */}
+              <div className="animate-on-scroll">
+                <div className="p-8 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-2xl border border-gray-300 dark:border-white/10">
+                  <div className="flex items-center mb-6">
+                    <div className="w-12 h-12 mr-4 bg-gradient-to-br from-coldIndigo/20 to-glacierBlue/20 rounded-xl flex items-center justify-center">
+                      <Car className="w-6 h-6 text-coldIndigo dark:text-glacierBlue" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-coldIndigo dark:text-glacierBlue">
+                      {t("smartstart_compliance.automotive.title")}
+                    </h3>
+                  </div>
+                  <ul className="space-y-3">
+                    {(
+                      t("smartstart_compliance.automotive.points", {
+                        returnObjects: true,
+                      }) as string[]
+                    ).map((point: string, index: number) => (
+                      <li key={index} className="flex items-start space-x-3">
+                        <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
+                        <span className="text-sm text-polarNight/70 dark:text-articWhite/70">
+                          {point}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Research Methodology Section - NUOVA SEZIONE */}
+        <section className="relative w-full overflow-hidden pt-5 pb-8 md:pt-24 md:pb-24 px-6">
+          <div className="relative z-20 max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-5xl font-bold text-center mb-8 md:mb-12 bg-gradient-to-r from-coldIndigo to-glacierBlue bg-clip-text text-transparent animate-on-scroll">
+              {t("research_methodology.title")}
+            </h2>
+
+            <p className="text-lg text-center mb-12 text-polarNight/80 dark:text-articWhite/80 max-w-4xl mx-auto animate-on-scroll">
+              {t("research_methodology.subtitle")}
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="card-stagger p-8 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-2xl border border-gray-300 dark:border-white/10 hover:border-coldIndigo/30 transition-all duration-300 group">
+                <div className="w-16 h-16 mb-6 bg-gradient-to-br from-coldIndigo/20 to-glacierBlue/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <BarChart3 className="w-8 h-8 text-coldIndigo dark:text-glacierBlue" />
+                </div>
+                <h3 className="text-xl font-bold mb-4 text-coldIndigo dark:text-glacierBlue">
+                  {t("research_methodology.dataset_completeness.title")}
+                </h3>
+                <p className="text-polarNight/70 dark:text-articWhite/70 leading-relaxed">
+                  {t("research_methodology.dataset_completeness.description")}
+                </p>
+              </div>
+
+              <div className="card-stagger p-8 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-2xl border border-gray-300 dark:border-white/10 hover:border-coldIndigo/30 transition-all duration-300 group">
+                <div className="w-16 h-16 mb-6 bg-gradient-to-br from-coldIndigo/20 to-glacierBlue/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <FlaskConical className="w-8 h-8 text-coldIndigo dark:text-glacierBlue" />
+                </div>
+                <h3 className="text-xl font-bold mb-4 text-coldIndigo dark:text-glacierBlue">
+                  {t("research_methodology.algorithm_validation.title")}
+                </h3>
+                <p className="text-polarNight/70 dark:text-articWhite/70 leading-relaxed">
+                  {t("research_methodology.algorithm_validation.description")}
+                </p>
+              </div>
+
+              <div className="card-stagger p-8 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-2xl border border-gray-300 dark:border-white/10 hover:border-coldIndigo/30 transition-all duration-300 group">
+                <div className="w-16 h-16 mb-6 bg-gradient-to-br from-coldIndigo/20 to-glacierBlue/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <Activity className="w-8 h-8 text-coldIndigo dark:text-glacierBlue" />
+                </div>
+                <h3 className="text-xl font-bold mb-4 text-coldIndigo dark:text-glacierBlue">
+                  {t("research_methodology.continuous_monitoring.title")}
+                </h3>
+                <p className="text-polarNight/70 dark:text-articWhite/70 leading-relaxed">
+                  {t("research_methodology.continuous_monitoring.description")}
+                </p>
+              </div>
+
+              <div className="card-stagger p-8 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-2xl border border-gray-300 dark:border-white/10 hover:border-coldIndigo/30 transition-all duration-300 group">
+                <div className="w-16 h-16 mb-6 bg-gradient-to-br from-coldIndigo/20 to-glacierBlue/20 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <Search className="w-8 h-8 text-coldIndigo dark:text-glacierBlue" />
+                </div>
+                <h3 className="text-xl font-bold mb-4 text-coldIndigo dark:text-glacierBlue">
+                  {t("research_methodology.scientific_rigor.title")}
+                </h3>
+                <p className="text-polarNight/70 dark:text-articWhite/70 leading-relaxed">
+                  {t("research_methodology.scientific_rigor.description")}
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Reference Vehicle Platform Section - NUOVA SEZIONE */}
+        <section className="relative w-full overflow-hidden pt-5 pb-8 md:pt-24 md:pb-24 px-6">
+          <div className="relative z-20 max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-5xl font-bold text-center mb-8 md:mb-12 bg-gradient-to-r from-coldIndigo to-glacierBlue bg-clip-text text-transparent animate-on-scroll">
+              {t("reference_vehicle_platform.title")}
+            </h2>
+
+            <p className="text-lg text-center mb-12 text-polarNight/80 dark:text-articWhite/80 max-w-4xl mx-auto animate-on-scroll">
+              {t("reference_vehicle_platform.subtitle")}
+            </p>
+
+            {/* Scientific Rationale */}
+            <div className="mb-12 animate-on-scroll">
+              <div className="p-8 bg-gradient-to-r from-coldIndigo/10 to-glacierBlue/10 backdrop-blur-sm rounded-3xl border border-coldIndigo/20">
+                <h3 className="text-2xl font-bold mb-6 text-coldIndigo dark:text-glacierBlue">
+                  {t("reference_vehicle_platform.scientific_rationale.title")}
+                </h3>
+                <p className="text-lg leading-relaxed text-polarNight/80 dark:text-articWhite/80">
+                  {t(
+                    "reference_vehicle_platform.scientific_rationale.description"
+                  )}
+                </p>
+              </div>
+            </div>
+
+            {/* Technical Requirements */}
+            <div className="mb-12">
+              <h3 className="text-2xl font-bold text-center mb-8 text-coldIndigo dark:text-glacierBlue animate-on-scroll">
+                {t("reference_vehicle_platform.technical_requirements.title")}
+              </h3>
+
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div className="card-stagger p-6 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-xl border border-gray-300 dark:border-white/10 hover:border-coldIndigo/30 transition-all duration-300">
+                  <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-coldIndigo/20 to-glacierBlue/20 rounded-xl flex items-center justify-center">
+                    <Car className="w-6 h-6 text-coldIndigo dark:text-glacierBlue" />
+                  </div>
+                  <h4 className="text-lg font-semibold mb-3 text-coldIndigo dark:text-glacierBlue text-center">
+                    {t(
+                      "reference_vehicle_platform.technical_requirements.high_performance_ice.title"
+                    )}
+                  </h4>
+                  <p className="text-sm text-polarNight/70 dark:text-articWhite/70 text-center">
+                    {t(
+                      "reference_vehicle_platform.technical_requirements.high_performance_ice.description"
+                    )}
+                  </p>
+                </div>
+
+                <div className="card-stagger p-6 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-xl border border-gray-300 dark:border-white/10 hover:border-coldIndigo/30 transition-all duration-300">
+                  <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-coldIndigo/20 to-glacierBlue/20 rounded-xl flex items-center justify-center">
+                    <Activity className="w-6 h-6 text-coldIndigo dark:text-glacierBlue" />
+                  </div>
+                  <h4 className="text-lg font-semibold mb-3 text-coldIndigo dark:text-glacierBlue text-center">
+                    {t(
+                      "reference_vehicle_platform.technical_requirements.advanced_telemetry.title"
+                    )}
+                  </h4>
+                  <p className="text-sm text-polarNight/70 dark:text-articWhite/70 text-center">
+                    {t(
+                      "reference_vehicle_platform.technical_requirements.advanced_telemetry.description"
+                    )}
+                  </p>
+                </div>
+
+                <div className="card-stagger p-6 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-xl border border-gray-300 dark:border-white/10 hover:border-coldIndigo/30 transition-all duration-300">
+                  <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-coldIndigo/20 to-glacierBlue/20 rounded-xl flex items-center justify-center">
+                    <FlaskConical className="w-6 h-6 text-coldIndigo dark:text-glacierBlue" />
+                  </div>
+                  <h4 className="text-lg font-semibold mb-3 text-coldIndigo dark:text-glacierBlue text-center">
+                    {t(
+                      "reference_vehicle_platform.technical_requirements.controlled_environment.title"
+                    )}
+                  </h4>
+                  <p className="text-sm text-polarNight/70 dark:text-articWhite/70 text-center">
+                    {t(
+                      "reference_vehicle_platform.technical_requirements.controlled_environment.description"
+                    )}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Algorithm Validation, Research Applications, Commercial Necessity - Grid compatto */}
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+              {/* Algorithm Validation */}
+              <div className="animate-on-scroll">
+                <h4 className="text-xl font-bold mb-6 text-coldIndigo dark:text-glacierBlue text-center">
+                  {t(
+                    "reference_vehicle_platform.algorithm_validation_needs.title"
+                  )}
+                </h4>
+                <div className="space-y-4">
+                  <div className="p-4 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-xl border border-gray-300 dark:border-white/10">
+                    <h5 className="font-semibold mb-2 text-coldIndigo dark:text-glacierBlue text-sm">
+                      {t(
+                        "reference_vehicle_platform.algorithm_validation_needs.bias_prevention.title"
+                      )}
+                    </h5>
+                    <p className="text-xs text-polarNight/70 dark:text-articWhite/70">
+                      {t(
+                        "reference_vehicle_platform.algorithm_validation_needs.bias_prevention.description"
+                      )}
+                    </p>
+                  </div>
+                  <div className="p-4 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-xl border border-gray-300 dark:border-white/10">
+                    <h5 className="font-semibold mb-2 text-coldIndigo dark:text-glacierBlue text-sm">
+                      {t(
+                        "reference_vehicle_platform.algorithm_validation_needs.edge_case_analysis.title"
+                      )}
+                    </h5>
+                    <p className="text-xs text-polarNight/70 dark:text-articWhite/70">
+                      {t(
+                        "reference_vehicle_platform.algorithm_validation_needs.edge_case_analysis.description"
+                      )}
+                    </p>
+                  </div>
+                  <div className="p-4 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-xl border border-gray-300 dark:border-white/10">
+                    <h5 className="font-semibold mb-2 text-coldIndigo dark:text-glacierBlue text-sm">
+                      {t(
+                        "reference_vehicle_platform.algorithm_validation_needs.scientific_completeness.title"
+                      )}
+                    </h5>
+                    <p className="text-xs text-polarNight/70 dark:text-articWhite/70">
+                      {t(
+                        "reference_vehicle_platform.algorithm_validation_needs.scientific_completeness.description"
+                      )}
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Research Applications */}
+              <div className="animate-on-scroll">
+                <h4 className="text-xl font-bold mb-6 text-coldIndigo dark:text-glacierBlue text-center">
+                  {t("reference_vehicle_platform.research_applications.title")}
+                </h4>
+                <div className="space-y-4">
+                  <div className="p-4 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-xl border border-gray-300 dark:border-white/10">
+                    <h5 className="font-semibold mb-2 text-coldIndigo dark:text-glacierBlue text-sm">
+                      {t(
+                        "reference_vehicle_platform.research_applications.emissions_algorithms.title"
+                      )}
+                    </h5>
+                    <p className="text-xs text-polarNight/70 dark:text-articWhite/70">
+                      {t(
+                        "reference_vehicle_platform.research_applications.emissions_algorithms.description"
+                      )}
+                    </p>
+                  </div>
+                  <div className="p-4 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-xl border border-gray-300 dark:border-white/10">
+                    <h5 className="font-semibold mb-2 text-coldIndigo dark:text-glacierBlue text-sm">
+                      {t(
+                        "reference_vehicle_platform.research_applications.predictive_models.title"
+                      )}
+                    </h5>
+                    <p className="text-xs text-polarNight/70 dark:text-articWhite/70">
+                      {t(
+                        "reference_vehicle_platform.research_applications.predictive_models.description"
+                      )}
+                    </p>
+                  </div>
+                  <div className="p-4 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-xl border border-gray-300 dark:border-white/10">
+                    <h5 className="font-semibold mb-2 text-coldIndigo dark:text-glacierBlue text-sm">
+                      {t(
+                        "reference_vehicle_platform.research_applications.comparative_analysis.title"
+                      )}
+                    </h5>
+                    <p className="text-xs text-polarNight/70 dark:text-articWhite/70">
+                      {t(
+                        "reference_vehicle_platform.research_applications.comparative_analysis.description"
+                      )}
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Commercial Necessity */}
+              <div className="animate-on-scroll">
+                <h4 className="text-xl font-bold mb-6 text-coldIndigo dark:text-glacierBlue text-center">
+                  {t("reference_vehicle_platform.commercial_necessity.title")}
+                </h4>
+                <div className="space-y-4">
+                  <div className="p-4 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-xl border border-gray-300 dark:border-white/10">
+                    <h5 className="font-semibold mb-2 text-coldIndigo dark:text-glacierBlue text-sm">
+                      {t(
+                        "reference_vehicle_platform.commercial_necessity.market_validation.title"
+                      )}
+                    </h5>
+                    <p className="text-xs text-polarNight/70 dark:text-articWhite/70">
+                      {t(
+                        "reference_vehicle_platform.commercial_necessity.market_validation.description"
+                      )}
+                    </p>
+                  </div>
+                  <div className="p-4 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-xl border border-gray-300 dark:border-white/10">
+                    <h5 className="font-semibold mb-2 text-coldIndigo dark:text-glacierBlue text-sm">
+                      {t(
+                        "reference_vehicle_platform.commercial_necessity.competitive_advantage.title"
+                      )}
+                    </h5>
+                    <p className="text-xs text-polarNight/70 dark:text-articWhite/70">
+                      {t(
+                        "reference_vehicle_platform.commercial_necessity.competitive_advantage.description"
+                      )}
+                    </p>
+                  </div>
+                  <div className="p-4 bg-white/5 dark:bg-white/5 backdrop-blur-sm rounded-xl border border-gray-300 dark:border-white/10">
+                    <h5 className="font-semibold mb-2 text-coldIndigo dark:text-glacierBlue text-sm">
+                      {t(
+                        "reference_vehicle_platform.commercial_necessity.regulatory_compliance.title"
+                      )}
+                    </h5>
+                    <p className="text-xs text-polarNight/70 dark:text-articWhite/70">
+                      {t(
+                        "reference_vehicle_platform.commercial_necessity.regulatory_compliance.description"
+                      )}
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>

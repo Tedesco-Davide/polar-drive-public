@@ -82,6 +82,154 @@
       "description": "Veicoli di investimento green con gestione patrimoniale efficiente e trasparente"
     }
   },
+  "innovation_highlights": {
+    "title": "Punti di Innovazione",
+    "subtitle": "Elementi distintivi della tecnologia PolarDrive™",
+    "proprietary_algorithms": {
+      "title": "Algoritmi Proprietari",
+      "description": "Sviluppo di algoritmi di intelligenza artificiale proprietari specifici per l'analisi comparativa automotive"
+    },
+    "multi_api_integration": {
+      "title": "Integrazione Multi-API",
+      "description": "Prima piattaforma che integra simultaneamente API di costruttori diversi per analisi comparative cross-brand"
+    },
+    "scientific_validation": {
+      "title": "Validazione Scientifica",
+      "description": "Metodologie scientifiche avanzate per garantire accuratezza e validità dei risultati di analisi"
+    },
+    "bias_free_ai": {
+      "title": "AI senza Bias",
+      "description": "Algoritmi validati sull'intero spettro automotive per garantire risultati scientificamente accurati e non distorti"
+    }
+  },
+  "smartstart_compliance": {
+    "title": "Conformità SmartStart",
+    "subtitle": "PolarDrive™ rispetta tutti i requisiti per le Startup Innovative italiane",
+    "innovation": {
+      "title": "Criteri di Innovazione",
+      "points": [
+        "Algoritmi proprietari di intelligenza artificiale per analisi dati automotive",
+        "Piattaforma innovativa per integrazione API multiple costruttori automotive",
+        "Metodologie scientifiche avanzate per calcolo emissioni da dati telematici",
+        "Modelli predittivi proprietari per analisi comparative automotive senza bias"
+      ]
+    },
+    "digital": {
+      "title": "Economia Digitale",
+      "points": [
+        "Piattaforma digitale cloud per gestione big data automotive",
+        "API proprietarie per integrazione dati telematici multi-brand",
+        "Dashboard intelligenti per visualizzazione insights automotive",
+        "Algoritmi machine learning per elaborazione dati in tempo reale"
+      ]
+    },
+    "research": {
+      "title": "Valorizzazione Ricerca",
+      "points": [
+        "Collaborazione con università per validazione algoritmi automotive",
+        "Pubblicazione risultati scientifici su analisi dati automotive",
+        "Sviluppo proprietà intellettuale su algoritmi predittivi",
+        "Transfer tecnologico verso industria automotive"
+      ]
+    },
+    "automotive": {
+      "title": "Focus Automotive Intelligence",
+      "points": [
+        "Specializzazione in analisi dati automotive telematici",
+        "Competenze specifiche in API costruttori automotive",
+        "Algoritmi dedicati per calcoli emissioni e sostenibilità",
+        "Intelligence per supporto decisionale industria automotive"
+      ]
+    }
+  },
+  "research_methodology": {
+    "title": "Metodologia di Ricerca Avanzata",
+    "subtitle": "Approccio scientifico per raccolta e analisi dati automotive",
+    "dataset_completeness": {
+      "title": "Completezza Dataset",
+      "description": "Per validare correttamente gli algoritmi AI, è necessario un dataset completo che copra l'intero spettro automotive: dai veicoli elettrici a zero emissioni ai veicoli ICE ad alte prestazioni"
+    },
+    "algorithm_validation": {
+      "title": "Validazione Algoritmi",
+      "description": "Gli algoritmi AI richiedono dati dai casi estremi dello spettro automotive per calibrazione accurata e prevenzione bias algoritmico"
+    },
+    "continuous_monitoring": {
+      "title": "Monitoraggio Continuo",
+      "description": "Raccolta dati telematici 24/7 per garantire continuità e qualità delle informazioni necessarie alla validazione scientifica"
+    },
+    "scientific_rigor": {
+      "title": "Rigore Scientifico",
+      "description": "Approccio metodologico strutturato per garantire validità e replicabilità dei risultati di ricerca"
+    }
+  },
+  "reference_vehicle_platform": {
+    "title": "Piattaforma Veicolare di Riferimento ICE",
+    "subtitle": "Infrastruttura strumentale essenziale per validazione algoritmi AI automotive",
+    "scientific_rationale": {
+      "title": "Metodologia di Testing Avanzata",
+      "description": "La validazione scientifica degli algoritmi AI automotive richiede dati da tutto lo spettro tecnologico. La nostra piattaforma di testing include veicoli di riferimento per ogni segmento, garantendo insights accurati e non distorti per l'intera industria automotive"
+    },
+    "technical_requirements": {
+      "title": "Requisiti Tecnici Strumentali",
+      "high_performance_ice": {
+        "title": "Veicolo ICE ad Alte Prestazioni",
+        "description": "Piattaforma di testing mobile equipaggiata con veicolo termico di riferimento per raccolta dati telematici dai segmenti automotive ad alta intensità energetica, garantendo completezza scientifica del dataset"
+      },
+      "advanced_telemetry": {
+        "title": "Telemetria Avanzata Integrata",
+        "description": "Strumentazione proprietaria per raccolta dati real-time: sensori emissioni, analizzatori combustione, monitor prestazioni, datalogger telematici integrati con API OEM"
+      },
+      "controlled_environment": {
+        "title": "Testing su Strada Controllato",
+        "description": "Laboratorio mobile per raccolta dati in condizioni reali di utilizzo, permettendo analisi comportamentali e prestazionali impossibili da ottenere in ambiente statico"
+      }
+    },
+    "algorithm_validation_needs": {
+      "title": "Necessità di Validazione Algoritmica",
+      "bias_prevention": {
+        "title": "Algoritmi Universali",
+        "description": "I nostri algoritmi AI sono validati su ogni tipologia di veicolo per garantire insights accurati e imparziali, applicabili a qualsiasi segmento dell'industria automotive globale"
+      },
+      "edge_case_analysis": {
+        "title": "Analisi Prestazioni Estreme",
+        "description": "I nostri modelli predittivi sono calibrati su dati da veicoli ad alte prestazioni, garantendo accuratezza anche negli scenari di utilizzo più intensi e specializzati"
+      },
+      "scientific_completeness": {
+        "title": "Copertura Completa del Mercato",
+        "description": "I nostri dataset includono dati da ogni categoria veicolare, dall'efficienza massima dei veicoli elettrici alle prestazioni estreme dei motori termici, offrendo una visione completa dell'ecosistema automotive"
+      }
+    },
+    "research_applications": {
+      "title": "Applicazioni di Ricerca",
+      "emissions_algorithms": {
+        "title": "Calcolo Emissioni Real-Time",
+        "description": "Algoritmi proprietari per il calcolo preciso delle emissioni CO2 basato su dati telematici reali, offrendo analisi comparative accurate tra diverse tecnologie automotive"
+      },
+      "predictive_models": {
+        "title": "Modelli Predittivi Cross-Platform",
+        "description": "Modelli AI predittivi validati su tutte le tipologie veicolari, fornendo insights accurati per qualsiasi applicazione nell'industria automotive, dai veicoli elettrici ai motori ad alte prestazioni"
+      },
+      "comparative_analysis": {
+        "title": "Analisi Comparative Multi-Tecnologia",
+        "description": "Insights comparativi basati su dati reali telematici provenienti da diverse tecnologie automotive, offrendo una prospettiva completa per decisioni strategiche nel settore"
+      }
+    },
+    "commercial_necessity": {
+      "title": "Necessità Commerciale Strategica",
+      "market_validation": {
+        "title": "Copertura Mercato Globale",
+        "description": "I nostri algoritmi sono validati su tutto lo spettro veicolare, garantendo insights applicabili al 100% del mercato automotive attuale, dai veicoli elettrici ai motori termici ad alte prestazioni"
+      },
+      "competitive_advantage": {
+        "title": "Leadership Tecnologica",
+        "description": "Prima piattaforma AI automotive con validazione completa su ogni tipologia di veicolo, garantendo una differenziazione tecnologica unica nel panorama dell'analisi dati automotive"
+      },
+      "regulatory_compliance": {
+        "title": "Conformità Normativa",
+        "description": "I nostri algoritmi per il calcolo delle emissioni sono validati su veicoli reali per garantire conformità alle normative europee su reporting ambientale e certificazione"
+      }
+    }
+  },
   "compliance": {
     "card_title": "Conformità Normativa Europea",
     "card_desciption": "Una soluzione nativa per la conformità alle normative europee, progettata fin dall'origine per rispettare GDPR e standard tecnologici",
