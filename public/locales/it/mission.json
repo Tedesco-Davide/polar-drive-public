@@ -1,117 +1,117 @@
 {
   "who_we_are": {
     "title": "Chi Siamo",
-    "description_1": "DataPolar è una Tech Data Company che trasforma informazioni complesse in soluzioni concrete. Specializziamo nella raccolta, elaborazione e analisi intelligente dei dati, creando valore tangibile per i nostri partner attraverso insights strategici e tecnologie all'avanguardia",
-    "description_2": "Grazie alle tecnologie di Intelligenza Artificiale più avanzate, DataPolar trasforma i dati in vantaggio competitivo per i professionisti di ogni settore. La nostra IA proprietaria PolarAi™ rappresenta il cuore tecnologico dell'azienda"
+    "description_1": "DataPolar è un'azienda di ricerca e sviluppo specializzata in intelligenza artificiale per l'analisi dei dati. Trasformiamo informazioni complesse in algoritmi avanzati e soluzioni innovative per le imprese europee",
+    "description_2": "Il nostro approccio unisce ricerca scientifica e applicazione pratica per creare tecnologie proprietarie. PolarAi™ è il nostro sistema di intelligenza artificiale principale, sviluppato internamente"
   },
   "stats": {
-    "privacy_compliance": "Privacy Compliance",
-    "data_monitoring": "Monitoraggio Dati",
-    "data_leakage": "Data Leakage",
-    "security_rating": "Rating Sicurezza"
+    "privacy_compliance": "Conformità Privacy",
+    "data_monitoring": "Controllo Dati",
+    "data_leakage": "Protezione Dati",
+    "security_rating": "Livello Sicurezza"
   },
   "research_development": {
     "title": "Ricerca e Sviluppo - Il Cuore dell'Innovazione",
     "polar_ai": {
-      "title": "PolarAi™ - IA Proprietaria",
-      "description": "Intelligenza Artificiale interna sviluppata completamente in-house, specializzata in modelli di machine learning avanzati e algoritmi predittivi per l'elaborazione intelligente di big data complessi"
+      "title": "PolarAi™ - Intelligenza Artificiale Proprietaria",
+      "description": "Sistema di intelligenza artificiale sviluppato internamente, specializzato in modelli predittivi e elaborazione di grandi quantità di dati attraverso reti neurali avanzate"
     },
     "innovative_architectures": {
       "title": "Architetture Innovative",
-      "description": "Ricerca continua su infrastrutture distribuite e sistemi edge computing per il processing real-time di grandi volumi di dati"
+      "description": "Sviluppiamo infrastrutture distribuite e sistemi di calcolo per elaborazione in tempo reale, creando soluzioni scalabili con tecnologie all'avanguardia"
     },
     "privacy_by_design": {
-      "title": "Privacy-by-Design",
-      "description": "Metodologie innovative per l'anonimizzazione avanzata e la protezione totale dei dati sensibili"
+      "title": "Privacy by Design",
+      "description": "Sistema integrato per proteggere i dati sensibili, rispettando le normative europee attraverso tecnologie di crittografia avanzate"
     },
     "innovation_lab": {
-      "title": "Innovation Lab",
-      "description": "Sperimentazione continua di tecnologie emergenti e sistemi di intelligenza artificiale di nuova generazione"
+      "title": "Laboratorio di Innovazione",
+      "description": "Centro di ricerca per sviluppare e testare nuove tecnologie di intelligenza artificiale, seguendo rigorosi standard scientifici internazionali"
     }
   },
   "mission_statement": {
-    "title": "Il Futuro che ci definisce",
-    "quote": "La missione di DataPolar è migliorare concretamente la vita quotidiana delle persone attraverso l'analisi scrupolosa e l'elaborazione intelligente dei dati tramite tecnologie avanzate di Intelligenza Artificiale (AI) sviluppate internamente"
+    "title": "La Nostra Missione",
+    "quote": "DataPolar vuole guidare l'innovazione europea nell'intelligenza artificiale, creando valore economico attraverso tecnologie avanzate e accelerando il progresso industriale con soluzioni concrete"
   },
   "application_areas": {
-    "title": "Ambiti di Applicazione",
+    "title": "Settori di Applicazione",
     "mobility_transport": {
       "title": "Mobilità e Trasporti",
-      "description": "Miglioriamo l'efficienza del trasporto pubblico e privato, ottimizzando flussi e infrastrutture"
+      "description": "Miglioriamo i sistemi di trasporto attraverso l'analisi predittiva dei flussi di traffico e la comprensione dei comportamenti di mobilità"
     },
     "energy_sustainability": {
       "title": "Energia e Sostenibilità",
-      "description": "Ottimizziamo la gestione delle reti energetiche per aumentare l'efficienza e ridurre i consumi"
+      "description": "Gestiamo reti energetiche complesse con algoritmi che ottimizzano l'efficienza e riducono l'impatto ambientale"
     },
     "road_safety": {
       "title": "Sicurezza Stradale",
-      "description": "Analizziamo dati in tempo reale per potenziare la sicurezza e prevenire incidenti"
+      "description": "Preveniamo gli incidenti analizzando in tempo reale dati ambientali e comportamentali attraverso modelli predittivi accurati"
     },
     "smart_cities": {
-      "title": "Smart Cities",
-      "description": "Sviluppiamo sistemi intelligenti per città connesse e abitazioni smart"
+      "title": "Città Intelligenti",
+      "description": "Creiamo ecosistemi urbani connessi che ottimizzano la gestione delle risorse e dei servizi cittadini"
     },
     "behavioral_marketing": {
       "title": "Marketing Comportamentale",
-      "description": "Studiamo comportamenti e preferenze per prodotti e servizi personalizzati"
+      "description": "Analizziamo i comportamenti per personalizzare le esperienze attraverso tecnologie di apprendimento automatico"
     },
     "industry_40": {
       "title": "Industria 4.0",
-      "description": "Favoriamo la trasformazione digitale attraverso soluzioni data-driven"
+      "description": "Trasformiamo la produzione industriale con soluzioni basate sui dati per automazione intelligente e ottimizzazione dei processi"
     },
     "retail_distribution": {
       "title": "Retail e Distribuzione",
-      "description": "Ottimizziamo operazioni commerciali, inventario e logistica"
+      "description": "Ottimizziamo la catena di fornitura e gestiamo l'inventario attraverso previsioni intelligenti e analisi multicanale"
     },
     "health_wellness": {
       "title": "Salute e Benessere",
-      "description": "Supportiamo soluzioni innovative nella sanità per cure personalizzate"
+      "description": "Sviluppiamo medicina personalizzata analizzando biomarcatori e comportamenti individuali per migliorare il benessere"
     },
     "predictive_analysis": {
       "title": "Analisi Predittiva",
-      "description": "Prevediamo tendenze e comportamenti futuri attraverso modelli di machine learning avanzati"
+      "description": "Prevediamo tendenze di mercato e valutiamo i rischi attraverso tecnologie di machine learning e analisi avanzate"
     }
   },
   "partnerships": {
-    "title": "Partnerships B2B",
+    "title": "Partnership B2B",
     "strategic_collaborations": {
       "title": "Collaborazioni Strategiche",
-      "description": "Operiamo esclusivamente attraverso partnership commerciali B2B, collaborando con aziende e realtà industriali di ogni settore per produrre soluzioni personalizzate basate sui dati"
+      "description": "Sviluppiamo soluzioni personalizzate in partnership con altre aziende, combinando competenze diverse per accelerare i tempi di sviluppo"
     },
     "professional_studies": {
       "title": "Studi Professionali",
-      "description": "Offriamo documentazione automatizzata e AI-powered per studi legali, commercialisti e revisori, con report generati da IA locale nel rispetto del GDPR"
+      "description": "Automatizziamo la gestione documentale per professionisti con sistemi locali che rispettano il GDPR e generano report automatici"
     }
   },
   "data_sovereignty": {
-    "title": "Sovranità dei Dati e AI Privata",
+    "title": "Controllo dei Dati e AI Privata",
     "features": {
-      "local_ai": "IA eseguita in locale su server privati in Europa",
-      "no_data_transmission": "Nessun dato trasmesso a OpenAI, Google o Amazon",
-      "secure_documentation": "Documentazione generata senza uscita di dati sensibili",
-      "dedicated_infrastructure": "Modelli ospitati su infrastruttura dedicata",
-      "auditable_process": "Processo auditabile e tracciato end-to-end",
-      "privacy_design": "Privacy-by-design e local AI execution"
+      "local_ai": "Sistemi di intelligenza artificiale proprietari eseguiti su infrastrutture europee con controllo completo",
+      "no_data_transmission": "Architettura sicura senza condivisione dati con fornitori esterni o piattaforme internazionali",
+      "secure_documentation": "Generazione sicura di documenti attraverso elaborazione locale con protezione completa",
+      "dedicated_infrastructure": "Hosting dedicato su datacenter europei con modelli proprietari isolati",
+      "auditable_process": "Tracciabilità completa delle operazioni con registrazione sicura e conformità verificabile",
+      "privacy_design": "Sistema progettato per la privacy con crittografia avanzata e protezione dei dati strutturale"
     }
   },
   "certifications": {
-    "title": "Certificazioni e Standard di Eccellenza",
+    "title": "Certificazioni e Standard di Qualità",
     "tech_company": {
-      "title": "Tech Company Certificata",
-      "description": "Società certificata per ricerca e sviluppo di tecnologie innovative"
+      "title": "Azienda Tecnologica Innovativa Certificata",
+      "description": "Riconoscimento ufficiale per le attività di ricerca e sviluppo in tecnologie di intelligenza artificiale proprietarie"
     },
     "gdpr_compliance": {
-      "title": "GDPR Compliance",
-      "description": "Conformità integrale al Regolamento Europeo sulla Privacy"
+      "title": "Conformità GDPR",
+      "description": "Rispetto completo del Regolamento Europeo sulla Privacy attraverso l'implementazione nativa di principi di protezione dati"
     },
     "internal_rd": {
-      "title": "R&D Interna",
-      "description": "Ricerca e sviluppo focalizzate su PolarAi™ e tecnologie proprietarie"
+      "title": "Ricerca e Sviluppo Interna",
+      "description": "Programma di ricerca interno focalizzato su PolarAi™ e sviluppo di algoritmi proprietari con metodologie scientifiche certificate"
     }
   },
   "cta": {
     "title": "PolarDrive™",
-    "description": "La scelta naturale per le aziende che vogliono trasformare i propri dati in vantaggio competitivo attraverso tecnologie sostenibili",
+    "description": "Piattaforma di intelligenza artificiale per il settore automotive che trasforma i dati telematici in algoritmi proprietari",
     "button": "Scopri PolarDrive™"
   }
 }

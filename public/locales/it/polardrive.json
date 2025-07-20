@@ -1,256 +1,256 @@
 {
   "meta": {
-    "title": "PolarDrive™ - Piattaforma AI per Ricerca Automotive | DataPolar",
-    "description": "PolarDrive™: la prima piattaforma europea di ricerca AI automotive che trasforma dati telematici in algoritmi brevettabili per l'industria della mobilità sostenibile."
+    "title": "PolarDrive™ - Piattaforma di Ricerca Automotive AI | DataPolar",
+    "description": "PolarDrive™: piattaforma europea di ricerca automotive AI per validazione di algoritmi proprietari attraverso l'analisi di dati automobilistici."
   },
   "hero": {
-    "quote": "Il futuro della ricerca automotive europea, dove ogni dato telematico diventa innovazione brevettabile. Un futuro in cui ogni veicolo contribuisce allo sviluppo di algoritmi AI proprietari",
-    "description": "Ogni parametro telematico, ogni comportamento prestazionale, ogni istante operativo viene trasformato in proprietà intellettuale. Dati che alimentano algoritmi AI proprietari per rivoluzionare l'analisi automotive europea e creare vantaggio competitivo tecnologico",
-    "ai_powered": "Powered"
+    "quote": "L'innovazione automotive europea che trasforma i dati dei veicoli in algoritmi di intelligenza artificiale attraverso ricerca scientifica e validazione completa",
+    "description": "Ogni dato raccolto dai veicoli supporta lo sviluppo di sistemi AI proprietari per l'avanzamento tecnologico automotive. Intelligenza che alimenta la creazione di tecnologie innovative attraverso protocolli conformi agli standard internazionali",
+    "ai_powered": "Basato sulla Ricerca"
   },
   "what_is": {
     "title": "Cos'è PolarDrive™",
-    "point1": "È la prima piattaforma europea di ricerca AI automotive sviluppata da DataPolar per la validazione scientifica di algoritmi proprietari attraverso raccolta e analisi di dati telematici da veicoli rappresentativi dell'intero spettro prestazionale",
-    "point2": "Integrandosi con API ufficiali di costruttori automotive, trasforma ogni veicolo strumentale in un laboratorio mobile per raccolta dati scientifici, utilizzabili per sviluppo di algoritmi AI brevettabili e metodologie predittive innovative per l'industria automotive europea",
-    "point3": "Attraverso metodologie di ricerca scientifica avanzate e validazione algoritmica rigorosa, PolarDrive™ genera proprietà intellettuale certificabile e risultati di ricerca pubblicabili su riviste peer-reviewed internazionali"
+    "point1": "Piattaforma automotive AI sviluppata da DataPolar per validare algoritmi proprietari attraverso la raccolta sistematica di dati da veicoli rappresentativi di tutte le tipologie prestazionali",
+    "point2": "Attraverso l'integrazione con le API dei costruttori, trasforma i veicoli in laboratori mobili per la sperimentazione, raccogliendo le informazioni necessarie per generare algoritmi AI secondo protocolli certificati",
+    "point3": "Implementa standard internazionali per produrre risultati pubblicabili e algoritmi innovativi, accelerando lo sviluppo dell'innovazione automotive europea"
   },
   "vision": {
-    "title": "Il pioniere della Ricerca Automotive AI Europea",
-    "subtitle": "Trasformiamo dati telematici in innovazione brevettabile per dominare il mercato automotive AI globale",
-    "description": "Con PolarDrive™ ogni veicolo strumentale diventa parte di un ecosistema di ricerca avanzato, dove ogni parametro prestazionale, ogni dato telematico, ogni condizione operativa viene analizzato per sviluppare algoritmi AI proprietari e creare il più avanzato portfolio di proprietà intellettuale automotive europeo"
+    "title": "Centro di Ricerca Automotive AI",
+    "subtitle": "Sviluppiamo algoritmi AI proprietari attraverso ricerca scientifica per accelerare l'innovazione nel settore automotive",
+    "description": "Con PolarDrive™ ogni veicolo si integra in un programma di ricerca, dove i dati automobilistici vengono elaborati per generare algoritmi AI proprietari secondo standard rigorosi e validazione completa"
   },
   "benefits": {
-    "title": "I Vantaggi Competitivi di PolarDrive™",
+    "title": "I Vantaggi Scientifici di PolarDrive™",
     "automated_analysis": {
-      "title": "Algoritmi AI Proprietari Brevettabili",
-      "description": "Motore AI proprietario che trasforma dati telematici in algoritmi brevettabili, generando proprietà intellettuale di valore strategico per l'industria automotive europea con potenziale di licensing internazionale"
+      "title": "Sviluppo di Algoritmi AI Proprietari",
+      "description": "Sistema di ricerca proprietario che trasforma i dati dei veicoli in algoritmi AI certificati, producendo tecnologie innovative attraverso metodologie conformi agli standard europei"
     },
     "ecological_transition": {
-      "title": "Leadership Ricerca Sostenibilità Automotive",
-      "description": "Algoritmi pionieristici per calcolo emissioni real-time da dati telematici, posizionando l'Europa all'avanguardia nella ricerca per transizione ecologica automotive con metodologie scientifiche innovative"
+      "title": "Monitoraggio Avanzato delle Emissioni in Tempo Reale",
+      "description": "Sistemi di analisi per il controllo istantaneo delle emissioni basati su dati telematici, progettati con metodologie innovative per supportare la transizione ecologica del settore"
     },
     "territory_monitoring": {
-      "title": "Intelligence Predittiva Automotive Avanzata",
-      "description": "Sviluppo di modelli predittivi proprietari per analisi comportamentali automotive, creando insights strategici per industria europea e supportando decisioni di investimento in infrastrutture mobilità sostenibile"
+      "title": "Modelli Predittivi Comportamentali",
+      "description": "Creazione di modelli predittivi proprietari per l'analisi dei comportamenti dei veicoli, utilizzando metodologie certificate per generare informazioni utili per l'industria automotive europea"
     },
     "data_protection": {
-      "title": "Metodologia Ricerca GDPR-Compliant",
-      "description": "Protocolli di ricerca scientifica progettati per conformità normativa europea, garantendo che tutti i dati utilizzati per sviluppo algoritmi rispettino standard GDPR con anonimizzazione avanzata by-design"
+      "title": "Sistema GDPR Integrato",
+      "description": "Protocolli progettati per la conformità normativa completa, garantendo che raccolta e analisi dei dati rispettino le regolamentazioni europee con protezione avanzata integrata"
     },
     "document_value": {
-      "title": "Portfolio Proprietà Intellettuale Automotive",
-      "description": "Generazione sistematica di proprietà intellettuale brevettabile e pubblicazioni scientifiche, creando valore patrimoniale tangibile attraverso portfolio IP automotive AI di rilevanza strategica europea"
+      "title": "Creazione di Proprietà Intellettuale",
+      "description": "Generazione sistematica di risultati innovativi e pubblicazioni scientifiche, creando valore economico attraverso software automotive AI sviluppato con rigore metodologico"
     },
     "predictive_intelligence": {
-      "title": "Algoritmi Anti-Bias per Mercato Globale",
-      "description": "Metodologie proprietarie per eliminazione bias algoritmici attraverso validazione su intero spettro automotive, garantendo accuratezza scientifica e applicabilità globale degli algoritmi sviluppati"
+      "title": "Metodologie Anti-Distorsione Avanzate",
+      "description": "Approcci proprietari per eliminare le distorsioni algoritmiche attraverso la validazione su dataset completi, garantendo robustezza e applicabilità industriale dei risultati"
     }
   },
   "target_audience": {
-    "title": "Mercato Target PolarDrive™",
-    "description": "Progettato per rivoluzionare l'industria automotive europea attraverso ricerca AI avanzata e sviluppo di algoritmi proprietari brevettabili",
+    "title": "Settori di Applicazione PolarDrive™",
+    "description": "Progettato per supportare l'innovazione automotive AI europea attraverso lo sviluppo di algoritmi proprietari e metodologie avanzate",
     "industrial_logistics": {
-      "title": "Industria Automotive Europea",
-      "description": "Licensing algoritmi AI proprietari per ottimizzazione prestazioni e sostenibilità"
+      "title": "Ricerca Industriale Automotive",
+      "description": "Algoritmi AI proprietari per ottimizzare le prestazioni dei veicoli"
     },
     "sustainable_mobility": {
-      "title": "Centri Ricerca Mobilità Sostenibile",
-      "description": "Metodologie scientifiche innovative per ricerca transizione ecologica automotive"
+      "title": "Innovazione per la Mobilità Sostenibile",
+      "description": "Metodologie per la transizione ecologica del trasporto"
     },
     "fleet_managers": {
-      "title": "Costruttori Automotive Globali",
-      "description": "Algoritmi predittivi per sviluppo veicoli di nuova generazione"
+      "title": "Sviluppo di Tecnologie Automotive",
+      "description": "Algoritmi predittivi per l'innovazione tecnologica del settore"
     },
     "public_entities": {
-      "title": "Istituzioni Ricerca Europee",
-      "description": "Collaborazioni scientifiche per sviluppo standard automotive AI"
+      "title": "Collaborazione Accademica",
+      "description": "Supporto per lo sviluppo di standard automotive AI"
     },
     "holdings": {
-      "title": "Gruppi Industriali Automotive",
-      "description": "Soluzioni AI proprietarie per diversificazione tecnologica strategica"
+      "title": "Ricerca Industriale Avanzata",
+      "description": "Soluzioni AI proprietarie per l'innovazione tecnologica"
     },
     "investment_companies": {
-      "title": "Fondi DeepTech Automotive",
-      "description": "Opportunità investimento in proprietà intellettuale automotive AI"
+      "title": "Valorizzazione della Proprietà Intellettuale Automotive",
+      "description": "Tecnologie innovative generate attraverso la sperimentazione"
     },
     "corporations": {
-      "title": "Multinazionali Tecnologiche",
-      "description": "Partnership strategiche per integrazione AI automotive in ecosistemi digitali"
+      "title": "Integrazione Tecnologica",
+      "description": "Implementazione di AI automotive negli ecosistemi aziendali"
     },
     "family_office": {
-      "title": "Investitori Tecnologia Automotive",
-      "description": "Portfolio proprietà intellettuale automotive con potenziale licensing globale"
+      "title": "Investimenti in Innovazione",
+      "description": "Proprietà intellettuale certificata e validata"
     }
   },
   "innovation_highlights": {
-    "title": "Elementi Distintivi Brevettabili",
-    "subtitle": "Innovazioni proprietarie che posizionano PolarDrive™ all'avanguardia mondiale",
+    "title": "Elementi Scientifici Innovativi",
+    "subtitle": "Metodologie proprietarie che posizionano PolarDrive™ come piattaforma avanzata",
     "proprietary_algorithms": {
-      "title": "Algoritmi AI Automotive Proprietari",
-      "description": "Primo portfolio europeo di algoritmi AI automotive brevettabili, specializzati in correlazione telemetria-prestazioni per l'intero spettro veicolare dal termico all'elettrico"
+      "title": "Algoritmi Automotive Proprietari",
+      "description": "Portfolio di sistemi AI specializzati nella correlazione tra dati telematici e prestazioni per la validazione su tutto lo spettro veicolare"
     },
     "multi_api_integration": {
-      "title": "Piattaforma Multi-API Innovativa",
-      "description": "Unica piattaforma europea che integra simultaneamente API di tutti i principali costruttori automotive per analisi comparative cross-brand scientificamente validate"
+      "title": "Piattaforma Multi-API Integrata",
+      "description": "Ecosistema per l'integrazione simultanea delle API dei costruttori per analisi comparative tra marchi certificate"
     },
     "scientific_validation": {
-      "title": "Metodologia Validazione Scientifica",
-      "description": "Protocolli di ricerca proprietari per validazione algoritmi automotive su dataset completo, garantendo accuratezza scientifica e pubblicabilità risultati su riviste internazionali"
+      "title": "Protocolli di Validazione Proprietari",
+      "description": "Metodologie proprietarie per la validazione di algoritmi su dataset completi, garantendo la conformità agli standard internazionali per la pubblicazione"
     },
     "bias_free_ai": {
-      "title": "Tecnologia Anti-Bias Automotive",
-      "description": "Metodologie innovative per eliminazione bias algoritmici attraverso validazione su veicoli rappresentativi dell'intero spettro prestazionale automotive mondiale"
+      "title": "Metodologie Anti-Distorsione",
+      "description": "Approcci per eliminare le distorsioni algoritmiche attraverso la validazione su veicoli rappresentativi di tutto lo spettro prestazionale"
     }
   },
-  "smartstart_compliance": {
-    "title": "Conformità Smart&Start Italia",
-    "subtitle": "PolarDrive™ rappresenta l'eccellenza dell'innovazione automotive europea ammissibile a Smart&Start",
+  "main_compliance": {
+    "title": "Elementi Qualificanti",
+    "subtitle": "PolarDrive™ rappresenta un'innovazione automotive attraverso ricerca e sviluppo",
     "innovation": {
-      "title": "Innovazione Tecnologica Brevettabile",
+      "title": "Innovazione Scientifica",
       "points": [
-        "Algoritmi AI proprietari per correlazione telemetria-emissioni con potenziale brevettuale europeo",
-        "Prima piattaforma italiana per integrazione API automotive multi-brand con metodologia scientifica validata",
-        "Metodologie innovative per calcolo emissioni real-time da dati telematici con accuratezza scientifica certificabile",
-        "Modelli predittivi anti-bias per analisi automotive sviluppati con rigore scientifico e pubblicabilità internazionale"
+        "Algoritmi AI proprietari per correlazione telemetria-emissioni con potenziale innovativo",
+        "Piattaforma italiana per integrazione API automotive multi-brand con metodologie certificate",
+        "Sistemi innovativi per calcolo emissioni in tempo reale da dati telematici",
+        "Modelli predittivi anti-distorsione conformi a standard internazionali"
       ]
     },
     "digital": {
       "title": "Economia Digitale Automotive",
       "points": [
-        "Piattaforma cloud proprietaria per elaborazione big data automotive con algoritmi AI brevettabili",
-        "API proprietarie per integrazione dati telematici automotive con focus su mercato europeo €12 miliardi",
-        "Dashboard AI innovative per visualizzazione insights automotive basate su algoritmi proprietari",
-        "Sistema machine learning real-time per elaborazione dati automotive con metodologie scientifiche avanzate"
+        "Piattaforma cloud proprietaria per elaborazione big data con algoritmi AI sviluppati internamente",
+        "API proprietarie per integrazione dati telematici per supporto alla ricerca",
+        "Dashboard AI per visualizzazione insights basate su algoritmi proprietari",
+        "Sistema machine learning in tempo reale per elaborazione dati con metodologie certificate"
       ]
     },
     "research": {
-      "title": "Valorizzazione Ricerca Automotive",
+      "title": "Valorizzazione R&D Automotive",
       "points": [
-        "Programma ricerca automotive AI con pubblicazioni scientifiche programmate su riviste peer-reviewed internazionali",
-        "Sviluppo proprietà intellettuale automotive attraverso 75% del budget dedicato ad attività R&D pure",
-        "Transfer tecnologico verso industria automotive europea con focus su algoritmi brevettabili",
-        "Metodologie scientifiche innovative per ricerca automotive AI con potenziale commercializzazione globale"
+        "Programma di ricerca automotive AI conforme a standard per pubblicazioni scientifiche",
+        "Creazione di proprietà intellettuale attraverso attività di sviluppo tecnologico",
+        "Trasferimento tecnologico verso l'industria attraverso sperimentazione su algoritmi innovativi",
+        "Metodologie innovative per automotive AI con validazione attraverso protocolli rigorosi"
       ]
     },
     "automotive": {
-      "title": "Leadership Automotive AI Europea",
+      "title": "Specializzazione Automotive AI",
       "points": [
-        "Specializzazione esclusiva in ricerca automotive AI con focus su mercato europeo mobilità sostenibile",
-        "Competenze proprietarie in API automotive OEM per sviluppo algoritmi cross-brand scientificamente validati",
-        "Algoritmi dedicati per ricerca emissioni automotive con metodologie innovative brevettabili",
-        "Centro di competenza automotive AI per supporto strategico industria europea della mobilità"
+        "Focus su metodologie per la mobilità sostenibile",
+        "Competenze proprietarie in API automotive OEM per sviluppo cross-brand",
+        "Algoritmi per analisi emissioni con metodologie innovative",
+        "Centro di ricerca per supporto all'industria europea della mobilità"
       ]
     }
   },
   "research_methodology": {
-    "title": "Metodologia Ricerca Scientifica Automotive",
-    "subtitle": "Approccio scientifico rigoroso per sviluppo algoritmi AI automotive brevettabili",
+    "title": "Metodologia di Ricerca Automotive",
+    "subtitle": "Approccio sistematico per lo sviluppo di algoritmi AI attraverso validazione certificata",
     "dataset_completeness": {
-      "title": "Necessità Dataset Completo Automotive",
-      "description": "La validazione scientifica degli algoritmi AI automotive richiede dataset rappresentativo dell'intero spettro prestazionale: dai veicoli elettrici a zero emissioni ai veicoli ICE ad alte prestazioni. Senza questa completezza, gli algoritmi svilupperebbero bias sistematici compromettendo accuratezza scientifica e brevettabilità"
+      "title": "Requisiti per Dataset Completo",
+      "description": "La validazione degli algoritmi AI automotive richiede un dataset rappresentativo di tutto lo spettro prestazionale. La ricerca necessita di dati da veicoli elettrici a zero emissioni fino a motori termici ad alte prestazioni per prevenire distorsioni sistematiche"
     },
     "algorithm_validation": {
-      "title": "Protocollo Validazione Algoritmi Proprietari",
-      "description": "Gli algoritmi AI proprietari richiedono validazione su casi estremi dello spettro automotive per garantire robustezza scientifica. La metodologia include testing su veicoli ad alte prestazioni per calibrazione accurata e prevenzione bias algoritmico"
+      "title": "Protocolli di Validazione degli Algoritmi",
+      "description": "I sistemi AI proprietari richiedono validazione sui casi limite dello spettro automotive per garantire robustezza. La metodologia include test su veicoli ad alte prestazioni per calibrazione accurata"
     },
     "continuous_monitoring": {
-      "title": "Raccolta Dati Scientifica Continua",
-      "description": "Protocollo di raccolta dati telematici 24/7 su veicoli strumentali per garantire continuità e qualità delle informazioni necessarie alla validazione scientifica degli algoritmi AI proprietari"
+      "title": "Raccolta Dati Sistematica",
+      "description": "Protocollo di acquisizione telematica continua su veicoli strumentali per garantire la qualità dei dati necessari alla validazione degli algoritmi AI proprietari"
     },
     "scientific_rigor": {
-      "title": "Standard Ricerca Internazionale",
-      "description": "Approccio metodologico conforme a standard scientifici internazionali per garantire validità, replicabilità e pubblicabilità dei risultati di ricerca automotive AI"
+      "title": "Standard Internazionali",
+      "description": "Approccio metodologico conforme agli standard per garantire validità, replicabilità e pubblicabilità dei risultati automotive AI"
     }
   },
   "reference_vehicle_platform": {
-    "title": "Laboratorio Mobile per Ricerca Automotive AI",
-    "subtitle": "Infrastruttura strumentale scientifica essenziale per validazione algoritmi proprietari",
+    "title": "Piattaforma Veicolare per Automotive AI",
+    "subtitle": "Infrastruttura mobile necessaria per la validazione di algoritmi attraverso test sul campo",
     "scientific_rationale": {
-      "title": "Necessità Metodologica per Ricerca Automotive",
-      "description": "La validazione scientifica degli algoritmi AI automotive richiede dati telematici da veicoli rappresentativi dell'intero spettro prestazionale. La metodologia di ricerca necessita di un laboratorio mobile equipaggiato con veicolo ad alte prestazioni per raccolta dati dai segmenti automotive ad alta intensità energetica, garantendo completezza scientifica del dataset e prevenzione bias algoritmici"
+      "title": "Ogni veicolo rappresenta uno strumento prezioso",
+      "description": "La validazione degli algoritmi AI automotive richiede dati telematici da veicoli rappresentativi di tutto lo spettro prestazionale. La metodologia necessita di strumentazione mobile con veicoli disparati per acquisizione dai segmenti ad alta intensità energetica, garantendo completezza del dataset"
     },
     "technical_requirements": {
-      "title": "Specifiche Tecniche Strumentazione Scientifica",
+      "title": "Specifiche Tecniche della Strumentazione",
       "high_performance_ice": {
-        "title": "Piattaforma Testing Mobile Avanzata",
-        "description": "Laboratorio mobile equipaggiato con veicolo ICE ad alte prestazioni (Chevrolet Corvette E-Ray) come piattaforma strumentale per raccolta dati telematici dai segmenti automotive ad alta intensità energetica, garantendo validazione scientifica completa degli algoritmi AI proprietari"
+        "title": "Piattaforma di Test Mobile",
+        "description": "Laboratorio mobile equipaggiato con veicolo ICE ibrido ad alte prestazioni come strumentazione per acquisizione dati dai segmenti ad alta intensità energetica, necessario per validazione completa degli algoritmi AI proprietari"
       },
       "advanced_telemetry": {
-        "title": "Strumentazione Telemetrica Proprietaria",
-        "description": "Sistema proprietario per raccolta dati real-time integrato con API OEM: sensori emissioni, analizzatori prestazioni, datalogger telematici per validazione algoritmi AI automotive"
+        "title": "Strumentazione Telematica",
+        "description": "Sistema proprietario per acquisizione dati in tempo reale integrato con API OEM: sensori emissioni, analizzatori prestazioni, datalogger telematici per supporto alla ricerca e validazione algoritmi AI automotive"
       },
       "controlled_environment": {
-        "title": "Metodologia Testing Scientifico",
-        "description": "Protocolli di testing su strada per raccolta dati in condizioni reali controllate, permettendo validazione algoritmi AI impossibile da ottenere in ambiente statico di laboratorio"
+        "title": "Test Scientifici sul Campo",
+        "description": "Protocolli di test su strada per acquisizione dati in condizioni reali controllate, permettendo validazione algoritmi AI attraverso sperimentazione impossibile da replicare in ambiente statico"
       }
     },
     "algorithm_validation_needs": {
-      "title": "Requisiti Validazione Algoritmi Proprietari",
+      "title": "Validazione degli Algoritmi",
       "bias_prevention": {
-        "title": "Metodologia Anti-Bias Scientifica",
-        "description": "Gli algoritmi AI proprietari sono validati su ogni tipologia veicolare per garantire accuratezza scientifica e applicabilità globale, eliminando bias sistematici attraverso dataset completo rappresentativo dell'industria automotive mondiale"
+        "title": "Metodologie Anti-Distorsione",
+        "description": "Gli algoritmi AI proprietari sono validati su ogni tipologia di veicolo per garantire accuratezza, eliminando distorsioni sistematiche attraverso dataset completi rappresentativi dell'industria automotive"
       },
       "edge_case_analysis": {
-        "title": "Analisi Scientifica Prestazioni Estreme",
-        "description": "I modelli predittivi proprietari richiedono calibrazione su dati da veicoli ad alte prestazioni per garantire robustezza algoritmica negli scenari operativi più intensi e specializzati dell'industria automotive"
+        "title": "Analisi delle Prestazioni Estreme",
+        "description": "I modelli predittivi proprietari richiedono calibrazione su dati da veicoli ad alte prestazioni per garantire robustezza algoritmica negli scenari operativi specializzati dell'industria"
       },
       "scientific_completeness": {
-        "title": "Copertura Scientifica Mercato Completo",
-        "description": "Il dataset di ricerca include dati da ogni categoria veicolare per offrire validazione scientifica completa degli algoritmi AI, dall'efficienza massima dei veicoli elettrici alle prestazioni estreme dei motori termici"
+        "title": "Completezza del Dataset",
+        "description": "Il dataset include dati da ogni categoria di veicolo per offrire validazione completa degli algoritmi AI, dall'efficienza massima dei veicoli elettrici alle prestazioni estreme dei motori termici"
       }
     },
     "research_applications": {
-      "title": "Applicazioni Ricerca Brevettabili",
+      "title": "Applicazioni di Ricerca",
       "emissions_algorithms": {
-        "title": "Algoritmi Emissioni Real-Time Proprietari",
-        "description": "Sviluppo algoritmi proprietari brevettabili per calcolo preciso emissioni CO2 basato su dati telematici reali, con metodologie scientifiche innovative per analisi comparative multi-tecnologia automotive"
+        "title": "Algoritmi per Emissioni in Tempo Reale",
+        "description": "Sviluppo di algoritmi proprietari per calcolo emissioni CO2 basato su dati telematici reali, attraverso metodologie per analisi comparative multi-tecnologia automotive"
       },
       "predictive_models": {
-        "title": "Modelli Predittivi Cross-Platform Innovativi",
-        "description": "Ricerca e sviluppo di modelli AI predittivi proprietari validati scientificamente su tutte le tipologie veicolari, generando proprietà intellettuale brevettabile per industria automotive globale"
+        "title": "Modelli Predittivi Cross-Platform",
+        "description": "Sviluppo di modelli AI predittivi proprietari validati su tutte le tipologie di veicoli, producendo proprietà intellettuale automotive"
       },
       "comparative_analysis": {
         "title": "Metodologie Comparative Multi-Tecnologia",
-        "description": "Sviluppo metodologie proprietarie per analisi comparative automotive basate su dati telematici reali, creando framework scientifico innovativo per decisioni strategiche nell'industria della mobilità"
+        "description": "Sviluppo di metodologie proprietarie per analisi comparative automotive basate su dati telematici reali, creando ecosistema per l'industria della mobilità"
       }
     },
     "commercial_necessity": {
-      "title": "Necessità Strategica per Leadership Europea",
+      "title": "Necessità per l'Innovazione Europea",
       "market_validation": {
-        "title": "Validazione Mercato Automotive Globale",
-        "description": "Gli algoritmi proprietari richiedono validazione su tutto lo spettro veicolare per garantire applicabilità al mercato automotive globale €12 miliardi, dai veicoli elettrici ai motori termici ad alte prestazioni"
+        "title": "Validazione per Applicabilità",
+        "description": "Gli algoritmi proprietari richiedono validazione su tutto lo spettro veicolare per garantire applicabilità industriale, dai veicoli elettrici ai motori termici ad alte prestazioni"
       },
       "competitive_advantage": {
-        "title": "Differenziazione Tecnologica Europea",
-        "description": "Prima piattaforma europea di ricerca automotive AI con validazione scientifica completa su ogni tipologia veicolare, garantendo leadership tecnologica unica nel panorama globale dell'automotive intelligence"
+        "title": "Differenziazione Tecnologica",
+        "description": "Piattaforma automotive AI con validazione completa su ogni tipologia di veicolo, garantendo avanzamento dell'innovazione automotive AI europea"
       },
       "regulatory_compliance": {
-        "title": "Conformità Normativa Ricerca",
-        "description": "Gli algoritmi proprietari per calcolo emissioni sono validati scientificamente su veicoli reali per garantire conformità alle normative europee su reporting ambientale e certificazione automotive"
+        "title": "Conformità Normativa",
+        "description": "Gli algoritmi proprietari per calcolo emissioni sono validati su veicoli reali per garantire conformità alle normative europee attraverso metodologie certificate"
       }
     }
   },
   "compliance": {
-    "card_title": "Conformità Ricerca Europea",
-    "card_desciption": "Metodologie di ricerca native per conformità normativa europea, progettate per rispettare GDPR e standard scientifici internazionali",
-    "title": "Ricerca Conforme per Design",
-    "description": "PolarDrive™ opera con metodologie di ricerca allineate alle normative europee su privacy, ambiente e sviluppo tecnologico, garantendo pubblicabilità scientifica internazionale",
-    "gdpr_conformity": "Protocolli ricerca conformi GDPR (art. 5, 6, 25, 32, 35) per trattamento dati automotive",
-    "data_protection_design": "Metodologie ricerca privacy-by-design con anonimizzazione avanzata per dataset automotive",
+    "card_title": "Conformità Europea",
+    "card_desciption": "Metodologie native per conformità normativa europea, progettate per rispettare GDPR e standard attraverso la sperimentazione",
+    "title": "Conformità per Progettazione",
+    "description": "PolarDrive™ opera con metodologie allineate alle normative europee su privacy, ambiente e sviluppo tecnologico, garantendo pubblicabilità attraverso validazione certificata",
+    "gdpr_conformity": "Protocolli conformi GDPR (art. 5, 6, 25, 32, 35) per trattamento dati automotive",
+    "data_protection_design": "Sistema privacy-by-design con protezione avanzata per dataset automotive",
     "aggregated_treatment": "Elaborazione dati esclusivamente per sviluppo algoritmi con trattamento aggregato e cifrato",
-    "consent_collection": "Protocolli raccolta dati scientifici secondo standard verificabili per ricerca automotive europea"
+    "consent_collection": "Protocolli di acquisizione dati secondo standard verificabili per automotive europea"
   },
   "security": {
-    "title": "Sicurezza Ricerca e Proprietà Intellettuale",
-    "description": "PolarDrive™ protegge la ricerca automotive AI attraverso protocolli di sicurezza avanzati per salvaguardare lo sviluppo di algoritmi proprietari",
-    "encrypted_interactions": "Crittografia end-to-end per protezione dati di ricerca e algoritmi proprietari",
-    "lightweight_engine": "Architettura di raccolta dati ottimizzata per sicurezza e isolamento ricerca",
-    "cyber_hygiene": "Policy cybersecurity per protezione proprietà intellettuale automotive AI",
-    "protection_violations": "Protezione avanzata contro esposizione involontaria di algoritmi proprietari e risultati ricerca"
+    "title": "Sicurezza e Proprietà Intellettuale",
+    "description": "PolarDrive™ protegge l'innovazione automotive AI attraverso protocolli di sicurezza avanzati per salvaguardare lo sviluppo di algoritmi proprietari",
+    "encrypted_interactions": "Crittografia end-to-end per protezione dati e algoritmi proprietari sviluppati",
+    "lightweight_engine": "Architettura di acquisizione dati ottimizzata per sicurezza e isolamento della ricerca",
+    "cyber_hygiene": "Policy di cybersecurity per protezione della proprietà intellettuale automotive AI sviluppata",
+    "protection_violations": "Protezione avanzata contro esposizione involontaria di algoritmi proprietari e risultati di ricerca"
   },
   "cta": {
-    "title": "Diventa Partner della Rivoluzione Automotive AI Europea",
-    "description": "Scopri come PolarDrive™ trasforma investimenti in ricerca automotive in proprietà intellettuale brevettabile con potenziale licensing globale. La partnership che ridefinisce l'innovazione automotive europea",
-    "button": "Partnership Ricerca"
+    "title": "Sostieni l'Innovazione Automotive AI Europea",
+    "description": "Scopri come PolarDrive™ trasforma la ricerca automotive in proprietà intellettuale attraverso metodologie certificate. L'innovazione che accelera il progresso automotive europeo",
+    "button": "Sostieni l'Innovazione"
   }
 }

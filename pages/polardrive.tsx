@@ -698,11 +698,11 @@ export default function PolarDrivePage() {
         <section className="relative w-full overflow-hidden pt-5 pb-8 md:pt-24 md:pb-24 px-6">
           <div className="relative z-20 max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-5xl font-bold text-center mb-8 md:mb-12 bg-gradient-to-r from-coldIndigo to-glacierBlue bg-clip-text text-transparent animate-on-scroll">
-              {t("smartstart_compliance.title")}
+              {t("main_compliance.title")}
             </h2>
 
             <p className="text-lg text-center mb-12 text-polarNight/80 dark:text-articWhite/80 max-w-4xl mx-auto animate-on-scroll">
-              {t("smartstart_compliance.subtitle")}
+              {t("main_compliance.subtitle")}
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -714,12 +714,12 @@ export default function PolarDrivePage() {
                       <Lightbulb className="w-6 h-6 text-coldIndigo dark:text-glacierBlue" />
                     </div>
                     <h3 className="text-2xl font-bold text-coldIndigo dark:text-glacierBlue">
-                      {t("smartstart_compliance.innovation.title")}
+                      {t("main_compliance.innovation.title")}
                     </h3>
                   </div>
                   <ul className="space-y-3">
                     {(
-                      t("smartstart_compliance.innovation.points", {
+                      t("main_compliance.innovation.points", {
                         returnObjects: true,
                       }) as string[]
                     ).map((point: string, index: number) => (
@@ -742,12 +742,12 @@ export default function PolarDrivePage() {
                       <Database className="w-6 h-6 text-coldIndigo dark:text-glacierBlue" />
                     </div>
                     <h3 className="text-2xl font-bold text-coldIndigo dark:text-glacierBlue">
-                      {t("smartstart_compliance.digital.title")}
+                      {t("main_compliance.digital.title")}
                     </h3>
                   </div>
                   <ul className="space-y-3">
                     {(
-                      t("smartstart_compliance.digital.points", {
+                      t("main_compliance.digital.points", {
                         returnObjects: true,
                       }) as string[]
                     ).map((point: string, index: number) => (
@@ -770,12 +770,12 @@ export default function PolarDrivePage() {
                       <Microscope className="w-6 h-6 text-coldIndigo dark:text-glacierBlue" />
                     </div>
                     <h3 className="text-2xl font-bold text-coldIndigo dark:text-glacierBlue">
-                      {t("smartstart_compliance.research.title")}
+                      {t("main_compliance.research.title")}
                     </h3>
                   </div>
                   <ul className="space-y-3">
                     {(
-                      t("smartstart_compliance.research.points", {
+                      t("main_compliance.research.points", {
                         returnObjects: true,
                       }) as string[]
                     ).map((point: string, index: number) => (
@@ -798,12 +798,12 @@ export default function PolarDrivePage() {
                       <Car className="w-6 h-6 text-coldIndigo dark:text-glacierBlue" />
                     </div>
                     <h3 className="text-2xl font-bold text-coldIndigo dark:text-glacierBlue">
-                      {t("smartstart_compliance.automotive.title")}
+                      {t("main_compliance.automotive.title")}
                     </h3>
                   </div>
                   <ul className="space-y-3">
                     {(
-                      t("smartstart_compliance.automotive.points", {
+                      t("main_compliance.automotive.points", {
                         returnObjects: true,
                       }) as string[]
                     ).map((point: string, index: number) => (
