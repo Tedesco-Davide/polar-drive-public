@@ -1,256 +1,108 @@
 {
   "meta": {
-    "title": "PolarDrive™ - Piattaforma di Ricerca Automotive AI | DataPolar",
-    "description": "PolarDrive™: piattaforma europea di ricerca automotive AI per validazione di algoritmi proprietari attraverso l'analisi di dati automobilistici."
+    "title": "PolarDrive™ - Piattaforma Intelligente per Mobilità Sostenibile | DataPolar",
+    "description": "PolarDrive™: la piattaforma intelligente che trasforma il movimento in conoscenza. Gestione automatizzata di veicoli connessi per analisi di sostenibilità e efficienza energetica."
   },
   "hero": {
-    "quote": "L'innovazione automotive europea che trasforma i dati dei veicoli in algoritmi di intelligenza artificiale attraverso ricerca scientifica e validazione completa",
-    "description": "Ogni dato raccolto dai veicoli supporta lo sviluppo di sistemi AI proprietari per l'avanzamento tecnologico automotive. Intelligenza che alimenta la creazione di tecnologie innovative attraverso protocolli conformi agli standard internazionali",
-    "ai_powered": "Basato sulla Ricerca"
+    "quote": "Il tramite per un futuro del pianeta migliore, che trasforma il movimento in conoscenza. Un futuro in cui ogni veicolo diventa un centro di intelligenza attiva",
+    "description": "Ogni percorso, ogni interazione con l'ambiente, ogni istante operativo viene trasformato in dati oggettivi. Dati che aiutano a prendere decisioni più consapevoli, a migliorare l'impatto ambientale, ed a rendere le aziende più efficienti e trasparenti",
+    "ai_powered": "Powered"
   },
   "what_is": {
     "title": "Cos'è PolarDrive™",
-    "point1": "Piattaforma automotive AI sviluppata da DataPolar per validare algoritmi proprietari attraverso la raccolta sistematica di dati da veicoli rappresentativi di tutte le tipologie prestazionali",
-    "point2": "Attraverso l'integrazione con le API dei costruttori, trasforma i veicoli in laboratori mobili per la sperimentazione, raccogliendo le informazioni necessarie per generare algoritmi AI secondo protocolli certificati",
-    "point3": "Implementa standard internazionali per produrre risultati pubblicabili e algoritmi innovativi, accelerando lo sviluppo dell'innovazione automotive europea"
+    "point1": "È una piattaforma intelligente sviluppata da DataPolar per la gestione automatizzata di veicoli connessi, utilizzati per la raccolta, analisi e valorizzazione di dati ambientali, operativi e logistici",
+    "point2": "Integrandosi direttamente con le principali piattaforme API ufficiali di veicoli di nuova generazione, trasforma ogni dispositivo mobile compatibile in una fonte costante di dati strutturati, raccolti con cadenza continua ed utilizzabili per analisi di efficienza energetica, sostenibilità, pianificazione strategica digitale e territoriale avanzate",
+    "point3": "Attraverso l'automazione totale della raccolta e la generazione ricorrente di report intelligenti, PolarDrive™ consente una tracciabilità completa e certificabile delle dinamiche operative legate alla mobilità"
   },
   "vision": {
-    "title": "Centro di Ricerca Automotive AI",
-    "subtitle": "Sviluppiamo algoritmi AI proprietari attraverso ricerca scientifica per accelerare l'innovazione nel settore automotive",
-    "description": "Con PolarDrive™ ogni veicolo si integra in un programma di ricerca, dove i dati automobilistici vengono elaborati per generare algoritmi AI proprietari secondo standard rigorosi e validazione completa"
+    "title": "Il miglior alleato per la tua Evoluzione Aziendale",
+    "subtitle": "Trasformiamo insieme i dati per un'economia più trasparente, efficiente e sostenibile",
+    "description": "Con PolarDrive™ qualunque attività svolta da un veicolo connesso, diventa parte di un ecosistema intelligente, in cui ogni chilometro percorso, ogni sosta, ogni condizione operativa viene tracciata in tempo reale per generare valore informativo, migliorare i processi e contribuire a un impatto ambientale positivo"
   },
   "benefits": {
-    "title": "I Vantaggi Scientifici di PolarDrive™",
+    "title": "I Benefici di PolarDrive™",
     "automated_analysis": {
-      "title": "Sviluppo di Algoritmi AI Proprietari",
-      "description": "Sistema di ricerca proprietario che trasforma i dati dei veicoli in algoritmi AI certificati, producendo tecnologie innovative attraverso metodologie conformi agli standard europei"
+      "title": "Analisi automatizzate e continuative",
+      "description": "Grazie a un motore AI-based, i dati raccolti vengono elaborati e sintetizzati in report periodici intelligenti, pronti per essere utilizzati in contesti operativi, amministrativi o decisionali che richiedono documentazione certificata"
     },
     "ecological_transition": {
-      "title": "Monitoraggio Avanzato delle Emissioni in Tempo Reale",
-      "description": "Sistemi di analisi per il controllo istantaneo delle emissioni basati su dati telematici, progettati con metodologie innovative per supportare la transizione ecologica del settore"
+      "title": "Supporto alla transizione ecologica",
+      "description": "I dati aggregati contribuiscono a individuare aree di miglioramento energetico, ottimizzare i percorsi, limitare le emissioni indirette e favorire l'adozione di comportamenti qualificabili per incentivi e agevolazioni a basso impatto"
     },
     "territory_monitoring": {
-      "title": "Modelli Predittivi Comportamentali",
-      "description": "Creazione di modelli predittivi proprietari per l'analisi dei comportamenti dei veicoli, utilizzando metodologie certificate per generare informazioni utili per l'industria automotive europea"
+      "title": "Monitoraggio avanzato del territorio",
+      "description": "Ottenuto mappando in modo dinamico il comportamento dei veicoli connessi, fornendo insight preziosi per la progettazione urbana sostenibile, le reti infrastrutturali, i punti di ricarica e l'identificazione di opportunità economiche strategiche legate all'evoluzione delle abitudini di spostamento"
     },
     "data_protection": {
-      "title": "Sistema GDPR Integrato",
-      "description": "Protocolli progettati per la conformità normativa completa, garantendo che raccolta e analisi dei dati rispettino le regolamentazioni europee con protezione avanzata integrata"
+      "title": "Protezione e anonimizzazione totale",
+      "description": "Ogni dato viene trattato secondo i più rigorosi standard europei. Il sistema è GDPR-proof by design e genera documentazione che soddisfa requisiti normativi specifici per trasparenza e tracciabilità"
     },
     "document_value": {
-      "title": "Creazione di Proprietà Intellettuale",
-      "description": "Generazione sistematica di risultati innovativi e pubblicazioni scientifiche, creando valore economico attraverso software automotive AI sviluppato con rigore metodologico"
+      "title": "Valore documentale",
+      "description": "Generando documentazione certificabile strategicamente rilevante per supportare audit, rendicontazioni, e attività conformi a normative di settore con implicazioni economiche vantaggiose, in ottica di trasparenza e tracciabilità"
     },
     "predictive_intelligence": {
-      "title": "Metodologie Anti-Distorsione Avanzate",
-      "description": "Approcci proprietari per eliminare le distorsioni algoritmiche attraverso la validazione su dataset completi, garantendo robustezza e applicabilità industriale dei risultati"
+      "title": "Intelligence predittiva avanzata",
+      "description": "Algoritmi di machine learning elaborano pattern comportamentali per prevedere tendenze operative future e identificare inefficienze nascoste. Le analisi predittive facilitano investimenti strategici qualificati e supportano la pianificazione di lungo termine con vantaggi competitivi documentabili"
     }
   },
   "target_audience": {
-    "title": "Settori di Applicazione PolarDrive™",
-    "description": "Progettato per supportare l'innovazione automotive AI europea attraverso lo sviluppo di algoritmi proprietari e metodologie avanzate",
+    "title": "A chi è rivolto PolarDrive™",
+    "description": "Progettato per essere integrato in ogni business, in cui veicoli connessi vogliano essere utilizzati come parte operativa, strategica o analitica dei processi aziendali",
     "industrial_logistics": {
-      "title": "Ricerca Industriale Automotive",
-      "description": "Algoritmi AI proprietari per ottimizzare le prestazioni dei veicoli"
+      "title": "Comparti industriali e logistici",
+      "description": "Efficienza operativa e controllo della supply chain"
     },
     "sustainable_mobility": {
-      "title": "Innovazione per la Mobilità Sostenibile",
-      "description": "Metodologie per la transizione ecologica del trasporto"
+      "title": "Servizi di mobilità sostenibile",
+      "description": "Tecnologie intelligenti per l'ecosistema della mobilità green"
     },
     "fleet_managers": {
-      "title": "Sviluppo di Tecnologie Automotive",
-      "description": "Algoritmi predittivi per l'innovazione tecnologica del settore"
+      "title": "Gestori e fornitori di flotte",
+      "description": "Monitoraggio e ottimizzazione delle flotte aziendali"
     },
     "public_entities": {
-      "title": "Collaborazione Accademica",
-      "description": "Supporto per lo sviluppo di standard automotive AI"
+      "title": "Comuni, province, enti pubblici e privati",
+      "description": "Raccolta dati territoriali per decisioni strategiche"
     },
     "holdings": {
-      "title": "Ricerca Industriale Avanzata",
-      "description": "Soluzioni AI proprietarie per l'innovazione tecnologica"
+      "title": "Holdings e gruppi societari",
+      "description": "Soluzioni scalabili per diversificazione strategica e gestione integrata multi-business"
     },
     "investment_companies": {
-      "title": "Valorizzazione della Proprietà Intellettuale Automotive",
-      "description": "Tecnologie innovative generate attraverso la sperimentazione"
+      "title": "Società di investimento e fondi",
+      "description": "Intelligence data-driven per portafogli sostenibili con performance economiche ottimizzate"
     },
     "corporations": {
-      "title": "Integrazione Tecnologica",
-      "description": "Implementazione di AI automotive negli ecosistemi aziendali"
+      "title": "Grandi corporazioni e multinazionali",
+      "description": "Strategie ESG integrate con impatti patrimoniali misurabili e strutturati"
     },
     "family_office": {
-      "title": "Investimenti in Innovazione",
-      "description": "Proprietà intellettuale certificata e validata"
-    }
-  },
-  "innovation_highlights": {
-    "title": "Elementi Scientifici Innovativi",
-    "subtitle": "Metodologie proprietarie che posizionano PolarDrive™ come piattaforma avanzata",
-    "proprietary_algorithms": {
-      "title": "Algoritmi Automotive Proprietari",
-      "description": "Portfolio di sistemi AI specializzati nella correlazione tra dati telematici e prestazioni per la validazione su tutto lo spettro veicolare"
-    },
-    "multi_api_integration": {
-      "title": "Piattaforma Multi-API Integrata",
-      "description": "Ecosistema per l'integrazione simultanea delle API dei costruttori per analisi comparative tra marchi certificate"
-    },
-    "scientific_validation": {
-      "title": "Protocolli di Validazione Proprietari",
-      "description": "Metodologie proprietarie per la validazione di algoritmi su dataset completi, garantendo la conformità agli standard internazionali per la pubblicazione"
-    },
-    "bias_free_ai": {
-      "title": "Metodologie Anti-Distorsione",
-      "description": "Approcci per eliminare le distorsioni algoritmiche attraverso la validazione su veicoli rappresentativi di tutto lo spettro prestazionale"
-    }
-  },
-  "main_compliance": {
-    "title": "Elementi Qualificanti",
-    "subtitle": "PolarDrive™ rappresenta un'innovazione automotive attraverso ricerca e sviluppo",
-    "innovation": {
-      "title": "Innovazione Scientifica",
-      "points": [
-        "Algoritmi AI proprietari per correlazione telemetria-emissioni con potenziale innovativo",
-        "Piattaforma italiana per integrazione API automotive multi-brand con metodologie certificate",
-        "Sistemi innovativi per calcolo emissioni in tempo reale da dati telematici",
-        "Modelli predittivi anti-distorsione conformi a standard internazionali"
-      ]
-    },
-    "digital": {
-      "title": "Economia Digitale Automotive",
-      "points": [
-        "Piattaforma cloud proprietaria per elaborazione big data con algoritmi AI sviluppati internamente",
-        "API proprietarie per integrazione dati telematici per supporto alla ricerca",
-        "Dashboard AI per visualizzazione insights basate su algoritmi proprietari",
-        "Sistema machine learning in tempo reale per elaborazione dati con metodologie certificate"
-      ]
-    },
-    "research": {
-      "title": "Valorizzazione R&D Automotive",
-      "points": [
-        "Programma di ricerca automotive AI conforme a standard per pubblicazioni scientifiche",
-        "Creazione di proprietà intellettuale attraverso attività di sviluppo tecnologico",
-        "Trasferimento tecnologico verso l'industria attraverso sperimentazione su algoritmi innovativi",
-        "Metodologie innovative per automotive AI con validazione attraverso protocolli rigorosi"
-      ]
-    },
-    "automotive": {
-      "title": "Specializzazione Automotive AI",
-      "points": [
-        "Focus su metodologie per la mobilità sostenibile",
-        "Competenze proprietarie in API automotive OEM per sviluppo cross-brand",
-        "Algoritmi per analisi emissioni con metodologie innovative",
-        "Centro di ricerca per supporto all'industria europea della mobilità"
-      ]
-    }
-  },
-  "research_methodology": {
-    "title": "Metodologia di Ricerca Automotive",
-    "subtitle": "Approccio sistematico per lo sviluppo di algoritmi AI attraverso validazione certificata",
-    "dataset_completeness": {
-      "title": "Requisiti per Dataset Completo",
-      "description": "La validazione degli algoritmi AI automotive richiede un dataset rappresentativo di tutto lo spettro prestazionale. La ricerca necessita di dati da veicoli elettrici a zero emissioni fino a motori termici ad alte prestazioni per prevenire distorsioni sistematiche"
-    },
-    "algorithm_validation": {
-      "title": "Protocolli di Validazione degli Algoritmi",
-      "description": "I sistemi AI proprietari richiedono validazione sui casi limite dello spettro automotive per garantire robustezza. La metodologia include test su veicoli ad alte prestazioni per calibrazione accurata"
-    },
-    "continuous_monitoring": {
-      "title": "Raccolta Dati Sistematica",
-      "description": "Protocollo di acquisizione telematica continua su veicoli strumentali per garantire la qualità dei dati necessari alla validazione degli algoritmi AI proprietari"
-    },
-    "scientific_rigor": {
-      "title": "Standard Internazionali",
-      "description": "Approccio metodologico conforme agli standard per garantire validità, replicabilità e pubblicabilità dei risultati automotive AI"
-    }
-  },
-  "reference_vehicle_platform": {
-    "title": "Piattaforma Veicolare per Automotive AI",
-    "subtitle": "Infrastruttura mobile necessaria per la validazione di algoritmi attraverso test sul campo",
-    "scientific_rationale": {
-      "title": "Ogni veicolo rappresenta uno strumento prezioso",
-      "description": "La validazione degli algoritmi AI automotive richiede dati telematici da veicoli rappresentativi di tutto lo spettro prestazionale. La metodologia necessita di strumentazione mobile con veicoli disparati per acquisizione dai segmenti ad alta intensità energetica, garantendo completezza del dataset"
-    },
-    "technical_requirements": {
-      "title": "Specifiche Tecniche della Strumentazione",
-      "high_performance_ice": {
-        "title": "Piattaforma di Test Mobile",
-        "description": "Laboratorio mobile equipaggiato con veicolo ICE ibrido ad alte prestazioni come strumentazione per acquisizione dati dai segmenti ad alta intensità energetica, necessario per validazione completa degli algoritmi AI proprietari"
-      },
-      "advanced_telemetry": {
-        "title": "Strumentazione Telematica",
-        "description": "Sistema proprietario per acquisizione dati in tempo reale integrato con API OEM: sensori emissioni, analizzatori prestazioni, datalogger telematici per supporto alla ricerca e validazione algoritmi AI automotive"
-      },
-      "controlled_environment": {
-        "title": "Test Scientifici sul Campo",
-        "description": "Protocolli di test su strada per acquisizione dati in condizioni reali controllate, permettendo validazione algoritmi AI attraverso sperimentazione impossibile da replicare in ambiente statico"
-      }
-    },
-    "algorithm_validation_needs": {
-      "title": "Validazione degli Algoritmi",
-      "bias_prevention": {
-        "title": "Metodologie Anti-Distorsione",
-        "description": "Gli algoritmi AI proprietari sono validati su ogni tipologia di veicolo per garantire accuratezza, eliminando distorsioni sistematiche attraverso dataset completi rappresentativi dell'industria automotive"
-      },
-      "edge_case_analysis": {
-        "title": "Analisi delle Prestazioni Estreme",
-        "description": "I modelli predittivi proprietari richiedono calibrazione su dati da veicoli ad alte prestazioni per garantire robustezza algoritmica negli scenari operativi specializzati dell'industria"
-      },
-      "scientific_completeness": {
-        "title": "Completezza del Dataset",
-        "description": "Il dataset include dati da ogni categoria di veicolo per offrire validazione completa degli algoritmi AI, dall'efficienza massima dei veicoli elettrici alle prestazioni estreme dei motori termici"
-      }
-    },
-    "research_applications": {
-      "title": "Applicazioni di Ricerca",
-      "emissions_algorithms": {
-        "title": "Algoritmi per Emissioni in Tempo Reale",
-        "description": "Sviluppo di algoritmi proprietari per calcolo emissioni CO2 basato su dati telematici reali, attraverso metodologie per analisi comparative multi-tecnologia automotive"
-      },
-      "predictive_models": {
-        "title": "Modelli Predittivi Cross-Platform",
-        "description": "Sviluppo di modelli AI predittivi proprietari validati su tutte le tipologie di veicoli, producendo proprietà intellettuale automotive"
-      },
-      "comparative_analysis": {
-        "title": "Metodologie Comparative Multi-Tecnologia",
-        "description": "Sviluppo di metodologie proprietarie per analisi comparative automotive basate su dati telematici reali, creando ecosistema per l'industria della mobilità"
-      }
-    },
-    "commercial_necessity": {
-      "title": "Necessità per l'Innovazione Europea",
-      "market_validation": {
-        "title": "Validazione per Applicabilità",
-        "description": "Gli algoritmi proprietari richiedono validazione su tutto lo spettro veicolare per garantire applicabilità industriale, dai veicoli elettrici ai motori termici ad alte prestazioni"
-      },
-      "competitive_advantage": {
-        "title": "Differenziazione Tecnologica",
-        "description": "Piattaforma automotive AI con validazione completa su ogni tipologia di veicolo, garantendo avanzamento dell'innovazione automotive AI europea"
-      },
-      "regulatory_compliance": {
-        "title": "Conformità Normativa",
-        "description": "Gli algoritmi proprietari per calcolo emissioni sono validati su veicoli reali per garantire conformità alle normative europee attraverso metodologie certificate"
-      }
+      "title": "Family office e gestioni patrimoniali",
+      "description": "Veicoli di investimento green con gestione patrimoniale efficiente e trasparente"
     }
   },
   "compliance": {
-    "card_title": "Conformità Europea",
-    "card_desciption": "Metodologie native per conformità normativa europea, progettate per rispettare GDPR e standard attraverso la sperimentazione",
-    "title": "Conformità per Progettazione",
-    "description": "PolarDrive™ opera con metodologie allineate alle normative europee su privacy, ambiente e sviluppo tecnologico, garantendo pubblicabilità attraverso validazione certificata",
-    "gdpr_conformity": "Protocolli conformi GDPR (art. 5, 6, 25, 32, 35) per trattamento dati automotive",
-    "data_protection_design": "Sistema privacy-by-design con protezione avanzata per dataset automotive",
-    "aggregated_treatment": "Elaborazione dati esclusivamente per sviluppo algoritmi con trattamento aggregato e cifrato",
-    "consent_collection": "Protocolli di acquisizione dati secondo standard verificabili per automotive europea"
+    "card_title": "Conformità Normativa Europea",
+    "card_desciption": "Una soluzione nativa per la conformità alle normative europee, progettata fin dall'origine per rispettare GDPR e standard tecnologici",
+    "title": "Legalità al centro",
+    "description": "PolarDrive™ è progettato per operare in pieno allineamento con le più recenti normative europee su privacy, ambiente e tecnologie digitali",
+    "gdpr_conformity": "Conformità al Regolamento GDPR (art. 5, 6, 25, 32, 35)",
+    "data_protection_design": "Protezione dei dati by design, con minimizzazione e anonimizzazione integrata",
+    "aggregated_treatment": "Trattamento delle informazioni esclusivamente in forma aggregata e cifrata",
+    "consent_collection": "Raccolta e conservazione dei consensi secondo standard verificabili e certificabili"
   },
   "security": {
-    "title": "Sicurezza e Proprietà Intellettuale",
-    "description": "PolarDrive™ protegge l'innovazione automotive AI attraverso protocolli di sicurezza avanzati per salvaguardare lo sviluppo di algoritmi proprietari",
-    "encrypted_interactions": "Crittografia end-to-end per protezione dati e algoritmi proprietari sviluppati",
-    "lightweight_engine": "Architettura di acquisizione dati ottimizzata per sicurezza e isolamento della ricerca",
-    "cyber_hygiene": "Policy di cybersecurity per protezione della proprietà intellettuale automotive AI sviluppata",
-    "protection_violations": "Protezione avanzata contro esposizione involontaria di algoritmi proprietari e risultati di ricerca"
+    "title": "Cybersecurity e integrità operativa",
+    "description": "PolarDrive™ non è solo raccolta dati: è anche protezione delle infrastrutture informative mobili",
+    "encrypted_interactions": "Tutte le interazioni sono cifrate con protocolli end-to-end",
+    "lightweight_engine": "Il motore di raccolta è progettato per essere leggero, isolato e sicuro",
+    "cyber_hygiene": "Policy di cyber hygiene per ridurre i rischi digitali associati alla mobilità connessa",
+    "protection_violations": "Protezione dall'esposizione involontaria a violazioni o trattamenti impropri"
   },
   "cta": {
-    "title": "Sostieni l'Innovazione Automotive AI Europea",
-    "description": "Scopri come PolarDrive™ trasforma la ricerca automotive in proprietà intellettuale attraverso metodologie certificate. L'innovazione che accelera il progresso automotive europeo",
-    "button": "Sostieni l'Innovazione"
+    "title": "Naviga con DataPolar verso il futuro ed ottimizza le tue risorse",
+    "description": "Scopri come PolarDrive™ può convertire le tue spese operative in investimenti intelligenti con ritorni misurabili e vantaggi economici strutturati. La partnership che ridefinisce il ROI della tua organizzazione",
+    "button": "Diventa Partner"
   }
 }
