@@ -1,108 +1,108 @@
 {
   "meta": {
-    "title": "PolarDrive™ - Intelligent Platform for Sustainable Mobility | DataPolar",
-    "description": "PolarDrive™: the intelligent platform that transforms movement into knowledge. Automated management of connected vehicles for sustainability and energy efficiency analysis."
+    "title": "PolarDrive™ - AI Platform for Connected Vehicle Intelligence | DataPolar",
+    "description": "PolarDrive™: revolutionary automotive AI platform that transforms connected vehicles into operational intelligence centers. Native integration with OEM APIs for advanced predictive analytics."
   },
   "hero": {
-    "quote": "The gateway to a better future for the planet, transforming movement into knowledge. A future where every vehicle becomes an active intelligence center",
-    "description": "Every journey, every interaction with the environment, every operational moment is transformed into objective data. Data that helps make more informed decisions, improve environmental impact, and make companies more efficient and transparent",
+    "quote": "The evolution of automotive intelligence. Where every connected vehicle becomes a mobile innovation laboratory through direct integration with leading automotive manufacturers' native APIs",
+    "description": "PolarDrive™ represents the future of vehicular analysis: seamless integration with OEM platforms to transform real-time telemetry into business intelligence. Specialized in next-generation vehicles with hybrid and electric powertrains, we offer unprecedented insights on performance, efficiency and sustainability",
     "ai_powered": "Powered"
   },
   "what_is": {
     "title": "What is PolarDrive™",
-    "point1": "It is an intelligent platform developed by DataPolar for the automated management of connected vehicles, used for the collection, analysis and valorization of environmental, operational and logistical data",
-    "point2": "By integrating directly with the main official API platforms of new generation vehicles, it transforms every compatible mobile device into a constant source of structured data, collected continuously and usable for energy efficiency, sustainability, advanced digital and territorial strategic planning analyses",
-    "point3": "Through total automation of collection and recurring generation of intelligent reports, PolarDrive™ enables complete and certifiable traceability of operational dynamics related to mobility"
+    "point1": "A revolutionary automotive AI platform developed by DataPolar that natively integrates with official APIs from leading global automotive manufacturers. Specialized in analyzing vehicles equipped with hybrid technologies, electrified powertrains and cutting-edge advanced propulsion systems",
+    "point2": "Our proprietary system processes vehicular telemetry data in real-time through direct connection with OEM platforms, transforming every connected vehicle into a continuous source of business intelligence for fleet optimization, energy analysis and sustainable development",
+    "point3": "Through advanced machine learning and proprietary algorithms tested on real vehicles, PolarDrive™ generates certified reports that document performance, efficiency and environmental impact, supporting data-driven strategic decisions and qualifying investments in innovative automotive technologies"
   },
   "vision": {
-    "title": "The best ally for your Business Evolution",
-    "subtitle": "Together we transform data for a more transparent, efficient and sustainable economy",
-    "description": "With PolarDrive™ any activity carried out by a connected vehicle becomes part of an intelligent ecosystem, where every kilometer traveled, every stop, every operational condition is tracked in real time to generate informative value, improve processes and contribute to a positive environmental impact"
+    "title": "The Technology Partner for Automotive Excellence",
+    "subtitle": "We transform vehicular data into competitive advantage through cutting-edge AI",
+    "description": "With PolarDrive™, every kilometer driven by hybrid/EV vehicles becomes business intelligence. Our platform integrates perfectly with next-generation automotive systems - from hybrid powertrains to full-electric architectures - generating insights that optimize operations, reduce costs and accelerate the transition towards sustainable and data-driven mobility"
   },
   "benefits": {
-    "title": "The Benefits of PolarDrive™",
+    "title": "PolarDrive™ Technology Advantages",
     "automated_analysis": {
-      "title": "Automated and continuous analysis",
-      "description": "Thanks to an AI-based engine, the collected data is processed and synthesized into intelligent periodic reports, ready to be used in operational, administrative or decision-making contexts that require certified documentation"
+      "title": "Automotive-Grade AI with Real Vehicle Validation",
+      "description": "Our AI engine has been developed and validated through extensive testing on next-generation vehicles, including hybrid systems and electrified powertrains. This guarantees superior accuracy in complex telemetry analysis and generation of certified reports for strategic decisions"
     },
     "ecological_transition": {
-      "title": "Support for ecological transition",
-      "description": "Aggregated data helps identify areas for energy improvement, optimize routes, limit indirect emissions and favor the adoption of behaviors that qualify for low-impact incentives and benefits"
+      "title": "Innovation Accelerator for Electrified Mobility",
+      "description": "PolarDrive™ is optimized for next-generation hybrid and electric vehicles, providing advanced analytics on energy efficiency, battery management and powertrain optimization. We support the transition towards sustainable fleets with concrete data on performance and ROI"
     },
     "territory_monitoring": {
-      "title": "Advanced territory monitoring",
-      "description": "Achieved by dynamically mapping the behavior of connected vehicles, providing valuable insights for sustainable urban planning, infrastructure networks, charging points and identification of strategic economic opportunities related to the evolution of mobility habits"
+      "title": "Connected Vehicle Intelligence for Smart Cities",
+      "description": "Through integration with native vehicular APIs, we map the urban mobility ecosystem in real-time, providing critical insights for charging infrastructure, traffic optimization and planning of next-gen mobility services based on real usage data"
     },
     "data_protection": {
-      "title": "Total protection and anonymization",
-      "description": "Every piece of data is processed according to the most rigorous European standards. The system is GDPR-proof by design and generates documentation that meets specific regulatory requirements for transparency and traceability"
+      "title": "Automotive-Grade Security and OEM Compliance",
+      "description": "Security protocols aligned with automotive manufacturer standards. End-to-end encryption for sensitive vehicular data, with zero-trust architecture and total compliance with data handling requirements imposed by OEM partners"
     },
     "document_value": {
-      "title": "Documentary value",
-      "description": "Generating strategically relevant certifiable documentation to support audits, reporting, and activities compliant with sector regulations with advantageous economic implications, with a view to transparency and traceability"
+      "title": "Performance Certification for Technology Investments",
+      "description": "Our AI-generated reports certifiably document the effectiveness of investments in advanced automotive technologies, supporting funding requests, sustainability incentives and ROI validation for acquisition of innovative vehicles destined for R&D"
     },
     "predictive_intelligence": {
-      "title": "Advanced predictive intelligence",
-      "description": "Machine learning algorithms process behavioral patterns to predict future operational trends and identify hidden inefficiencies. Predictive analytics facilitate qualified strategic investments and support long-term planning with documentable competitive advantages"
+      "title": "Deep Learning for Automotive Predictive Analytics",
+      "description": "Proprietary algorithms trained on millions of real vehicular datapoints predict market trends, identify optimization opportunities and support strategic decisions in acquiring cutting-edge automotive technologies. Specialization in analysis of next-generation hybrid/EV systems"
     }
   },
   "target_audience": {
-    "title": "Who is PolarDrive™ for",
-    "description": "Designed to be integrated into any business where connected vehicles want to be used as an operational, strategic or analytical part of business processes",
+    "title": "Enterprise Solutions for the Automotive Ecosystem",
+    "description": "PolarDrive™ is designed for companies that see next-generation connected vehicles not just as means of transportation, but as mobile innovation laboratories and operational intelligence centers",
     "industrial_logistics": {
-      "title": "Industrial and logistics sectors",
-      "description": "Operational efficiency and supply chain control"
+      "title": "Innovative Companies in the Automotive Sector",
+      "description": "For those who invest in automotive R&D and need to validate technologies on real vehicles"
     },
     "sustainable_mobility": {
-      "title": "Sustainable mobility services",
-      "description": "Intelligent technologies for the green mobility ecosystem"
+      "title": "Electrified Mobility Pioneers",
+      "description": "Operators who lead the transition towards hybrid and electric powertrains with concrete data"
     },
     "fleet_managers": {
-      "title": "Fleet managers and suppliers",
-      "description": "Monitoring and optimization of corporate fleets"
+      "title": "Technologically Advanced Fleet Managers",
+      "description": "Intelligent management of mixed fleets with focus on next-generation hybrid/EV vehicles"
     },
     "public_entities": {
-      "title": "Municipalities, provinces, public and private entities",
-      "description": "Territorial data collection for strategic decisions"
+      "title": "Research and Innovation Centers",
+      "description": "Institutions that study the impact of emerging automotive technologies on urban mobility"
     },
     "holdings": {
-      "title": "Holdings and corporate groups",
-      "description": "Scalable solutions for strategic diversification and integrated multi-business management"
+      "title": "Innovative Startups and Tech Companies",
+      "description": "Companies that need vehicular data to develop next-gen mobility solutions"
     },
     "investment_companies": {
-      "title": "Investment companies and funds",
-      "description": "Data-driven intelligence for sustainable portfolios with optimized economic performance"
+      "title": "Green-Tech Investment Funds",
+      "description": "Data-driven intelligence to evaluate investments in sustainable automotive technologies"
     },
     "corporations": {
-      "title": "Large corporations and multinationals",
-      "description": "Integrated ESG strategies with measurable and structured patrimonial impacts"
+      "title": "Corporate Innovation Labs",
+      "description": "R&D divisions that test and validate frontier automotive technologies"
     },
     "family_office": {
-      "title": "Family offices and wealth management",
-      "description": "Green investment vehicles with efficient and transparent wealth management"
+      "title": "Tech Accelerators and Incubators",
+      "description": "Innovation ecosystems focused on automotive AI and future mobility"
     }
   },
   "compliance": {
-    "card_title": "European Regulatory Compliance",
-    "card_desciption": "A native solution for European regulatory compliance, designed from the ground up to meet GDPR and technological standards",
-    "title": "Legality at the center",
-    "description": "PolarDrive™ is designed to operate in full alignment with the latest European regulations on privacy, environment and digital technologies",
-    "gdpr_conformity": "Compliance with GDPR Regulation (art. 5, 6, 25, 32, 35)",
-    "data_protection_design": "Data protection by design, with integrated minimization and anonymization",
-    "aggregated_treatment": "Processing of information exclusively in aggregated and encrypted form",
-    "consent_collection": "Collection and conservation of consents according to verifiable and certifiable standards"
+    "card_title": "Automotive Compliance and Certifications",
+    "card_desciption": "Platform developed according to the most rigorous automotive industry standards, with certifications for direct integration with OEM systems",
+    "title": "Automotive Excellence Standards",
+    "description": "PolarDrive™ operates in full compliance with technical and regulatory requirements of the global automotive sector",
+    "gdpr_conformity": "Full GDPR compliance for vehicular data and sensitive telemetry",
+    "data_protection_design": "Security-first architecture aligned with automotive ISO standards",
+    "aggregated_treatment": "Certified processing compatible with OEM data sharing policies",
+    "consent_collection": "Consent management compliant with partner automotive manufacturer requirements"
   },
   "security": {
-    "title": "Cybersecurity and operational integrity",
-    "description": "PolarDrive™ is not just data collection: it is also protection of mobile information infrastructures",
-    "encrypted_interactions": "All interactions are encrypted with end-to-end protocols",
-    "lightweight_engine": "The collection engine is designed to be lightweight, isolated and secure",
-    "cyber_hygiene": "Cyber hygiene policies to reduce digital risks associated with connected mobility",
-    "protection_violations": "Protection from involuntary exposure to violations or improper processing"
+    "title": "Automotive-Grade Cybersecurity",
+    "description": "PolarDrive™ implements the highest automotive industry security standards to protect critical vehicular data",
+    "encrypted_interactions": "Automotive-grade encryption for all vehicle-to-cloud communications",
+    "lightweight_engine": "Edge computing optimized for real-time processing without latency",
+    "cyber_hygiene": "Security protocols aligned with UNECE WP.29 standards for connected vehicles",
+    "protection_violations": "Threat detection system specific for attacks on vehicular infrastructures"
   },
   "cta": {
-    "title": "Navigate with DataPolar towards the future and optimize your resources",
-    "description": "Discover how PolarDrive™ can convert your operational expenses into intelligent investments with measurable returns and structured economic advantages. The partnership that redefines your organization's ROI",
+    "title": "Invest in the Future of Automotive Intelligence",
+    "description": "Discover how PolarDrive™ can transform your investments in advanced automotive technologies into measurable strategic assets. The partnership that certifies the value of innovation and supports the acquisition of cutting-edge vehicles for corporate R&D",
     "button": "Become a Partner"
   }
 }

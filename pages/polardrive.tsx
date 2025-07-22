@@ -196,7 +196,8 @@ export default function PolarDrivePage() {
     const anchorTarget = "#contacts";
 
     if (router.pathname !== "/") {
-      window.location.href = `/${anchorTarget}`;
+      // Usa router.push per mantenere automaticamente la lingua
+      router.push(`/${anchorTarget}`);
     } else {
       const element = document.querySelector(anchorTarget);
       if (element) {
@@ -559,7 +560,7 @@ export default function PolarDrivePage() {
         {/* Benefits Section */}
         <section className="relative w-full overflow-hidden pt-5 pb-5 md:pt-24 md:pb-24 px-6">
           <div className="relative z-20 max-w-7xl mx-auto">
-            <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 md:mb-16 bg-gradient-to-r from-coldIndigo to-glacierBlue bg-clip-text text-transparent animate-on-scroll">
+            <h2 className="text-3xl md:text-5xl md:leading-normal font-bold text-center mb-12 md:mb-16 bg-gradient-to-r from-coldIndigo to-glacierBlue bg-clip-text text-transparent animate-on-scroll">
               {t("benefits.title")}
             </h2>
 
@@ -590,7 +591,7 @@ export default function PolarDrivePage() {
         {/* Target Audience Section */}
         <section className="relative w-full overflow-hidden pt-10 pb-8 md:pt-24 md:pb-24 px-6">
           <div className="relative z-20 max-w-6xl mx-auto">
-            <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 md:mb-16 bg-gradient-to-r from-coldIndigo to-glacierBlue bg-clip-text text-transparent animate-on-scroll">
+            <h2 className="text-3xl md:text-5xl  md:leading-normal font-bold text-center mb-12 md:mb-16 bg-gradient-to-r from-coldIndigo to-glacierBlue bg-clip-text text-transparent animate-on-scroll">
               {t("target_audience.title")}
             </h2>
 
