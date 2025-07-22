@@ -1,8 +1,8 @@
 {
   "who_we_are": {
     "title": "Who We Are",
-    "description_1": "DataPolar is an innovative tech company at the forefront of automotive intelligence, specializing in the development of proprietary AI technologies for advanced vehicular data analysis. Our expertise focuses on direct integration with native APIs of leading global automotive manufacturers, transforming mobility big data into strategic intelligence for Industry 4.0",
-    "description_2": "Our technological core PolarAi™ represents excellence in real-time automotive data processing through advanced machine learning. We develop cutting-edge solutions for the electrified and hybrid mobility sector, with particular focus on next-generation vehicles equipped with electrical systems and/or advanced hybrid propulsion"
+    "description_1": "DataPolar is an innovative Tech Company at the forefront of the automotive intelligence sector, specializing in the development of proprietary AI technologies for advanced vehicular data analysis. Our expertise focuses on direct integration with native APIs from leading global automotive manufacturers, transforming mobility big data into strategic intelligence for Industry 4.0",
+    "description_2": "Our technological core PolarAi™ represents excellence in real-time automotive data processing through advanced machine learning. We develop cutting-edge solutions for the electrified and hybrid mobility sector, with particular focus on new generation vehicles equipped with electrical systems and/or advanced hybrid propulsion"
   },
   "stats": {
     "privacy_compliance": "Privacy Compliance",
@@ -11,37 +11,37 @@
     "security_rating": "Security Rating"
   },
   "research_development": {
-    "title": "Research & Development - AI-Driven Automotive Innovation",
+    "title": "Research and Development - AI-Driven Innovation",
     "polar_ai": {
-      "title": "PolarAi™ - AI Engine for Automotive Intelligence",
-      "description": "Proprietary deep learning system specialized in predictive analysis of vehicular telemetry, energy performance, and mobility patterns through native integration with next-generation automotive platforms. Real-time processing capabilities for data from hybrid and electric systems"
+      "title": "PolarAi™ - AI Engine",
+      "description": "Proprietary deep learning system specialized in predictive analysis of vehicular telemetry, energy performance and mobility patterns through native integration with next-generation platforms. Real-time processing capabilities for data from hybrid and electric systems"
     },
     "innovative_architectures": {
-      "title": "Advanced Vehicle Testing",
-      "description": "Mobile laboratory for algorithm validation on cutting-edge automotive platforms, including hybrid eAWD systems and latest-generation electrified powertrains to ensure maximum accuracy of our predictive models"
+      "title": "Testing on Advanced Vehicles",
+      "description": "Mobile laboratory for algorithm validation on cutting-edge automotive platforms, including hybrid eAWD systems and latest generation electrified powertrains to ensure maximum accuracy of our predictive models"
     },
     "privacy_by_design": {
-      "title": "Automotive Data Security",
-      "description": "Automotive-grade security protocols for protecting sensitive vehicular data, with end-to-end encryption and advanced anonymization compliant with industry standards"
+      "title": "Data Security",
+      "description": "Security protocols for protecting sensitive vehicular data, with end-to-end encryption and advanced anonymization compliant with industry standards"
     },
     "innovation_lab": {
       "title": "Connected Vehicle Lab",
-      "description": "Center of excellence for developing AI algorithms specific to connected vehicles, with focus on hybrid propulsion systems, advanced telemetry, and integration with smart mobility infrastructures"
+      "description": "Center of excellence for developing AI algorithms specific to connected vehicles, focusing on hybrid propulsion systems, advanced telemetry and integration with smart mobility infrastructures"
     }
   },
   "mission_statement": {
     "title": "Pioneers of Automotive Intelligence",
-    "quote": "DataPolar develops cutting-edge technologies to transform every connected vehicle into an operational intelligence hub. Our mission is to accelerate the transition towards data-driven mobility through proprietary AI and native integration with the world's most advanced automotive systems"
+    "quote": "DataPolar develops cutting-edge technologies to transform every connected vehicle into an operational intelligence hub. Our mission is to accelerate the transition towards data-driven mobility through proprietary AI and native integration with the world's most advanced systems"
   },
   "application_areas": {
-    "title": "Technological Excellence Areas",
+    "title": "Areas of Technological Excellence",
     "mobility_transport": {
-      "title": "Automotive Analytics",
-      "description": "Advanced analysis of vehicular telemetry, energy performance, and optimization of hybrid and electric propulsion systems"
+      "title": "Analytics",
+      "description": "Advanced analysis of vehicular telemetry, energy performance and optimization of hybrid and electric propulsion systems"
     },
     "energy_sustainability": {
       "title": "Hybrid & EV Intelligence",
-      "description": "Specialized algorithms for hybrid powertrain optimization, battery management, and energy efficiency maximization"
+      "description": "Specialized algorithms for hybrid powertrain optimization, battery management and energy efficiency maximization"
     },
     "road_safety": {
       "title": "Connected Vehicle Safety",
@@ -52,11 +52,11 @@
       "description": "Platforms for integrating connected vehicles with intelligent urban infrastructures and V2X systems"
     },
     "behavioral_marketing": {
-      "title": "Automotive Behavioral AI",
+      "title": "Behavioral AI",
       "description": "Predictive models based on vehicular usage patterns for fleet optimization and personalized services"
     },
     "industry_40": {
-      "title": "Automotive 4.0",
+      "title": "Industry 4.0",
       "description": "AI-driven solutions for digital transformation of the automotive sector and supply chain"
     },
     "retail_distribution": {
@@ -68,50 +68,50 @@
       "description": "Wellness monitoring through driving pattern analysis and integration with vehicular biometric systems"
     },
     "predictive_analysis": {
-      "title": "Automotive Predictive AI",
-      "description": "Deep learning models for predictive maintenance, consumption optimization, and failure prediction based on OEM data"
+      "title": "Predictive AI",
+      "description": "Deep learning models for predictive maintenance, consumption optimization and failure prediction based on OEM data"
     }
   },
   "partnerships": {
-    "title": "B2B Automotive Ecosystem",
+    "title": "B2B Ecosystem",
     "strategic_collaborations": {
       "title": "Integration with Leading OEMs",
-      "description": "Direct technological partnerships with automotive manufacturers through native API integration for real-time access to vehicular telemetry. Specialization with leading automotive manufacturers to ensure maximum data accuracy"
+      "description": "Direct technological partnerships with automotive manufacturers through native API integration for real-time access to vehicular telemetry. Specialization with leading automotive manufacturers in the sector to ensure maximum data accuracy"
     },
     "professional_studies": {
-      "title": "Automotive Enterprise Solutions",
-      "description": "Enterprise-grade AI solutions for dealerships, fleet managers, and automotive sector operators. AI-generated reports focused on vehicular performance, energy efficiency, and operational optimization"
+      "title": "Enterprise Solutions",
+      "description": "Enterprise-grade AI solutions for dealerships, fleet managers and automotive sector operators. AI-generated reports focusing on vehicular performance, energy efficiency and operational optimization"
     }
   },
   "data_sovereignty": {
-    "title": "Automotive Data Sovereignty & Edge AI",
+    "title": "Data Sovereignty & Edge AI",
     "features": {
       "local_ai": "Edge computing for real-time vehicular data processing",
       "no_data_transmission": "On-premise processing without external cloud dependencies",
-      "secure_documentation": "Certified reports for automotive compliance and industry regulations",
-      "dedicated_infrastructure": "Dedicated infrastructure for automotive big data",
-      "auditable_process": "Complete traceability for industry audits and certifications",
-      "privacy_design": "Automotive-grade security and sensitive vehicular data protection"
+      "secure_documentation": "Certified reports for automotive compliance and sector regulations",
+      "dedicated_infrastructure": "Dedicated infrastructure for big data",
+      "auditable_process": "Complete traceability for sector audits and certifications",
+      "privacy_design": "Security and protection of sensitive vehicular data"
     }
   },
   "certifications": {
-    "title": "Technological Excellence in the Automotive Sector",
+    "title": "Technological Excellence",
     "tech_company": {
-      "title": "Automotive AI Discovery",
-      "description": "Pioneers in developing AI for the automotive sector and connected mobility"
+      "title": "AI Discovery",
+      "description": "Pioneers in AI development for the automotive and connected mobility sector"
     },
     "gdpr_compliance": {
-      "title": "Automotive Data Compliance",
+      "title": "Data Compliance",
       "description": "Full compliance with European regulations for vehicular data and telemetry"
     },
     "internal_rd": {
       "title": "Advanced Vehicle Testing",
-      "description": "R&D laboratory with access to latest-generation vehicles for algorithm validation on real hybrid/EV platforms"
+      "description": "R&D laboratory with access to latest generation vehicles for algorithm validation on real hybrid/EV platforms"
     }
   },
   "cta": {
     "title": "PolarDrive™",
-    "description": "The ultimate platform for automotive intelligence. Transform your connected vehicle data into competitive advantage through cutting-edge AI",
+    "description": "The definitive platform for automotive intelligence. Transform your connected vehicle data into competitive advantage through cutting-edge AI",
     "button": "Discover PolarDrive™"
   }
 }

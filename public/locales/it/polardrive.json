@@ -15,14 +15,14 @@
     "point3": "Attraverso machine learning avanzato e algoritmi proprietari testati su veicoli reali, PolarDrive™ genera report certificati che documentano performance, efficienza e impatto ambientale, supportando decisioni strategiche data-driven e qualificando investimenti in tecnologie automotive innovative"
   },
   "vision": {
-    "title": "Il Partner Tecnologico per l'Eccellenza Automotive",
+    "title": "Il Partner Tecnologico per eccellenza",
     "subtitle": "Trasformiamo dati veicolari in vantaggio competitivo attraverso AI all'avanguardia",
     "description": "Con PolarDrive™, ogni chilometro percorso da veicoli hybrid/EV diventa intelligence aziendale. La nostra piattaforma si integra perfettamente con sistemi automotive di ultima generazione - dai powertrain hybrid alle architetture full-electric - generando insights che ottimizzano operazioni, riducono costi e accelerano la transizione verso una mobilità sostenibile e data-driven"
   },
   "benefits": {
     "title": "I Vantaggi Tecnologici di PolarDrive™",
     "automated_analysis": {
-      "title": "AI Automotive-Grade con Validazione su Veicoli Reali",
+      "title": "AI con Validazione su Veicoli Reali",
       "description": "Il nostro motore AI è stato sviluppato e validato attraverso testing estensivo su veicoli di ultima generazione, inclusi sistemi hybrid e powertrain elettrificati. Questo garantisce accuratezza superiore nell'analisi di telemetria complessa e generazione di report certificati per decisioni strategiche"
     },
     "ecological_transition": {
@@ -34,7 +34,7 @@
       "description": "Attraverso l'integrazione con API veicolari native, mappiamo in tempo reale l'ecosistema della mobilità urbana, fornendo insights critici per infrastrutture di ricarica, ottimizzazione traffico e pianificazione di servizi di mobilità next-gen basati su dati reali di utilizzo"
     },
     "data_protection": {
-      "title": "Sicurezza Automotive-Grade e Compliance OEM",
+      "title": "Sicurezza e Compliance OEM",
       "description": "Protocolli di sicurezza allineati agli standard delle case automobilistiche. Crittografia end-to-end per dati veicolari sensibili, con architettura zero-trust e conformità totale ai requisiti di data handling imposti dagli OEM partner"
     },
     "document_value": {
@@ -42,15 +42,15 @@
       "description": "I nostri report AI-generated documentano in modo certificabile l'efficacia di investimenti in tecnologie automotive avanzate, supportando richieste di finanziamento, incentivi per sostenibilità e validazione ROI per acquisizione di veicoli innovativi destinati a R&D"
     },
     "predictive_intelligence": {
-      "title": "Deep Learning per Automotive Predictive Analytics",
-      "description": "Algoritmi proprietari addestrati su milioni di datapoint veicolari reali predicono trend di mercato, identificano opportunità di ottimizzazione e supportano decisioni strategiche nell'acquisizione di tecnologie automotive all'avanguardia. Specializzazione in analisi di sistemi hybrid/EV di ultima generazione"
+      "title": "Deep Learning per Predictive Analytics",
+      "description": "Algoritmi proprietari addestrati su milioni di datapoint veicolari reali predicono trend di mercato, identificano opportunità di ottimizzazione e supportano decisioni strategiche nell'acquisizione di tecnologie all'avanguardia. Specializzazione in analisi di sistemi hybrid/EV di ultima generazione"
     }
   },
   "target_audience": {
-    "title": "Soluzioni Enterprise per l'Ecosistema Automotive",
+    "title": "Soluzioni Enterprise",
     "description": "PolarDrive™ è progettato per aziende che vedono nei veicoli connessi di ultima generazione non solo mezzi di trasporto, ma laboratori mobili di innovazione e centri di intelligence operativa",
     "industrial_logistics": {
-      "title": "Aziende Innovative nel Settore Automotive",
+      "title": "Aziende Innovative",
       "description": "Per chi investe in R&D automotive e necessita di validare tecnologie su veicoli reali"
     },
     "sustainable_mobility": {
@@ -63,7 +63,7 @@
     },
     "public_entities": {
       "title": "Centri di Ricerca e Innovazione",
-      "description": "Istituzioni che studiano l'impatto di tecnologie automotive emergenti sulla mobilità urbana"
+      "description": "Istituzioni che studiano l'impatto di tecnologie emergenti sulla mobilità urbana"
     },
     "holdings": {
       "title": "Startup Innovative e Tech Companies",
@@ -71,7 +71,7 @@
     },
     "investment_companies": {
       "title": "Fondi di Investimento Green-Tech",
-      "description": "Intelligence data-driven per valutare investimenti in tecnologie automotive sostenibili"
+      "description": "Intelligence data-driven per valutare investimenti in tecnologie sostenibili"
     },
     "corporations": {
       "title": "Corporate Innovation Labs",
@@ -79,30 +79,30 @@
     },
     "family_office": {
       "title": "Acceleratori e Incubatori Tech",
-      "description": "Ecosistemi di innovazione focalizzati su automotive AI e mobilità del futuro"
+      "description": "Ecosistemi di innovazione focalizzati su AI e mobilità del futuro"
     }
   },
   "compliance": {
-    "card_title": "Conformità e Certificazioni Automotive",
-    "card_desciption": "Piattaforma sviluppata secondo gli standard più rigorosi del settore automotive, con certificazioni per integrazione diretta con sistemi OEM",
-    "title": "Standard di Eccellenza Automotive",
-    "description": "PolarDrive™ opera in piena conformità con i requisiti tecnici e normativi del settore automotive globale",
+    "card_title": "Conformità e Certificazioni",
+    "card_desciption": "Piattaforma sviluppata secondo gli standard più rigorosi del settore tech, con certificazioni per integrazione diretta con sistemi OEM",
+    "title": "Standard di Eccellenza",
+    "description": "PolarDrive™ opera in piena conformità con i requisiti tecnici e normativi del settore AI globale",
     "gdpr_conformity": "Conformità totale GDPR per dati veicolari e telemetria sensibile",
-    "data_protection_design": "Architettura security-first allineata agli standard ISO automotive",
+    "data_protection_design": "Architettura security-first allineata agli standard ISO",
     "aggregated_treatment": "Processing certificato compatibile con policy di data sharing OEM",
     "consent_collection": "Gestione consensi conforme ai requisiti delle case automobilistiche partner"
   },
   "security": {
-    "title": "Cybersecurity Automotive-Grade",
-    "description": "PolarDrive™ implementa i più elevati standard di sicurezza del settore automotive per proteggere dati critici veicolari",
-    "encrypted_interactions": "Crittografia automotive-grade per tutte le comunicazioni vehicle-to-cloud",
+    "title": "Cybersecurity",
+    "description": "PolarDrive™ implementa i più elevati standard di sicurezza del settore per proteggere dati critici veicolari",
+    "encrypted_interactions": "Crittografia per tutte le comunicazioni vehicle-to-cloud",
     "lightweight_engine": "Edge computing ottimizzato per elaborazione real-time senza latenza",
     "cyber_hygiene": "Protocolli di sicurezza allineati con standard UNECE WP.29 per veicoli connessi",
     "protection_violations": "Sistema di threat detection specifico per attacchi a infrastrutture veicolari"
   },
   "cta": {
     "title": "Investi nel Futuro dell'Automotive Intelligence",
-    "description": "Scopri come PolarDrive™ può trasformare i tuoi investimenti in tecnologie automotive avanzate in asset strategici misurabili. La partnership che certifica il valore dell'innovazione e supporta l'acquisizione di veicoli all'avanguardia per R&D aziendale",
+    "description": "Scopri come PolarDrive™ può trasformare i tuoi investimenti tecnologici in asset strategici misurabili. La partnership che certifica il valore dell'innovazione e supporta l'acquisizione di veicoli all'avanguardia per R&D aziendale",
     "button": "Diventa Partner"
   }
 }

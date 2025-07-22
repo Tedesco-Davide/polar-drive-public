@@ -11,18 +11,18 @@
     "security_rating": "Rating Sicurezza"
   },
   "research_development": {
-    "title": "Ricerca e Sviluppo - Innovazione Automotive AI-Driven",
+    "title": "Ricerca e Sviluppo - Innovazione AI-Driven",
     "polar_ai": {
-      "title": "PolarAi™ - Motore AI per Automotive Intelligence",
-      "description": "Sistema proprietario di deep learning specializzato nell'analisi predittiva di telemetria veicolare, performance energetica e pattern di mobilità attraverso integrazione nativa con piattaforme automotive di ultima generazione. Capacità di elaborazione real-time di dati provenienti da sistemi ibridi ed elettrici"
+      "title": "PolarAi™ - Motore AI",
+      "description": "Sistema proprietario di deep learning specializzato nell'analisi predittiva di telemetria veicolare, performance energetica e pattern di mobilità attraverso integrazione nativa con piattaforme di ultima generazione. Capacità di elaborazione real-time di dati provenienti da sistemi ibridi ed elettrici"
     },
     "innovative_architectures": {
       "title": "Testing su Veicoli Avanzati",
       "description": "Laboratorio mobile per validazione algoritmi su piattaforme automotive all'avanguardia, inclusi sistemi hybrid eAWD e powertrain elettrificati di ultima generazione per garantire la massima accuratezza dei nostri modelli predittivi"
     },
     "privacy_by_design": {
-      "title": "Automotive Data Security",
-      "description": "Protocolli di sicurezza automotive-grade per la protezione dei dati veicolari sensibili, con crittografia end-to-end e anonimizzazione avanzata conforme agli standard del settore"
+      "title": "Data Security",
+      "description": "Protocolli di sicurezza per la protezione dei dati veicolari sensibili, con crittografia end-to-end e anonimizzazione avanzata conforme agli standard del settore"
     },
     "innovation_lab": {
       "title": "Connected Vehicle Lab",
@@ -31,12 +31,12 @@
   },
   "mission_statement": {
     "title": "Pionieri dell'Automotive Intelligence",
-    "quote": "DataPolar sviluppa tecnologie di frontiera per trasformare ogni veicolo connesso in un hub di intelligenza operativa. La nostra missione è accelerare la transizione verso una mobilità data-driven attraverso AI proprietaria e integrazione nativa con i sistemi automotive più avanzati al mondo"
+    "quote": "DataPolar sviluppa tecnologie di frontiera per trasformare ogni veicolo connesso in un hub di intelligenza operativa. La nostra missione è accelerare la transizione verso una mobilità data-driven attraverso AI proprietaria e integrazione nativa con i sistemi più avanzati al mondo"
   },
   "application_areas": {
     "title": "Ambiti di Eccellenza Tecnologica",
     "mobility_transport": {
-      "title": "Automotive Analytics",
+      "title": "Analytics",
       "description": "Analisi avanzata di telemetria veicolare, performance energetica e ottimizzazione dei sistemi di propulsione ibrida ed elettrica"
     },
     "energy_sustainability": {
@@ -52,11 +52,11 @@
       "description": "Piattaforme per l'integrazione di veicoli connessi con infrastrutture urbane intelligenti e sistemi V2X"
     },
     "behavioral_marketing": {
-      "title": "Automotive Behavioral AI",
+      "title": "Behavioral AI",
       "description": "Modelli predittivi basati su pattern di utilizzo veicolare per ottimizzazione flotte e servizi personalizzati"
     },
     "industry_40": {
-      "title": "Automotive 4.0",
+      "title": "Industria 4.0",
       "description": "Soluzioni AI-driven per la trasformazione digitale del settore automotive e della supply chain"
     },
     "retail_distribution": {
@@ -68,40 +68,40 @@
       "description": "Monitoraggio del benessere attraverso analisi di pattern di guida e integrazione con sistemi biometrici veicolari"
     },
     "predictive_analysis": {
-      "title": "Automotive Predictive AI",
+      "title": "Predictive AI",
       "description": "Modelli di deep learning per manutenzione predittiva, ottimizzazione consumi e previsione guasti basati su dati OEM"
     }
   },
   "partnerships": {
-    "title": "Ecosystem Automotive B2B",
+    "title": "Ecosistema B2B",
     "strategic_collaborations": {
       "title": "Integrazione con OEM Leader",
       "description": "Partnership tecnologiche dirette con case automobilistiche attraverso integrazione API native per accesso real-time a telemetria veicolare. Specializzazione con case automobilistiche leader del settore per garantire la massima accuratezza dei dati"
     },
     "professional_studies": {
-      "title": "Automotive Enterprise Solutions",
+      "title": "Enterprise Solutions",
       "description": "Soluzioni AI enterprise-grade per concessionarie, fleet manager e operatori del settore automotive. Report generati da IA con focus su performance veicolare, efficienza energetica e ottimizzazione operativa"
     }
   },
   "data_sovereignty": {
-    "title": "Automotive Data Sovereignty & Edge AI",
+    "title": "Data Sovereignty & Edge AI",
     "features": {
       "local_ai": "Edge computing per elaborazione dati veicolari in tempo reale",
       "no_data_transmission": "Processing on-premise senza dipendenze cloud esterne",
       "secure_documentation": "Report certificati per compliance automotive e normative di settore",
-      "dedicated_infrastructure": "Infrastruttura dedicata per big data automotive",
+      "dedicated_infrastructure": "Infrastruttura dedicata per big data",
       "auditable_process": "Tracciabilità completa per audit di settore e certificazioni",
-      "privacy_design": "Automotive-grade security e protezione dati veicolari sensibili"
+      "privacy_design": "Security e protezione dati veicolari sensibili"
     }
   },
   "certifications": {
-    "title": "Eccellenza Tecnologica nel Settore Automotive",
+    "title": "Eccellenza Tecnologica",
     "tech_company": {
-      "title": "Automotive AI Discovery",
+      "title": "AI Discovery",
       "description": "Pionieri nello sviluppo di AI per il settore automotive e mobilità connessa"
     },
     "gdpr_compliance": {
-      "title": "Automotive Data Compliance",
+      "title": "Data Compliance",
       "description": "Conformità totale alle normative europee per dati veicolari e telemetria"
     },
     "internal_rd": {
