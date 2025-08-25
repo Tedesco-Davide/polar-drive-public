@@ -1,8 +1,8 @@
 {
   "who_we_are": {
     "title": "Chi Siamo",
-    "description_1": "DataPolar è una Tech Company innovativa all'avanguardia nel settore automotive intelligence, specializzata nello sviluppo di tecnologie AI proprietarie per l'analisi avanzata dei dati veicolari. La nostra expertise si concentra sull'integrazione diretta con le API native delle case automobilistiche leader mondiali, trasformando i big data della mobilità in intelligence strategica per l'industria 4.0",
-    "description_2": "Il nostro core tecnologico PolarAi™ rappresenta l'eccellenza nell'elaborazione di dati automotive real-time attraverso machine learning avanzato. Sviluppiamo soluzioni di frontiera per il settore della mobilità elettrificata e ibrida, con particolare focus su veicoli di nuova generazione dotati di sistemi elettrici e/o propulsione ibrida avanzata"
+    "description_1": "DataPolar è una Tech Company innovativa specializzata nello sviluppo di tecnologie AI proprietarie per l'analisi avanzata dei dati operativi aziendali. La nostra expertise si concentra sull'integrazione diretta con API native e sistemi IoT, trasformando i big data in intelligence strategica per l'industria 4.0",
+    "description_2": "Il nostro core tecnologico PolarAi™ rappresenta l'eccellenza nell'elaborazione di dati real-time attraverso machine learning avanzato. Sviluppiamo soluzioni di frontiera per qualsiasi asset aziendale connesso, con particolare focus su sistemi di nuova generazione dotati di telemetria avanzata"
   },
   "stats": {
     "privacy_compliance": "Privacy Compliance",
@@ -14,41 +14,41 @@
     "title": "Ricerca e Sviluppo - Innovazione AI-Driven",
     "polar_ai": {
       "title": "PolarAi™ - Motore AI",
-      "description": "Sistema proprietario di deep learning specializzato nell'analisi predittiva di telemetria veicolare, performance energetica e pattern di mobilità attraverso integrazione nativa con piattaforme di ultima generazione. Capacità di elaborazione real-time di dati provenienti da sistemi ibridi ed elettrici"
+      "description": "Sistema proprietario di deep learning specializzato nell'analisi predittiva di telemetria operativa, performance energetica e pattern di utilizzo attraverso integrazione nativa con piattaforme IoT di ultima generazione"
     },
     "innovative_architectures": {
-      "title": "Testing su Veicoli Avanzati",
-      "description": "Laboratorio mobile per validazione algoritmi su piattaforme automotive all'avanguardia, inclusi sistemi hybrid eAWD e powertrain elettrificati di ultima generazione per garantire la massima accuratezza dei nostri modelli predittivi"
+      "title": "Testing su Asset Connessi",
+      "description": "Laboratorio mobile per validazione algoritmi su piattaforme operative all'avanguardia, inclusi sistemi connessi di ultima generazione per garantire la massima accuratezza dei nostri modelli predittivi"
     },
     "privacy_by_design": {
       "title": "Data Security",
       "description": "Protocolli di sicurezza per la protezione dei dati veicolari sensibili, con crittografia end-to-end e anonimizzazione avanzata conforme agli standard del settore"
     },
     "innovation_lab": {
-      "title": "Connected Vehicle Lab",
-      "description": "Centro di eccellenza per lo sviluppo di algoritmi AI specifici per veicoli connessi, con focus su sistemi di propulsione ibrida, telemetria avanzata e integrazione con infrastrutture smart mobility"
+      "title": "Connected Assets Lab",
+      "description": "Centro di eccellenza per lo sviluppo di algoritmi AI specifici per asset aziendali connessi, con focus su telemetria avanzata e integrazione con infrastrutture Industry 4.0"
     }
   },
   "mission_statement": {
-    "title": "Pionieri dell'Automotive Intelligence",
-    "quote": "DataPolar sviluppa tecnologie di frontiera per trasformare ogni veicolo connesso in un hub di intelligenza operativa. La nostra missione è accelerare la transizione verso una mobilità data-driven attraverso AI proprietaria e integrazione nativa con i sistemi più avanzati al mondo"
+    "title": "Pionieri dell'Operational Intelligence",
+    "quote": "DataPolar sviluppa tecnologie di frontiera per trasformare ogni asset aziendale connesso in un hub di intelligenza operativa. La nostra missione è accelerare la trasizione verso operations data-driven attraverso AI proprietaria e integrazione nativa con i sistemi più avanzati al mondo"
   },
   "application_areas": {
     "title": "Ambiti di Eccellenza Tecnologica",
     "mobility_transport": {
       "title": "Analytics",
-      "description": "Analisi avanzata di telemetria veicolare, performance energetica e ottimizzazione dei sistemi di propulsione ibrida ed elettrica"
+      "description": "Analisi avanzata di telemetria operativa, performance energetica e ottimizzazione dei sistemi aziendali"
     },
     "energy_sustainability": {
       "title": "Hybrid & EV Intelligence",
       "description": "Algoritmi specializzati per l'ottimizzazione di powertrain ibridi, gestione batterie e massimizzazione dell'efficienza energetica"
     },
     "road_safety": {
-      "title": "Connected Vehicle Safety",
+      "title": "Connected Operations Safety",
       "description": "Sistemi predittivi per la sicurezza basati su dati real-time da sensori veicolari e telemetria avanzata"
     },
     "smart_cities": {
-      "title": "Smart Mobility Integration",
+      "title": "Smart Infrastructure Integration",
       "description": "Piattaforme per l'integrazione di veicoli connessi con infrastrutture urbane intelligenti e sistemi V2X"
     },
     "behavioral_marketing": {
@@ -76,22 +76,22 @@
     "title": "Ecosistema B2B",
     "strategic_collaborations": {
       "title": "Integrazione con OEM Leader",
-      "description": "Partnership tecnologiche dirette con case automobilistiche attraverso integrazione API native per accesso real-time a telemetria veicolare. Specializzazione con case automobilistiche leader del settore per garantire la massima accuratezza dei dati"
+      "description": "Partnership tecnologiche dirette attraverso integrazione API native per accesso real-time a telemetria operativa. Specializzazione con aziende leader per garantire la massima accuratezza dei dati"
     },
     "professional_studies": {
       "title": "Enterprise Solutions",
-      "description": "Soluzioni AI enterprise-grade per concessionarie, fleet manager e operatori del settore automotive. Report generati da IA con focus su performance veicolare, efficienza energetica e ottimizzazione operativa"
+      "description": "Soluzioni AI enterprise-grade per aziende di ogni settore. Report generati da IA con focus su performance operativa, efficienza energetica e ottimizzazione aziendale"
     }
   },
   "data_sovereignty": {
     "title": "Data Sovereignty & Edge AI",
     "features": {
-      "local_ai": "Edge computing per elaborazione dati veicolari in tempo reale",
+      "local_ai": "Edge computing per elaborazione dati operativi in tempo reale",
       "no_data_transmission": "Processing on-premise senza dipendenze cloud esterne",
-      "secure_documentation": "Report certificati per compliance automotive e normative di settore",
+      "secure_documentation": "Report certificati per compliance e normative di settore",
       "dedicated_infrastructure": "Infrastruttura dedicata per big data",
       "auditable_process": "Tracciabilità completa per audit di settore e certificazioni",
-      "privacy_design": "Security e protezione dati veicolari sensibili"
+      "privacy_design": "Security e protezione dati aziendali sensibili"
     }
   },
   "certifications": {
@@ -105,13 +105,13 @@
       "description": "Conformità totale alle normative europee per dati veicolari e telemetria"
     },
     "internal_rd": {
-      "title": "Advanced Vehicle Testing",
-      "description": "Laboratorio di R&D con accesso a veicoli di ultima generazione per validazione algoritmi su piattaforme hybrid/EV reali"
+      "title": "Advanced Asset Testing",
+      "description": "Laboratorio di R&D con accesso ad asset di ultima generazione per validazione algoritmi su piattaforme reali"
     }
   },
   "cta": {
     "title": "PolarDrive™",
-    "description": "La piattaforma definitiva per l'automotive intelligence. Trasforma i dati dei tuoi veicoli connessi in vantaggio competitivo attraverso AI all'avanguardia",
+    "description": "La piattaforma definitiva per l'operational intelligence. Trasforma i dati dei tuoi asset aziendali in vantaggio competitivo attraverso AI all'avanguardia",
     "button": "Scopri PolarDrive™"
   }
 }
