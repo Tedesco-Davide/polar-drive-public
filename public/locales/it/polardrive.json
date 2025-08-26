@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "PolarDrive™ - Piattaforma AI per Connected Vehicle Intelligence | DataPolar",
-    "description": "PolarDrive™: rivoluzionaria piattaforma di automotive AI che trasforma veicoli connessi in centri di intelligenza operativa. Integrazione nativa con API OEM per analisi predittiva avanzata."
+    "description": "PolarDrive™ è la piattaforma di punta sviluppata da DataPolar: una rivoluzionaria soluzione di automotive AI che trasforma veicoli connessi in centri di intelligenza operativa. Integrazione nativa con API OEM per analisi predittiva avanzata."
   },
   "hero": {
     "quote": "L'evoluzione dell'automotive intelligence. Dove ogni veicolo connesso diventa un laboratorio mobile di innovazione attraverso l'integrazione diretta con le API native delle case automobilistiche leader",
@@ -83,14 +83,14 @@
     }
   },
   "compliance": {
-    "card_title": "Conformità e Certificazioni",
-    "card_desciption": "Piattaforma sviluppata secondo gli standard più rigorosi del settore tech, con certificazioni per integrazione diretta con sistemi OEM",
-    "title": "Standard di Eccellenza",
-    "description": "PolarDrive™ opera in piena conformità con i requisiti tecnici e normativi del settore AI globale",
-    "gdpr_conformity": "Conformità totale GDPR per dati veicolari e telemetria sensibile",
-    "data_protection_design": "Architettura security-first allineata agli standard ISO",
-    "aggregated_treatment": "Processing certificato compatibile con policy di data sharing OEM",
-    "consent_collection": "Gestione consensi conforme ai requisiti delle case automobilistiche partner"
+    "card_title": "Vantaggi fiscali e compliance",
+    "card_desciption": "PolarDrive™ fornisce report certificati che supportano le aziende nella dimostrazione dell’uso esclusivamente aziendale dei veicoli, condizione prevista dalla normativa per accedere a deduzione e detrazione al 100%.",
+    "title": "Supporto documentale e conformità",
+    "description": "La piattaforma PolarDrive™, sviluppata da DataPolar, mette a disposizione tecnologia e documentazione tecnica certificata per supportare aziende e consulenti fiscali nella dimostrazione della piena compliance normativa. DataPolar non fornisce consulenza fiscale: la responsabilità finale resta sempre in capo al Cliente.",
+    "gdpr_conformity": "Conformità totale GDPR e normativa fiscale vigente",
+    "data_protection_design": "Report certificati e difendibili in caso di verifiche",
+    "aggregated_treatment": "Documentazione tecnica a supporto della deducibilità 100%",
+    "consent_collection": "Responsabilità fiscale finale in capo al Cliente, con tecnologia DataPolar a supporto"
   },
   "security": {
     "title": "Cybersecurity",
@@ -102,7 +102,7 @@
   },
   "cta": {
     "title": "Investi nel Futuro dell'Automotive Intelligence",
-    "description": "Scopri come PolarDrive™ può trasformare i tuoi investimenti tecnologici in asset strategici misurabili. La partnership che certifica il valore dell'innovazione e supporta l'acquisizione di veicoli all'avanguardia per R&D aziendale",
+    "description": "PolarDrive™, prodotto di punta di DataPolar, trasforma i tuoi investimenti tecnologici in asset strategici misurabili. La partnership che certifica il valore dell'innovazione e supporta l'acquisizione di veicoli all'avanguardia per R&D aziendale.",
     "button": "Diventa Partner"
   }
 }
