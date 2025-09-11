@@ -83,14 +83,14 @@
     }
   },
   "compliance": {
-    "card_title": "Vantaggi fiscali e compliance",
-    "card_desciption": "PolarDrive™ fornisce report certificati che supportano le aziende nella dimostrazione dell’uso esclusivamente aziendale dei veicoli, condizione prevista dalla normativa per accedere a deduzione e detrazione al 100%.",
-    "title": "Supporto documentale e conformità",
-    "description": "La piattaforma PolarDrive™, sviluppata da DataPolar, mette a disposizione tecnologia e documentazione tecnica certificata per supportare aziende e consulenti fiscali nella dimostrazione della piena compliance normativa. DataPolar non fornisce consulenza fiscale: la responsabilità finale resta sempre in capo al Cliente.",
-    "gdpr_conformity": "Conformità totale GDPR e normativa fiscale vigente",
-    "data_protection_design": "Report certificati e difendibili in caso di verifiche",
-    "aggregated_treatment": "Documentazione tecnica a supporto della deducibilità 100%",
-    "consent_collection": "Responsabilità fiscale finale in capo al Cliente, con tecnologia DataPolar a supporto"
+    "card_title": "Documentazione Tecnica e Tracking",
+    "card_desciption": "PolarDrive™ fornisce documentazione tecnica automatizzata per tracciabilità precisa dell'utilizzo aziendale dei veicoli con standard superiori ai metodi tradizionali.",
+    "title": "Supporto Documentale Tecnologico",
+    "description": "PolarDrive™ fornisce strumenti tecnologici avanzati per documentare l'utilizzo aziendale dei veicoli con precisione superiore ai metodi tradizionali. La nostra tecnologia genera automaticamente registri viaggi dettagliati e report tecnici.",
+    "gdpr_conformity": "Conformità totale GDPR e privacy data protection",
+    "data_protection_design": "Report tecnici dettagliati e audit-ready",
+    "aggregated_treatment": "Documentazione tecnica automatizzata per tracking aziendale",
+    "consent_collection": "Architettura tecnologica progettata per garantire precisione e affidabilità dei dati raccolti"
   },
   "security": {
     "title": "Cybersecurity",
