@@ -12,7 +12,7 @@
     "title": "Cos'è PolarDrive™",
     "point1": "Una rivoluzionaria piattaforma di automotive AI sviluppata da DataPolar che si integra nativamente con le API ufficiali delle principali case automobilistiche mondiali. Specializzata nell'analisi di veicoli dotati di tecnologie hybrid, powertrain elettrificati e sistemi di propulsione avanzata di ultima generazione",
     "point2": "Il nostro sistema proprietario elabora in tempo reale dati di telemetria veicolare attraverso connessione diretta con piattaforme OEM, trasformando ogni veicolo connesso in una fonte continua di business intelligence per ottimizzazione flotte, analisi energetica e sviluppo sostenibile",
-    "point3": "Attraverso machine learning avanzato e algoritmi proprietari testati su veicoli reali, PolarDrive™ genera report certificati che documentano performance, efficienza e impatto ambientale, supportando decisioni strategiche data-driven e qualificando investimenti in tecnologie automotive innovative"
+    "point3": "Attraverso machine learning avanzato e algoritmi proprietari testati su veicoli reali, PolarDrive™ genera report tecnici dettagliati che documentano performance, efficienza e impatto ambientale, supportando decisioni strategiche data-driven e qualificando investimenti in tecnologie automotive innovative"
   },
   "vision": {
     "title": "Il Partner Tecnologico per eccellenza",
@@ -23,7 +23,7 @@
     "title": "I Vantaggi Tecnologici di PolarDrive™",
     "automated_analysis": {
       "title": "AI con Validazione su Veicoli Reali",
-      "description": "Il nostro motore AI è stato sviluppato e validato attraverso testing estensivo su veicoli di ultima generazione, inclusi sistemi hybrid e powertrain elettrificati. Questo garantisce accuratezza superiore nell'analisi di telemetria complessa e generazione di report certificati per decisioni strategiche"
+      "description": "Il nostro motore AI è stato sviluppato e validato attraverso testing estensivo su veicoli di ultima generazione, inclusi sistemi hybrid e powertrain elettrificati. Questo garantisce accuratezza superiore nell'analisi di telemetria complessa e generazione di report tecnici dettagliati per decisioni strategiche"
     },
     "ecological_transition": {
       "title": "Acceleratore di Innovazione per Mobilità Elettrificata",
@@ -35,11 +35,11 @@
     },
     "data_protection": {
       "title": "Sicurezza e Compliance OEM",
-      "description": "Protocolli di sicurezza allineati agli standard delle case automobilistiche. Crittografia end-to-end per dati veicolari sensibili, con architettura zero-trust e conformità totale ai requisiti di data handling imposti dagli OEM partner"
+      "description": "Protocolli di sicurezza allineati agli standard delle case automobilistiche. Crittografia end-to-end per dati veicolari sensibili, con architettura zero-trust e conformità ai requisiti di data handling imposti dagli OEM partner"
     },
     "document_value": {
       "title": "Certificazione Performance per Investimenti Tecnologici",
-      "description": "I nostri report AI-generated documentano in modo certificabile l'efficacia di investimenti in tecnologie automotive avanzate, supportando richieste di finanziamento, incentivi per sostenibilità e validazione ROI per acquisizione di veicoli innovativi destinati a R&D"
+      "description": "I nostri report AI-generated documentano in modo certificabile l'efficacia di investimenti in tecnologie automotive avanzate, supportando richieste di finanziamento, incentivi per sostenibilità ed analisi performance tecniche per acquisizione di veicoli innovativi destinati a R&D"
     },
     "predictive_intelligence": {
       "title": "Deep Learning per Predictive Analytics",
@@ -87,7 +87,7 @@
     "card_desciption": "PolarDrive™ fornisce documentazione tecnica automatizzata per tracciabilità precisa dell'utilizzo aziendale dei veicoli con standard superiori ai metodi tradizionali.",
     "title": "Supporto Documentale Tecnologico",
     "description": "PolarDrive™ fornisce strumenti tecnologici avanzati per documentare l'utilizzo aziendale dei veicoli con precisione superiore ai metodi tradizionali. La nostra tecnologia genera automaticamente registri viaggi dettagliati e report tecnici.",
-    "gdpr_conformity": "Conformità totale GDPR e privacy data protection",
+    "gdpr_conformity": "Architettura GDPR-compliant e privacy data protection",
     "data_protection_design": "Report tecnici dettagliati e audit-ready",
     "aggregated_treatment": "Documentazione tecnica automatizzata per tracking aziendale",
     "consent_collection": "Architettura tecnologica progettata per garantire precisione e affidabilità dei dati raccolti"
