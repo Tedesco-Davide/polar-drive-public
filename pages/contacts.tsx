@@ -300,14 +300,14 @@ export default function Contacts() {
             
             <small className="text-xs text-polarNight/60 dark:text-articWhite/60 italic text-center">
                 {t("contact.privacy.text")}{" "}
-<a 
-  href={`/locales/${router.locale}/privacy-policy.pdf`}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-coldIndigo dark:text-glacierBlue hover:underline transition-colors duration-200"
->
-  {t("contact.privacy.link")}
-</a>
+            <a 
+                href={`/locales/${router.locale}/privacy-policy.pdf`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-coldIndigo dark:text-glacierBlue hover:underline transition-colors duration-200"
+                >
+                {t("contact.privacy.link")}
+                </a>
             </small>
             </div>
           </form>
