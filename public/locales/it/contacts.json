@@ -9,6 +9,10 @@
       "website": "Sito Web",
       "message": "Messaggio *"
     },
+    "privacy": {
+      "text": "Inviando il modulo accetti la nostra",
+      "link": "informativa privacy"
+    },
     "submit": "Invia Messaggio",
     "loading": "Invio in corso...",
     "success": "Messaggio inviato con successo! Ti contatteremo presto.",

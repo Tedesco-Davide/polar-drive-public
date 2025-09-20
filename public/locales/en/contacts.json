@@ -9,6 +9,10 @@
       "website": "Website",
       "message": "Message *"
     },
+    "privacy": {
+      "text": "By submitting this form you accept our",
+      "link": "privacy policy"
+    },
     "submit": "Send Message",
     "loading": "Sending...",
     "success": "Message sent successfully! We will contact you soon.",

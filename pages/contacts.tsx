@@ -5,6 +5,7 @@ import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import Link from "next/link";
 
 // Register ScrollTrigger plugin
 if (typeof window !== "undefined") {
@@ -281,21 +282,33 @@ export default function Contacts() {
               />
             </div>
 
-            <div className="form-element flex justify-center pt-4">
-              <button
+            <div className="form-element flex flex-col items-center pt-4 space-y-3">
+            <button
                 type="submit"
                 disabled={loading}
                 className="group relative px-8 py-4 bg-coldIndigo text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-coldIndigo/25 disabled:opacity-50 disabled:cursor-not-allowed overflow-hidden"
-              >
+            >
                 <span className="relative z-10 flex items-center gap-2">
-                  {loading ? t("contact.loading") : t("contact.submit")}
-                  {!loading && (
+                {loading ? t("contact.loading") : t("contact.submit")}
+                {!loading && (
                     <span className="transition-transform duration-300 group-hover:translate-x-1">
-                      →
+                    →
                     </span>
-                  )}
+                )}
                 </span>
-              </button>
+            </button>
+            
+            <small className="text-xs text-polarNight/60 dark:text-articWhite/60 italic text-center">
+                {t("contact.privacy.text")}{" "}
+<a 
+  href={`/locales/${router.locale}/privacy-policy.pdf`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-coldIndigo dark:text-glacierBlue hover:underline transition-colors duration-200"
+>
+  {t("contact.privacy.link")}
+</a>
+            </small>
             </div>
           </form>
         </div>
