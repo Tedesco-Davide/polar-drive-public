@@ -1,8 +1,8 @@
 {
   "who_we_are": {
     "title": "Who We Are",
-    "description_1": "DataPolar is an innovative Tech Company at the forefront of the automotive intelligence sector, specializing in the development of proprietary AI technologies for advanced vehicular data analysis. Our expertise focuses on direct integration with native APIs from leading global automotive manufacturers, transforming mobility big data into strategic intelligence for Industry 4.0",
-    "description_2": "Our technological core PolarAi™ represents excellence in real-time automotive data processing through advanced machine learning. We develop cutting-edge solutions for the electrified and hybrid mobility sector, with particular focus on new generation vehicles equipped with electrical systems and/or advanced hybrid propulsion"
+    "description_1": "DataPolar is an innovative Tech Company that guides businesses through their digital transformation via strategic integration of artificial intelligence. We develop proprietary AI technologies that translate operational data into concrete decisions, making AI accessible and practical for any company looking to evolve toward Industry 4.0",
+    "description_2": "We are digital transformation partners: we support enterprises in adopting artificial intelligence through our PolarAI™ technology ecosystem. From strategic consulting to practical implementation, we make AI understandable and applicable, transforming existing systems and connected assets into business intelligence engines for data-driven decisions and sustainable growth"
   },
   "stats": {
     "privacy_compliance": "Privacy Compliance",

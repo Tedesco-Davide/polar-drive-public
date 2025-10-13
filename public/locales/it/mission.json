@@ -1,8 +1,8 @@
 {
   "who_we_are": {
     "title": "Chi Siamo",
-    "description_1": "DataPolar è una Tech Company innovativa specializzata nello sviluppo di tecnologie AI proprietarie per l'analisi avanzata dei dati operativi aziendali. La nostra expertise si concentra sull'integrazione diretta con API native e sistemi IoT, trasformando i big data in intelligence strategica per l'industria 4.0",
-    "description_2": "Il nostro core tecnologico PolarAi™ rappresenta l'eccellenza nell'elaborazione di dati real-time attraverso machine learning avanzato. Sviluppiamo soluzioni di frontiera per qualsiasi asset aziendale connesso, con particolare focus su sistemi di nuova generazione dotati di telemetria avanzata"
+    "description_1": "DataPolar è una Tech Company innovativa che accompagna le aziende nella loro trasformazione digitale attraverso l'integrazione strategica dell'intelligenza artificiale. Sviluppiamo tecnologie AI proprietarie che traducono i dati operativi in decisioni concrete, rendendo accessibile e pratica l'AI per qualsiasi realtà aziendale che voglia evolvere verso l'Industria 4.0",
+    "description_2": "Siamo partner di trasformazione digitale: affianchiamo le imprese nell'adozione dell'intelligenza artificiale attraverso il nostro ecosistema tecnologico PolarAI™. Dalla consulenza strategica all'implementazione pratica, rendiamo l'AI comprensibile e applicabile, trasformando sistemi esistenti ed asset connessi in motori di business intelligence per decisioni data-driven e crescita sostenibile"
   },
   "stats": {
     "privacy_compliance": "Privacy Compliance",
