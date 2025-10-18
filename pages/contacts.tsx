@@ -5,7 +5,6 @@ import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import Link from "next/link";
 
 // Register ScrollTrigger plugin
 if (typeof window !== "undefined") {
