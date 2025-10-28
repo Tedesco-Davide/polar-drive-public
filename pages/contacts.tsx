@@ -223,7 +223,7 @@ export default function Contacts() {
           <form ref={formRef} className="space-y-6" onSubmit={handleSubmit}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="form-element space-y-2">
-                <label className="block text-sm font-semibold text-left text-polarNight dark:text-glacierBlue">
+                <label className="block font-semibold text-left text-polarNight dark:text-glacierBlue">
                   {t("contact.label.name")}
                 </label>
                 <input
@@ -235,7 +235,7 @@ export default function Contacts() {
               </div>
 
               <div className="form-element space-y-2">
-                <label className="block text-sm font-semibold text-left text-polarNight dark:text-glacierBlue">
+                <label className="block font-semibold text-left text-polarNight dark:text-glacierBlue">
                   {t("contact.label.email")}
                 </label>
                 <input
@@ -247,7 +247,7 @@ export default function Contacts() {
               </div>
 
               <div className="form-element space-y-2">
-                <label className="block text-sm font-semibold text-left text-polarNight dark:text-glacierBlue">
+                <label className="block font-semibold text-left text-polarNight dark:text-glacierBlue">
                   {t("contact.label.company")}
                 </label>
                 <input
@@ -258,7 +258,7 @@ export default function Contacts() {
               </div>
 
               <div className="form-element space-y-2">
-                <label className="block text-sm font-semibold text-left text-polarNight dark:text-glacierBlue">
+                <label className="block font-semibold text-left text-polarNight dark:text-glacierBlue">
                   {t("contact.label.website")}
                 </label>
                 <input
@@ -270,7 +270,7 @@ export default function Contacts() {
             </div>
 
             <div className="form-element space-y-2">
-              <label className="block text-sm font-semibold text-left text-polarNight dark:text-glacierBlue">
+              <label className="block font-semibold text-left text-polarNight dark:text-glacierBlue">
                 {t("contact.label.message")}
               </label>
               <textarea
@@ -282,32 +282,32 @@ export default function Contacts() {
             </div>
 
             <div className="form-element flex flex-col items-center pt-4 space-y-3">
-            <button
+              <button
                 type="submit"
                 disabled={loading}
                 className="group relative px-8 py-4 bg-coldIndigo text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-coldIndigo/25 disabled:opacity-50 disabled:cursor-not-allowed overflow-hidden"
-            >
+              >
                 <span className="relative z-10 flex items-center gap-2">
-                {loading ? t("contact.loading") : t("contact.submit")}
-                {!loading && (
+                  {loading ? t("contact.loading") : t("contact.submit")}
+                  {!loading && (
                     <span className="transition-transform duration-300 group-hover:translate-x-1">
-                    →
+                      →
                     </span>
-                )}
+                  )}
                 </span>
-            </button>
-            
-            <small className="text-xs text-polarNight/60 dark:text-articWhite/60 italic text-center">
+              </button>
+
+              <small className="text-xs text-polarNight/60 dark:text-articWhite/60 italic text-center">
                 {t("contact.privacy.text")}{" "}
-            <a 
-                href={`/locales/${router.locale}/privacy-policy.pdf`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-coldIndigo dark:text-glacierBlue hover:underline transition-colors duration-200"
+                <a
+                  href={`/locales/${router.locale}/privacy-policy.pdf`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-coldIndigo dark:text-glacierBlue hover:underline transition-colors duration-200"
                 >
-                {t("contact.privacy.link")}
+                  {t("contact.privacy.link")}
                 </a>
-            </small>
+              </small>
             </div>
           </form>
         </div>
