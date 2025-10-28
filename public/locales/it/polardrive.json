@@ -4,26 +4,26 @@
     "description": "Trasforma i veicoli aziendali in asset strategici: con PolarDrive™ riprendi sovranità sui dati e li converti in valore misurabile."
   },
   "hero": {
-    "quote": "Il mercato dei Big Data automotive vale miliardi. Ad oggi, tante aziende contribuiscono inconsapevolmente senza nulla in cambio. Tramite i nostri PolarReport™ certificati, prodotti dalla nostra intelligenza artificiale proprietaria PolarAi™, anche la tua azienda potrà ottenere un vantaggio competitivo",
-    "description": "Oggi molte compagnie monetizzano i dati dei tuoi spostamenti: aziende come INRIX li rivendono a case automobilistiche ed istituzioni pubbliche, HERE li usa per aggiornare le sue mappe, Waze e Google li trasformano in analytics commerciali per retailer e assicurazioni, TomTom ed operatori autostradali li sfruttano per studi di traffico ed infrastrutture. Con PolarDrive™ i tuoi veicoli si trasformano in laboratori mobili certificati, capaci — attraverso i risultati della nostra collaborazione — di supportarti nella valutazione di nuovi investimenti infrastrutturali o nell’avvio di linee di business innovative, generando nuove opportunità di ricavo",
+    "quote": "Il mercato dei Big Data automotive vale miliardi. Ad oggi tante aziende contribuiscono inconsapevolmente senza benefici economici o strategici. Tramite i nostri PolarReport™ certificati, prodotti dalla nostra intelligenza artificiale proprietaria PolarAi™, anche la tua azienda potrà ottenere un vantaggio competitivo",
+    "description": "Oggi molte compagnie monetizzano i dati dei tuoi spostamenti ➜ INRIX li rivende a case automobilistiche ed istituzioni pubbliche, HERE li usa per aggiornare le sue mappe, Waze e Google li trasformano in analytics commerciali per retailer e assicurazioni, TomTom ed operatori autostradali li sfruttano per studi di traffico ed infrastrutture. Con PolarDrive™ i tuoi veicoli si trasformano in laboratori mobili certificati, capaci — attraverso i risultati della nostra collaborazione — di supportarti nella valutazione di nuovi investimenti infrastrutturali o nell’avvio di linee di business innovative, generando nuove opportunità di ricavo",
     "ai_powered": "Powered"
   },
   "what_is": {
     "title": "Cos'è PolarDrive™",
     "point1": "Piattaforma enterprise che trasforma i dati operativi in valore proprietario, restituendo alle imprese il controllo e la monetizzazione dei propri dati",
-    "point2": "Modello di partnership in licensing: i veicoli aziendali diventano veri e propri laboratori di Ricerca & Sviluppo, con elaborazione dei dati in tempo reale su server DataPolar, senza utilizzo di cloud esterni",
-    "point3": "Da semplice dato grezzo a intelligenza strategica: l’intelligenza artificiale PolarAi™ genera i PolarReport™, report certificati con insight aziendali ad alto valore economico"
+    "point2": "I veicoli aziendali diventano veri e propri laboratori di Ricerca & Sviluppo, con elaborazione dati in tempo reale su server proprietari, senza utilizzo di cloud esterni",
+    "point3": "Dal semplice dato grezzo, l’intelligenza artificiale PolarAi™ genera i PolarReport™ ➜ certificazioni contenenti insights aziendali ad alto valore economico"
   },
   "vision": {
-    "title": "Partnership di Licensing su misura",
-    "subtitle": "Da fornitore di dati a titolare del valore",
+    "title": "Modello di Partnership con Licensing su misura",
+    "subtitle": "Da generatore terzo di dati a possederne il valore effettivo",
     "description": "Costruiamo un ecosistema di valore basato su dati certificati, analytics predittivi ed infrastrutture proprietarie. Con PolarDrive™ la tua impresa entra nel mercato dei Big Data B2B"
   },
   "benefits": {
     "title": "I vantaggi strategici della Partnership PolarDrive™",
     "automated_analysis": {
-      "title": "Proprietà sovrana su server fisici proprietari",
-      "description": "Niente vendor lock-in: i dati restano in casa DataPolar, elaborati da PolarAi™ su GPU dedicate. Tu ottieni il prodotto finale"
+      "title": "Server fisici proprietari",
+      "description": "Niente vendor lock-in ➜ i dati restano in casa DataPolar, elaborati da PolarAi™ su GPU dedicate. Tu ottieni il prodotto finale"
     },
     "ecological_transition": {
       "title": "Nuovi canali di ricavo dai tuoi asset veicolari",
@@ -31,26 +31,26 @@
     },
     "territory_monitoring": {
       "title": "Indipendenza da ecosistemi tech di terze parti",
-      "description": "Nessun arricchimento passivo di Big Tech: farai fruttare tutta la tua operatività aziendale, con valore aggiunto"
+      "description": "Nessun arricchimento passivo di Big Tech ➜ farai fruttare tutta la tua operatività aziendale, con valore aggiunto"
     },
     "data_protection": {
-      "title": "Conformità normativa ed architettura Privacy-by-Design",
-      "description": "Data residency UE, anonimizzazione real-time, cifratura end-to-end, audit trail completi: governance e compliance integrate"
+      "title": "Conformità normativa ed architettura privacy-by-design",
+      "description": "Data residency su server privati, anonimizzazione real-time, cifratura end-to-end, audit trail completi ➜ governance e compliance integrate"
     },
     "document_value": {
       "title": "Certificazione per Ricerca & Sviluppo",
       "description": "PolarReport™ documenta uso R&D, supportando incentivi e verifiche, qualificando gli insight come assets"
     },
     "predictive_intelligence": {
-      "title": "PolarAi™: Intelligence predittiva su dati proprietari non replicabili",
+      "title": "PolarAi™ ➜ Intelligence predittiva su dati proprietari non replicabili",
       "description": "Analytics iper-specifici sulla tua operatività (manutenzione, rotte, efficienza) non replicabili dalla concorrenza"
     }
   },
   "target_audience": {
     "title": "Collaborazione intelligente, per la tua impresa",
-    "description": "Pensata per aziende che vogliono essere parte attiva dell’evoluzione AI, costruendo un vantaggio competitivo data-driven a lungo termine",
+    "description": "Pensata per le aziende che vogliono prendere parte attivamente all’evoluzione AI, costruendo un vantaggio competitivo data-driven a lungo termine",
     "industrial_logistics": {
-      "title": "Supporto flotte aziendali di qualsiasi dimensione",
+      "title": "Supporto a flotte aziendali di qualsiasi dimensione",
       "description": "Riprendi controllo sui dati di flotta e monetizzali con PolarReport™"
     },
     "sustainable_mobility": {
@@ -62,16 +62,16 @@
       "description": "Dalla sola efficienza operativa a nuove linee di ricavo basate su insight certificati"
     },
     "public_entities": {
-      "title": "PMI e corporate per la digitalizzazione",
-      "description": "Digitalizza mantenendo sovranità ed indipendenza da cloud di terzi"
+      "title": "Compatibile universale",
+      "description": "Digitalizzazione disponibile a piccole Aziende, PMI e Corporates"
     },
     "holdings": {
       "title": "Startup innovative e scale-up tech-driven",
       "description": "Cresci con dati proprietari senza dipendere da broker esterni"
     },
     "investment_companies": {
-      "title": "Investitori in Automotive Data Intelligence",
-      "description": "Asset certificati e modelli B2B scalabili per il mercato dei dati."
+      "title": "Investitori in automotive data intelligence",
+      "description": "Asset certificati e modelli B2B scalabili per il mercato dei dati"
     },
     "corporations": {
       "title": "Innovation lab e divisioni R&D automotive",
@@ -84,25 +84,25 @@
   },
   "compliance": {
     "card_title": "Infrastrutture su server fisici proprietari",
-    "card_desciption": "Zero cloud terzi: dati in Europa supervisionati da DataPolar",
+    "card_desciption": "Zero cloud terzi ➜ dati in privato, supervisionati da DataPolar",
     "title": "Architettura enterprise per protezione asset strategici",
-    "description": "Progettata per controllo totale: sovranità, conformità e indipendenza da provider esterni",
-    "gdpr_conformity": "GDPR + NIS2, anonimizzazione real-time, data residency UE",
+    "description": "Progettata per controllo totale ➜ sovranità, conformità e indipendenza da provider esterni",
+    "gdpr_conformity": "GDPR + NIS2, anonimizzazione real-time, data residency su server privati",
     "data_protection_design": "Cifratura end-to-end, separazione dei layer, IDS/IPS, backup ridondanti",
     "aggregated_treatment": "Pipeline proprietaria per anonimizzazione ed aggregazione dei PolarReport™",
-    "consent_collection": "Framework consensi ADAPTIVE_GDPR/ADAPTIVE_PROFILE per titolarità piena e documentata"
+    "consent_collection": "Framework consensi ADAPTIVE_GDPR / ADAPTIVE_PROFILE per titolarità piena e documentata"
   },
   "security": {
     "title": "Sicurezza di livello enterprise",
-    "description": "Protezione assoluta per i tuoi asset più critici: dati operativi e di mobilità",
+    "description": "Protezione assoluta per i tuoi asset più critici ➜ dati operativi e di mobilità",
     "encrypted_interactions": "Cifratura AES-256 in transito e a riposo, monitoraggio real-time",
-    "lightweight_engine": "Datacenter con accesso controllato, alta affidabilità e backup in UE",
+    "lightweight_engine": "Datacenter con accesso controllato, alta affidabilità e backup su server privati",
     "cyber_hygiene": "Allineamento UNECE WP.29 e NIS2, audit trail completi",
     "protection_violations": "Alerting continuo e isolamento da data mining di terze parti"
   },
   "cta": {
     "title": "Evolviti come protagonista nel futuro dell'Intelligenza Artificiale",
-    "description": "Trasforma la tua flotta aziendale in laboratori per Ricerca & Sviluppo: crea nuove opportunità aziendali tramite PolarAi™ e valorizza la tua operatività tramite i PolarReport™",
+    "description": "Trasforma la tua flotta aziendale in laboratori per Ricerca & Sviluppo ➜ crea nuove opportunità aziendali tramite PolarAi™ e valorizza la tua operatività tramite i PolarReport™",
     "button": "Diventa Partner"
   }
 }
