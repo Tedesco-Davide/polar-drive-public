@@ -178,7 +178,7 @@ export default function Header() {
                 key={item.label}
                 href={`/${anchorTarget}`}
                 onClick={handleClick}
-                className="relative text-sm font-semibold text-polarNight/90 dark:text-articWhite/90 hover:text-coldIndigo dark:hover:text-glacierBlue transition-all duration-300 group px-3 py-2 rounded-lg hover:bg-white/20 dark:hover:bg-white/10"
+                className="relative font-semibold text-polarNight/90 dark:text-articWhite/90 hover:text-coldIndigo dark:hover:text-glacierBlue transition-all duration-300 group px-3 py-2 rounded-lg hover:bg-white/20 dark:hover:bg-white/10"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 {getNavigationText(item.label)}
@@ -188,7 +188,7 @@ export default function Header() {
               <Link
                 key={item.label}
                 href={item.href}
-                className="relative text-sm font-semibold text-polarNight/90 dark:text-articWhite/90 hover:text-coldIndigo dark:hover:text-glacierBlue transition-all duration-300 group px-3 py-2 rounded-lg hover:bg-white/20 dark:hover:bg-white/10"
+                className="relative font-semibold text-polarNight/90 dark:text-articWhite/90 hover:text-coldIndigo dark:hover:text-glacierBlue transition-all duration-300 group px-3 py-2 rounded-lg hover:bg-white/20 dark:hover:bg-white/10"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 {getNavigationText(item.label)}
