@@ -539,24 +539,6 @@ export default function PolarDrivePage() {
           </div>
         </section>
 
-        {/* Vision Section */}
-        <section className="relative w-full overflow-hidden pt-10 pb-8 md:pt-24 md:pb-24 px-6">
-          <div className="relative z-20 max-w-5xl mx-auto text-center animate-on-scroll">
-            <h2 className="text-3xl md:leading-relaxed md:text-5xl font-bold mb-8 bg-gradient-to-r from-coldIndigo to-glacierBlue bg-clip-text text-transparent">
-              {t("vision.title")}
-            </h2>
-
-            <div className="p-8 bg-gradient-to-r from-coldIndigo/10 to-glacierBlue/10 backdrop-blur-sm rounded-3xl border border-coldIndigo/20">
-              <p className="text-xl md:text-2xl font-semibold text-polarNight dark:text-articWhite mb-6">
-                {t("vision.subtitle")}
-              </p>
-              <p className="text-lg leading-relaxed text-polarNight/80 dark:text-articWhite/80">
-                {t("vision.description")}
-              </p>
-            </div>
-          </div>
-        </section>
-
         {/* Benefits Section */}
         <section className="relative w-full overflow-hidden pt-5 pb-5 md:pt-24 md:pb-24 px-6">
           <div className="relative z-20 max-w-7xl mx-auto">
