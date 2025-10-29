@@ -4,23 +4,18 @@
     "description": "Trasforma i veicoli aziendali in asset strategici: con PolarDrive™ riprendi sovranità sui dati e li converti in valore misurabile."
   },
   "hero": {
-    "quote": "Il mercato dei Big Data automotive vale miliardi. Ad oggi tante aziende contribuiscono inconsapevolmente senza benefici economici o strategici. Tramite i nostri PolarReport™ certificati, prodotti dalla nostra intelligenza artificiale proprietaria PolarAi™, anche la tua azienda potrà ottenere un vantaggio competitivo",
-    "description": "Oggi molte compagnie monetizzano i dati dei tuoi spostamenti ➜ INRIX li rivende a case automobilistiche ed istituzioni pubbliche, HERE li usa per aggiornare le sue mappe, Waze e Google li trasformano in analytics commerciali per retailer e assicurazioni, TomTom ed operatori autostradali li sfruttano per studi di traffico ed infrastrutture. Con PolarDrive™ i tuoi veicoli si trasformano in laboratori mobili certificati, capaci — attraverso i risultati della nostra collaborazione — di supportarti nella valutazione di nuovi investimenti infrastrutturali o nell’avvio di linee di business innovative, generando nuove opportunità di ricavo",
+    "quote": "Il mercato dei Big Data automotive vale miliardi. Ad oggi tante aziende contribuiscono inconsapevolmente senza benefici economici o strategici. Collaborando con noi, grazie ai PolarReport™ certificati prodotti dalla nostra intelligenza artificiale proprietaria PolarAi™, anche la tua azienda potrà ottenere un vantaggio competitivo",
+    "description": "Molte compagnie monetizzano i dati dei tuoi spostamenti ➜ Apple ed HERE li utilizzano per aggiornare le loro mappe, Google li trasforma in analytics commerciali per retailer ed assicurazioni, TomTom ed operatori autostradali li sfruttano per studi di traffico ed infrastrutture, INRIX li rivende a case automobilistiche ed istituzioni pubbliche. Con PolarDrive™ i tuoi veicoli si trasformano in laboratori mobili certificati, capaci, attraverso i risultati della nostra collaborazione, di supportarti nella valutazione di nuovi investimenti infrastrutturali o nell’avvio di linee di business innovative, generando nuove opportunità di ricavo",
     "ai_powered": "Powered"
   },
   "what_is": {
     "title": "Cos'è PolarDrive™",
-    "point1": "Piattaforma enterprise che trasforma i dati operativi in valore proprietario, restituendo alle imprese il controllo e la monetizzazione dei propri dati",
-    "point2": "I veicoli aziendali diventano veri e propri laboratori di Ricerca & Sviluppo, con elaborazione dati in tempo reale su server proprietari, senza utilizzo di cloud esterni",
-    "point3": "Dal semplice dato grezzo, l’intelligenza artificiale PolarAi™ genera i PolarReport™ ➜ certificazioni contenenti insights aziendali ad alto valore economico"
-  },
-  "vision": {
-    "title": "Modello di Partnership con Licensing su misura",
-    "subtitle": "Da generatore terzo di dati a possederne il valore effettivo",
-    "description": "Costruiamo un ecosistema di valore basato su dati certificati, analytics predittivi ed infrastrutture proprietarie. Con PolarDrive™ la tua impresa entra nel mercato dei Big Data B2B"
+    "point1": "Piattaforma enterprise che trasforma i dati operativi veicolari, in valore proprietario, restituendoModello di Partner alle imprese possibilità concrete su investimenti interni, nonché la potenziale monetizzazione dei propri insights elaborati",
+    "point2": "I veicoli aziendali diventano veri e propri laboratori mobili di Ricerca & Sviluppo, con elaborazione dati in tempo reale su server proprietari, senza utilizzo di cloud esterni",
+    "point3": "Dai tuoi dati grezzi privi di valore reale, l’intelligenza artificiale PolarAi™ genera i PolarReport™ ➜ reportistica contenente insights ad alto valore economico, oltre alla certificazione effettiva sull'utilizzo del laboratorio mobile"
   },
   "benefits": {
-    "title": "I vantaggi strategici della Partnership PolarDrive™",
+    "title": "I vantaggi strategici della Partnership PolarDrive™, con modelli di Licensing su misura",
     "automated_analysis": {
       "title": "Server fisici proprietari",
       "description": "Niente vendor lock-in ➜ i dati restano in casa DataPolar, elaborati da PolarAi™ su GPU dedicate. Tu ottieni il prodotto finale"
