@@ -15,10 +15,10 @@
     },
     "submit": "Send Message",
     "loading": "Sending...",
-    "success": "Message sent successfully! We will contact you soon.",
+    "success": "Message sent successfully! We will contact you soon",
     "error": {
-      "required": "Please fill in all required fields.",
-      "generic": "An error occurred. Please try again later."
+      "required": "Please fill in all required fields",
+      "generic": "An error occurred. Please try again later"
     }
   }
 }
