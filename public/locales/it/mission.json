@@ -2,7 +2,7 @@
   "who_we_are": {
     "title": "Chi Siamo",
     "description_1": "DataPolar è una Tech Company innovativa che accompagna le aziende nella loro trasformazione digitale attraverso l'integrazione strategica dell'intelligenza artificiale. Sviluppiamo tecnologie AI proprietarie che traducono i dati operativi in decisioni concrete, rendendo accessibile e pratica l'AI per qualsiasi realtà aziendale che voglia evolvere verso l'Industria 4.0",
-    "description_2": "Siamo partner di trasformazione digitale: affianchiamo le imprese nell'adozione dell'intelligenza artificiale attraverso il nostro ecosistema tecnologico PolarAI™. Dalla consulenza strategica all'implementazione pratica, rendiamo l'AI comprensibile e applicabile, trasformando sistemi esistenti ed asset connessi in motori di business intelligence per decisioni data-driven e crescita sostenibile"
+    "description_2": "Siamo partner di trasformazione digitale: affianchiamo le imprese nell'adozione dell'intelligenza artificiale attraverso il nostro ecosistema tecnologico PolarAI™. Grazie al nostro sostegno alle consulenze strategiche ed implementazioni pratiche, rendiamo l'AI comprensibile ed applicabile, trasformando sistemi esistenti ed asset connessi in motori di business intelligence, per supportare decisioni data-driven e crescita sostenibile"
   },
   "stats": {
     "privacy_compliance": "Privacy Compliance",
@@ -22,7 +22,7 @@
     },
     "privacy_by_design": {
       "title": "Data Security",
-      "description": "Protocolli di sicurezza per la protezione dei dati veicolari sensibili, con crittografia end-to-end e anonimizzazione avanzata conforme agli standard del settore"
+      "description": "Protocolli di sicurezza per la protezione dei dati aziendali sensibili, con crittografia end-to-end ed anonimizzazione avanzata conforme agli standard del settore"
     },
     "innovation_lab": {
       "title": "Connected Assets Lab",
@@ -31,37 +31,37 @@
   },
   "mission_statement": {
     "title": "Pionieri dell'Operational Intelligence",
-    "quote": "DataPolar sviluppa tecnologie di frontiera per trasformare ogni asset aziendale connesso in un hub di intelligenza operativa. La nostra missione è accelerare la trasizione verso operations data-driven attraverso AI proprietaria e integrazione nativa con i sistemi più avanzati al mondo"
+    "quote": "DataPolar sviluppa tecnologie di frontiera per trasformare ogni asset aziendale connesso in un hub di intelligenza operativa. La nostra missione è accelerare la trasizione verso operations data-driven attraverso AI proprietaria ed integrazione nativa con i sistemi più avanzati al mondo"
   },
   "application_areas": {
     "title": "Ambiti di Eccellenza Tecnologica",
     "mobility_transport": {
-      "title": "Analytics",
-      "description": "Analisi avanzata di telemetria operativa, performance energetica e ottimizzazione dei sistemi aziendali"
+      "title": "Operational Analytics",
+      "description": "Analisi avanzata di dati operativi, performance energetica ed ottimizzazione dei sistemi aziendali"
     },
     "energy_sustainability": {
-      "title": "Hybrid & EV Intelligence",
-      "description": "Algoritmi specializzati per l'ottimizzazione di powertrain ibridi, gestione batterie e massimizzazione dell'efficienza energetica"
+      "title": "Energy Intelligence",
+      "description": "Algoritmi specializzati per l'ottimizzazione dei consumi energetici, gestione efficiente e massimizzazione della sostenibilità"
     },
     "road_safety": {
       "title": "Connected Operations Safety",
-      "description": "Sistemi predittivi per la sicurezza basati su dati real-time da sensori veicolari e telemetria avanzata"
+      "description": "Sistemi predittivi per la sicurezza basati su dati real-time da sensori e telemetria avanzata"
     },
     "smart_cities": {
-      "title": "Smart Infrastructure Integration",
-      "description": "Piattaforme per l'integrazione di veicoli connessi con infrastrutture urbane intelligenti e sistemi V2X"
+      "title": "Smart Infrastructure",
+      "description": "Piattaforme per l'integrazione di asset connessi con infrastrutture intelligenti e sistemi IoT avanzati"
     },
     "behavioral_marketing": {
       "title": "Behavioral AI",
-      "description": "Modelli predittivi basati su pattern di utilizzo veicolare per ottimizzazione flotte e servizi personalizzati"
+      "description": "Modelli predittivi basati su pattern di utilizzo per ottimizzazione operativa e servizi personalizzati"
     },
     "industry_40": {
       "title": "Industria 4.0",
-      "description": "Soluzioni AI-driven per la trasformazione digitale del settore automotive e della supply chain"
+      "description": "Soluzioni AI-driven per la trasformazione digitale dei processi industriali e della supply chain"
     },
     "retail_distribution": {
       "title": "Fleet Intelligence",
-      "description": "Ottimizzazione intelligente di flotte commerciali attraverso analisi predittiva e machine learning"
+      "description": "Ottimizzazione intelligente di flotte aziendali attraverso analisi predittiva e machine learning"
     },
     "health_wellness": {
       "title": "Driver Wellness Analytics",
@@ -69,18 +69,18 @@
     },
     "predictive_analysis": {
       "title": "Predictive AI",
-      "description": "Modelli di deep learning per manutenzione predittiva, ottimizzazione consumi e previsione guasti basati su dati OEM"
+      "description": "Modelli di deep learning per manutenzione predittiva, ottimizzazione consumi e previsione guasti"
     }
   },
   "partnerships": {
     "title": "Ecosistema B2B",
     "strategic_collaborations": {
-      "title": "Integrazione con OEM Leader",
-      "description": "Partnership tecnologiche dirette attraverso integrazione API native per accesso real-time a telemetria operativa. Specializzazione con aziende leader per garantire la massima accuratezza dei dati"
+      "title": "Integrazione con Leader di Settore",
+      "description": "Partnership tecnologiche dirette attraverso integrazione API native per accesso real-time a dati operativi. Specializzazione con aziende leader per garantire la massima accuratezza dei dati"
     },
     "professional_studies": {
       "title": "Enterprise Solutions",
-      "description": "Soluzioni AI enterprise-grade per aziende di ogni settore. Report generati da IA con focus su performance operativa, efficienza energetica e ottimizzazione aziendale"
+      "description": "Soluzioni AI enterprise-grade per aziende di ogni settore. Report generati da IA con focus su performance operativa, efficienza energetica ed ottimizzazione aziendale"
     }
   },
   "data_sovereignty": {
@@ -106,7 +106,7 @@
     },
     "internal_rd": {
       "title": "Advanced Asset Testing",
-      "description": "Laboratorio di R&D con accesso ad asset di ultima generazione per validazione algoritmi su piattaforme reali"
+      "description": "Laboratorii di R&D configurati tramite asset di ultima generazione per validazione algoritmi su piattaforme reali"
     }
   },
   "cta": {
