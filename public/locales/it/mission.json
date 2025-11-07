@@ -80,7 +80,7 @@
     },
     "professional_studies": {
       "title": "Enterprise Solutions",
-      "description": "Soluzioni AI enterprise-grade per aziende di ogni settore. Report generati da IA con focus su performance operativa, efficienza energetica ed ottimizzazione aziendale"
+      "description": "Soluzioni AI enterprise-grade per aziende di ogni settore. PolarReport™ generati da IA con focus su performance operativa, efficienza energetica ed ottimizzazione aziendale"
     }
   },
   "data_sovereignty": {
@@ -88,7 +88,7 @@
     "features": {
       "local_ai": "Edge computing per elaborazione dati operativi in tempo reale",
       "no_data_transmission": "Processing on-premise senza dipendenze cloud esterne",
-      "secure_documentation": "Report certificati per compliance e normative di settore",
+      "secure_documentation": "PolarReport™ certificati per compliance e normative di settore",
       "dedicated_infrastructure": "Infrastruttura dedicata per big data",
       "auditable_process": "Tracciabilità completa per audit di settore e certificazioni",
       "privacy_design": "Security e protezione dati aziendali sensibili"
