@@ -15,10 +15,10 @@
     },
     "submit": "Invia Messaggio",
     "loading": "Invio in corso...",
-    "success": "Messaggio inviato con successo! Ti contatteremo presto.",
+    "success": "Messaggio inviato con successo! Ti contatteremo presto",
     "error": {
-      "required": "Per favore, compila tutti i campi obbligatori.",
-      "generic": "Si è verificato un errore. Riprova più tardi."
+      "required": "Per favore, compila tutti i campi obbligatori",
+      "generic": "Si è verificato un errore. Riprova più tardi"
     }
   }
 }
