@@ -196,8 +196,15 @@ export default function PolarDrivePage() {
     const anchorTarget = "#contacts";
 
     if (router.pathname !== "/") {
-      // Usa router.push per mantenere automaticamente la lingua
-      router.push(`/${anchorTarget}`);
+      // Vai alla home con hash, ma senza far fare lo scroll automatico a Next
+      router.push(
+        {
+          pathname: "/",
+          hash: "contacts",
+        },
+        undefined,
+        { scroll: false }
+      );
     } else {
       const element = document.querySelector(anchorTarget);
       if (element) {

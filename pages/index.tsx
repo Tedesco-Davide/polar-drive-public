@@ -58,6 +58,34 @@ export default function Home() {
     }
   };
 
+  useEffect(() => {
+    if (!router.isReady) return;
+
+    const scrollToHash = () => {
+      const hash = window.location.hash;
+      if (!hash) return;
+
+      const element = document.querySelector(hash) as HTMLElement | null;
+      if (!element) return;
+
+      // Altezza approssimativa dell'header (16 = h-16 tailwind ≈ 64px)
+      const headerOffset = 80; // puoi regolarlo se serve
+
+      const rect = element.getBoundingClientRect();
+      const absoluteY = rect.top + window.scrollY - headerOffset;
+
+      window.scrollTo({
+        top: absoluteY,
+        behavior: "smooth",
+      });
+    };
+
+    // piccolo delay per dare tempo a GSAP/layout di stabilizzarsi
+    const timer = setTimeout(scrollToHash, 250);
+
+    return () => clearTimeout(timer);
+  }, [router.asPath, router.isReady]);
+
   const initSmoothScrolling = () => {
     // Smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
