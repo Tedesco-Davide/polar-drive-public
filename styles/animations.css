@@ -1,6 +1,5 @@
-/* Animations for modern DataPolar website */
+/* Animations for modern DataPolar website. Smooth transitions for all elements */
 
-/* Smooth transitions for all elements */
 * {
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
