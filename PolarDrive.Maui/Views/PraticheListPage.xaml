@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="PolarDrive.Maui.Views.PraticheListPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:PolarDrive.Maui.ViewModels"
+    xmlns:models="clr-namespace:PolarDrive.Maui.Models"
+    x:DataType="vm:PraticheListViewModel"
+    x:Name="RootPage"
+    Title="Le mie pratiche">
+
+    <Grid Padding="16" RowDefinitions="Auto,*">
+
+        <Label
+            Grid.Row="0"
+            Text="Seleziona una pratica per vederne il dettaglio"
+            FontSize="14"
+            TextColor="Gray"
+            Margin="0,0,0,12" />
+
+        <CollectionView
+            Grid.Row="1"
+            AutomationId="PraticheCollectionView"
+            ItemsSource="{Binding Pratiche}"
+            SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Pratica">
+                    <Border
+                        AutomationId="{Binding Id, StringFormat='PraticaItem_{0}'}"
+                        Margin="0,0,0,10"
+                        Padding="14"
+                        Stroke="LightGray"
+                        StrokeShape="RoundRectangle 8">
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Command="{Binding Source={x:Reference RootPage}, Path=BindingContext.SelezionaPraticaCommand}"
+                                CommandParameter="{Binding .}" />
+                        </Border.GestureRecognizers>
+
+                        <VerticalStackLayout Spacing="4">
+                            <Label
+                                AutomationId="{Binding Id, StringFormat='PraticaNumero_{0}'}"
+                                Text="{Binding NumeroPratica}"
+                                FontAttributes="Bold"
+                                FontSize="16" />
+                            <Label Text="{Binding Cliente}" FontSize="14" />
+                            <Label Text="{Binding StatoDisplay}" FontSize="12" TextColor="DarkBlue" />
+                        </VerticalStackLayout>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

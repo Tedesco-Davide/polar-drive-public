@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="PolarDrive.Maui.Views.PraticaDetailPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:PolarDrive.Maui.ViewModels"
+    x:DataType="vm:PraticaDetailViewModel"
+    Title="Dettaglio pratica">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="14">
+
+            <Label Text="Numero pratica" FontAttributes="Bold" />
+            <Entry
+                AutomationId="DetailNumeroPraticaEntry"
+                Text="{Binding NumeroPratica}"
+                IsReadOnly="True" />
+
+            <Label Text="Cliente" FontAttributes="Bold" />
+            <Entry
+                AutomationId="DetailClienteEntry"
+                Text="{Binding Cliente}" />
+
+            <Label Text="Descrizione" FontAttributes="Bold" />
+            <Editor
+                AutomationId="DetailDescrizioneEditor"
+                Text="{Binding Descrizione}"
+                AutoSize="TextChanges" />
+
+            <Label Text="Stato" FontAttributes="Bold" />
+            <Picker
+                AutomationId="DetailStatoPicker"
+                ItemsSource="{Binding StatiDisponibili}"
+                SelectedIndex="{Binding StatoSelezionatoIndex}" />
+
+            <Label Text="Documento" FontAttributes="Bold" Margin="0,10,0,0" />
+            <Label
+                AutomationId="DetailDocumentoCaricatoLabel"
+                Text="{Binding DocumentoCaricato}"
+                FontSize="14"
+                TextColor="Gray" />
+
+            <Button
+                AutomationId="DetailCaricaDocumentoButton"
+                Text="Carica documento"
+                Command="{Binding CaricaDocumentoCommand}" />
+
+            <Label
+                AutomationId="DetailUploadMessageLabel"
+                Text="{Binding UploadMessage}"
+                FontSize="13"
+                TextColor="Green" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
