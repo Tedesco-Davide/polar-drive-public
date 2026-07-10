@@ -63,4 +63,29 @@ _(Config in `cypress.config.ts` + `cypress/`, nel progetto root — a differenza
 - `npm run cypress:run` → Esegue tutti i test di componente in headless (Electron)
 - `npx cypress run --component --spec "cypress/component/Hero.cy.tsx"` → Esegue solo i test di un componente specifico
 
+#### **📲 APPIUM E2E TESTING (C#, Android emulator)**
+
+_(Suite separata in `tests/appium/`, Page Object Model, NUnit, testa `PolarDrive.Maui` sull'emulatore Android tramite `AutomationId` — richiede emulatore avviato e server Appium attivo)_
+
+- `npm install -g appium && appium driver install uiautomator2` → Installa il server Appium e il driver Android (una tantum)
+- `& "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd Pixel5_API35` → Avvia l'emulatore
+- `appium` → Avvia il server Appium su `http://127.0.0.1:4723` (in un terminale dedicato)
+- `dotnet build -f net10.0-android -c Debug` _(da eseguire dentro `PolarDrive.Maui/`)_ → Builda l'apk debug richiesto dai test
+- `cd tests/appium && dotnet restore && dotnet test` → Esegue tutta la suite (Login, Navigazione lista→dettaglio, Form dettaglio)
+- `dotnet test --filter "FullyQualifiedName~LoginTests"` → Esegue solo i test di login
+
+**Configurazione Appium Inspector** _(GUI — server Appium e emulatore già avviati come sopra)_
+
+- **Appium Server → Remote Host**: `127.0.0.1`
+- **Appium Server → Remote Port**: `4723`
+- **Appium Server → Remote Path**: `/`
+- **Capability Builder** (colonna Name → colonna Value):
+  - `platformName` → `Android`
+  - `appium:automationName` → `UiAutomator2`
+  - `appium:deviceName` → `Pixel5_API35`
+  - `appium:app` → `C:\Users\david\source\repos\Tedesco-Davide\polar-drive-public\PolarDrive.Maui\bin\Debug\net10.0-android\com.companyname.polardrive.maui-Signed.apk`
+- Click **Start Session** (in basso a destra) → si apre lo screenshot live dell'app sull'emulatore
+- Click su un elemento nello screenshot → nel pannello destro compaiono i suoi attributi; il campo **resource-id** è il locator da usare (`com.companyname.polardrive.maui:id/<AutomationId>`, perché su Android l'AutomationId MAUI è mappato sul resource-id, non sul content-desc)
+- Click **Quit Session** (in alto) quando hai finito di ispezionare, per liberare l'app prima di lanciare `dotnet test`
+
 ---

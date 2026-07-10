@@ -17,13 +17,11 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 
-		<!-- Enable XAML source generation for faster build times and improved performance.
-		     This generates C# code from XAML at compile time instead of runtime inflation.
-		     To disable, remove this line.
-		     For individual files, you can override by setting Inflator metadata:
-		       <MauiXaml Update="MyPage.xaml" Inflator="Default" /> (reverts to defaults: Runtime for Debug, XamlC for Release)
-		       <MauiXaml Update="MyPage.xaml" Inflator="Runtime" /> (force runtime inflation) -->
-		<MauiXamlInflator>SourceGen</MauiXamlInflator>
+		<!-- MauiXamlInflator=SourceGen disabilitato: causa un crash intermittente
+		     in AppShell.InitializeComponent() ("Cannot change ObservableCollection
+		     during a CollectionChanged event") riscontrato avviando l'app
+		     sull'emulatore per i test Appium. Torna ai default (Runtime in Debug,
+		     XamlC in Release), stabili. -->
 
 		<!-- Display name -->
 		<ApplicationTitle>PolarDrive.Maui</ApplicationTitle>
@@ -43,6 +41,18 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
+
+		<!-- Il Debug build Android di default usa la "Fast Deployment" (le assembly
+		     .NET non finiscono nell'apk, vengono sincronizzate a parte dall'IDE):
+		     un apk così non è installabile standalone da adb/Appium ("No assemblies
+		     found ... Fast Deployment"). Per avere un apk Debug realmente standalone
+		     da usare nei test Appium, le incorporiamo comunque nell'apk, in un unico
+		     "assembly store" (blob) invece che come tante librerie native per-assembly:
+		     quella modalità va incontro a un bug di packaging (entry compresse invece
+		     di STORED) con questo SDK. -->
+		<EmbedAssembliesIntoApk Condition="'$(Configuration)' == 'Debug'">true</EmbedAssembliesIntoApk>
+		<AndroidUseAssemblyStore Condition="'$(Configuration)' == 'Debug'">true</AndroidUseAssemblyStore>
+		<AndroidStoreUncompressedFileExtensions Condition="'$(Configuration)' == 'Debug'">.so</AndroidStoreUncompressedFileExtensions>
 	</PropertyGroup>
 
 	<ItemGroup>

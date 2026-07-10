@@ -1,11 +1,15 @@
 using System.Text.RegularExpressions;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Microsoft.Extensions.DependencyInjection;
+using PolarDrive.Maui.Views;
 
 namespace PolarDrive.Maui.ViewModels;
 
 public partial class LoginViewModel : ObservableObject
 {
+    private readonly IServiceProvider _serviceProvider;
+
     [ObservableProperty]
     private string email = string.Empty;
 
@@ -18,8 +22,13 @@ public partial class LoginViewModel : ObservableObject
     [ObservableProperty]
     private bool isBusy;
 
+    public LoginViewModel(IServiceProvider serviceProvider)
+    {
+        _serviceProvider = serviceProvider;
+    }
+
     [RelayCommand]
-    private async Task LoginAsync()
+    private void Login()
     {
         ErrorMessage = string.Empty;
 
@@ -35,16 +44,13 @@ public partial class LoginViewModel : ObservableObject
             return;
         }
 
-        IsBusy = true;
-        try
-        {
-            // Simula una chiamata di autenticazione reale
-            await Task.Delay(500);
-            await Shell.Current.GoToAsync("//PraticheListPage");
-        }
-        finally
-        {
-            IsBusy = false;
-        }
+        // Sostituzione diretta della pagina radice invece di
+        // Shell.Current.GoToAsync(): in questa versione di MAUI un "await"
+        // dopo un tap dispatchato da Appium/UiAutomator2 può restare bloccato
+        // a tempo indeterminato (bug osservato in fase di test, isolato
+        // rimuovendo ogni gap async dal comando). Login qui è quindi
+        // volutamente sincrono.
+        var praticheListPage = _serviceProvider.GetRequiredService<PraticheListPage>();
+        Application.Current!.Windows[0].Page = praticheListPage;
     }
 }

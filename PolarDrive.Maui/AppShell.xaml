@@ -12,9 +12,10 @@
         ContentTemplate="{DataTemplate views:LoginPage}"
         Route="LoginPage" />
 
-    <ShellContent
-        Title="Le mie pratiche"
-        ContentTemplate="{DataTemplate views:PraticheListPage}"
-        Route="PraticheListPage" />
+    <!-- Il secondo ShellContent (PraticheListPage) viene aggiunto in
+         AppShell.xaml.cs dopo InitializeComponent(): dichiararli entrambi qui
+         fa scattare un bug di reentrancy in .NET MAUI (l'aggiunta del secondo
+         item durante il CollectionChanged del primo lancia
+         "Cannot change ObservableCollection during a CollectionChanged event"). -->
 
 </Shell>
