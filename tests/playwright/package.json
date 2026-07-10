@@ -1,0 +1,17 @@
+{
+  "name": "polar-drive-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Suite Playwright E2E per il sito Next.js polar-drive-public",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^20.19.25",
+    "typescript": "^5"
+  }
+}

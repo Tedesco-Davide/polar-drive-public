@@ -696,6 +696,7 @@ export default function PolarDrivePage() {
               </p>
               <button
                 onClick={scrollToContacts}
+                data-testid="polardrive-cta-button"
                 className="inline-flex items-center gap-3 px-10 py-5 bg-coldIndigo text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-coldIndigo/30 group"
               >
                 <span>{t("cta.button")}</span>

@@ -441,6 +441,7 @@ export default function Mission() {
             </p>
             <button
               onClick={navigateToPolarDrive}
+              data-testid="mission-cta-button"
               className="px-8 py-4 bg-coldIndigo text-white font-semibold rounded-full hover:scale-105 transition-all duration-300 hover:shadow-xl hover:shadow-coldIndigo/30"
             >
               {t("cta.button")}

@@ -220,7 +220,12 @@ export default function Contacts() {
 
         {/* Enhanced Form */}
         <div className="bg-white/5 dark:bg-white/5 backdrop-blur-xl rounded-2xl p-8 border border-gray-300 dark:border-white/10 shadow-2xl">
-          <form ref={formRef} className="space-y-6" onSubmit={handleSubmit}>
+          <form
+            ref={formRef}
+            data-testid="contact-form"
+            className="space-y-6"
+            onSubmit={handleSubmit}
+          >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="form-element space-y-2">
                 <label className="block font-semibold text-left text-polarNight dark:text-glacierBlue">
@@ -230,6 +235,7 @@ export default function Contacts() {
                   name="name"
                   type="text"
                   required
+                  data-testid="contact-name-input"
                   className="w-full px-4 py-3 rounded-xl bg-white/10 dark:bg-white/5 border border-gray-300 dark:border-white/10 text-polarNight dark:text-softWhite placeholder:text-polarNight/50 dark:placeholder:text-softWhite/50 focus:outline-none focus:ring-2 focus:ring-coldIndigo/50 focus:border-coldIndigo transition-all duration-300 backdrop-blur-sm"
                 />
               </div>
@@ -242,6 +248,7 @@ export default function Contacts() {
                   name="email"
                   type="email"
                   required
+                  data-testid="contact-email-input"
                   className="w-full px-4 py-3 rounded-xl bg-white/10 dark:bg-white/5 border border-gray-300 dark:border-white/10 text-polarNight dark:text-softWhite placeholder:text-polarNight/50 dark:placeholder:text-softWhite/50 focus:outline-none focus:ring-2 focus:ring-coldIndigo/50 focus:border-coldIndigo transition-all duration-300 backdrop-blur-sm"
                 />
               </div>
@@ -253,6 +260,7 @@ export default function Contacts() {
                 <input
                   name="company"
                   type="text"
+                  data-testid="contact-company-input"
                   className="w-full px-4 py-3 rounded-xl bg-white/10 dark:bg-white/5 border border-gray-300 dark:border-white/10 text-polarNight dark:text-softWhite placeholder:text-polarNight/50 dark:placeholder:text-softWhite/50 focus:outline-none focus:ring-2 focus:ring-coldIndigo/50 focus:border-coldIndigo transition-all duration-300 backdrop-blur-sm"
                 />
               </div>
@@ -264,6 +272,7 @@ export default function Contacts() {
                 <input
                   name="website"
                   type="text"
+                  data-testid="contact-website-input"
                   className="w-full px-4 py-3 rounded-xl bg-white/10 dark:bg-white/5 border border-gray-300 dark:border-white/10 text-polarNight dark:text-softWhite placeholder:text-polarNight/50 dark:placeholder:text-softWhite/50 focus:outline-none focus:ring-2 focus:ring-coldIndigo/50 focus:border-coldIndigo transition-all duration-300 backdrop-blur-sm"
                 />
               </div>
@@ -277,6 +286,7 @@ export default function Contacts() {
                 name="message"
                 rows={5}
                 required
+                data-testid="contact-message-textarea"
                 className="w-full px-4 py-3 rounded-xl bg-white/10 dark:bg-white/5 border border-gray-300 dark:border-white/10 text-polarNight dark:text-softWhite placeholder:text-polarNight/50 dark:placeholder:text-softWhite/50 focus:outline-none focus:ring-2 focus:ring-coldIndigo/50 focus:border-coldIndigo transition-all duration-300 backdrop-blur-sm resize-none"
               />
             </div>
@@ -285,6 +295,7 @@ export default function Contacts() {
               <button
                 type="submit"
                 disabled={loading}
+                data-testid="contact-submit-button"
                 className="group relative px-8 py-4 bg-coldIndigo text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-coldIndigo/25 disabled:opacity-50 disabled:cursor-not-allowed overflow-hidden"
               >
                 <span className="relative z-10 flex items-center gap-2">

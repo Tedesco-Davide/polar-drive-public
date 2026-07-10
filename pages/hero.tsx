@@ -504,6 +504,8 @@ export default function Hero() {
         <div
           ref={ctaRef}
           onClick={handleCtaClick}
+          data-testid="hero-cta-button"
+          role="button"
           className="mb-20 inline-flex items-center gap-3 px-10 py-5 bg-coldIndigo text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-blue-500/30 cursor-pointer group"
         >
           <span>{t("hero.cta_button")}</span>

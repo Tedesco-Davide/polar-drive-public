@@ -131,7 +131,11 @@ export default function Header() {
     >
       <div className="container px-6 flex h-16 items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center space-x-2 group">
+        <Link
+          href="/"
+          data-testid="nav-logo"
+          className="flex items-center space-x-2 group"
+        >
           <div className="relative">
             <Image
               src="/logo/DataPolar_Logo.svg"
@@ -153,10 +157,11 @@ export default function Header() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav data-testid="main-nav" className="hidden md:flex items-center gap-8">
           {navigation.map((item, index) => {
             const isAnchor = item.href.startsWith("#");
             const anchorTarget = item.href;
+            const navTestId = `nav-${item.label.replace("header.", "")}`;
 
             const handleClick = (e: React.MouseEvent) => {
               if (isAnchor) {
@@ -178,6 +183,7 @@ export default function Header() {
                 key={item.label}
                 href={`/${anchorTarget}`}
                 onClick={handleClick}
+                data-testid={navTestId}
                 className="relative font-semibold text-polarNight/90 dark:text-articWhite/90 hover:text-coldIndigo dark:hover:text-glacierBlue transition-all duration-300 group px-3 py-2 rounded-lg hover:bg-white/20 dark:hover:bg-white/10"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
@@ -188,6 +194,7 @@ export default function Header() {
               <Link
                 key={item.label}
                 href={item.href}
+                data-testid={navTestId}
                 className="relative font-semibold text-polarNight/90 dark:text-articWhite/90 hover:text-coldIndigo dark:hover:text-glacierBlue transition-all duration-300 group px-3 py-2 rounded-lg hover:bg-white/20 dark:hover:bg-white/10"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
@@ -213,6 +220,7 @@ export default function Header() {
           {mounted && (
             <button
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+              data-testid="theme-toggle-button"
               className="p-2.5 rounded-xl hover:bg-white/20 dark:hover:bg-white/10 transition-all duration-300 group border border-white/20 dark:border-white/10 hover:border-coldIndigo/30 dark:hover:border-glacierBlue/30 opacity-0 animate-[fadeIn_0.5s_ease-in-out_0.4s_forwards]"
               aria-label="Toggle Theme"
             >
@@ -235,6 +243,7 @@ export default function Header() {
             }`}
             onClick={toggleMobileMenu}
             aria-label="Toggle menu"
+            data-testid="mobile-menu-toggle"
           >
             <div className="relative w-6 h-6">
               {menuOpen ? (
@@ -250,6 +259,7 @@ export default function Header() {
       {/* Mobile menu */}
       <div
         ref={mobileMenuRef}
+        data-testid="mobile-nav"
         className={`md:hidden absolute top-full left-0 w-full transition-all duration-300 ease-in-out ${
           menuOpen ? "opacity-100 visible" : "opacity-0 invisible"
         } bg-articWhite/95 dark:bg-polarNight/95 backdrop-blur-xl border-t border-white/20 dark:border-white/10`}
@@ -258,6 +268,7 @@ export default function Header() {
           {navigation.map((item) => {
             const isAnchor = item.href.startsWith("#");
             const anchorTarget = item.href;
+            const navTestId = `nav-mobile-${item.label.replace("header.", "")}`;
 
             const handleClick = (e: React.MouseEvent) => {
               e.preventDefault();
@@ -283,6 +294,7 @@ export default function Header() {
                 key={item.label}
                 href={isAnchor ? `/${anchorTarget}` : item.href}
                 onClick={handleClick}
+                data-testid={navTestId}
                 className="mobile-nav-item block text-base font-semibold text-polarNight dark:text-articWhite hover:text-coldIndigo dark:hover:text-glacierBlue transition-all duration-300 py-3 px-4 rounded-xl hover:bg-white/20 dark:hover:bg-white/10 border border-transparent hover:border-coldIndigo/20 dark:hover:border-glacierBlue/20"
               >
                 {getNavigationText(item.label)}

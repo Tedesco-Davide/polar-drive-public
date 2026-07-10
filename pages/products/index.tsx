@@ -227,6 +227,7 @@ export default function Products() {
                     {/* CTA */}
                     <Link
                       href={product.href}
+                      data-testid="products-polardrive-cta-link"
                       className="inline-flex items-center gap-3 px-8 py-4 bg-coldIndigo text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-coldIndigo/30 group"
                     >
                       <span>Scopri {product.name}</span>

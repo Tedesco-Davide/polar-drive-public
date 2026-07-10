@@ -29,6 +29,21 @@ _(Tasto destro nel vuoto sotto `POLAR-DRIVE-PUBLIC` → Open in integrated Termi
 
 #### **🔧 .NET MAUI TESTING ENVIRONMENT**
 
+- `& "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -list-avds` → Elenca gli AVD (emulatori) disponibili
 - `& "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd Pixel5_API35` → Avvia emulatore specifico android
+- `adb devices` → Verifica che l'emulatore sia connesso e visibile
+- `dotnet build -t:Run -f net10.0-android` _(da eseguire dentro `PolarDrive.Maui/`)_ → Builda e avvia l'app sull'emulatore
+
+#### **🎭 PLAYWRIGHT E2E TESTING**
+
+_(Suite separata in `tests/playwright/`, Page Object Model, testa il sito Next.js su `localhost:3000`)_
+
+- `cd tests/playwright && npm i` → Installa le dipendenze della suite Playwright
+- `npx playwright install` → Installa i browser (Chromium, Firefox, WebKit)
+- `npx playwright test` → Esegue tutta la suite E2E (avvia in automatico `npm run dev` se non già attivo)
+- `npx playwright test --project=chromium` → Esegue i test solo su Chromium
+- `npx playwright test --headed` → Esegue i test con il browser visibile
+- `npx playwright test --ui` → Apre la UI mode interattiva per debug
+- `npx playwright show-report` → Apre il report HTML dell'ultima esecuzione
 
 ---
