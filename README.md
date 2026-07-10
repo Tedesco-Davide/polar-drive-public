@@ -27,4 +27,8 @@ _(Tasto destro nel vuoto sotto `POLAR-DRIVE-PUBLIC` → Open in integrated Termi
 - `npm run type-check` → Verifica errori TypeScript
 - `npm audit` → Controlla vulnerabilità di sicurezza
 
+#### **🔧 .NET MAUI TESTING ENVIRONMENT**
+
+- `& "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd Pixel5_API35` → Avvia emulatore specifico android
+
 ---
