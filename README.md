@@ -10,14 +10,12 @@ Repository sito vetrina per il progetto **PolarDrivePublic**.
 
 _(Tasto destro nel vuoto sotto `POLAR-DRIVE-PUBLIC` → Open in integrated Terminal)_
 
-#### **🚀 SVILUPPO (Development)**
+#### **🚀 SVILUPPO (Development) E PRODUZIONE (Production)**
 
 - `npm i` → Installa/reinstalla tutti i pacchetti
 - `npm run dev` → Avvio in modalità sviluppo (hot reload, debug attivo)
 - `npm list` → Visualizza tutti i pacchetti installati
-
-#### **📦 PRODUZIONE (Production)**
-
+oppure
 - `npm run build` → Compila l'applicazione per produzione (ottimizzato, minificato)
 - `npm run start` → Avvio in produzione (dopo build)
 
@@ -27,7 +25,7 @@ _(Tasto destro nel vuoto sotto `POLAR-DRIVE-PUBLIC` → Open in integrated Termi
 - `npm run type-check` → Verifica errori TypeScript
 - `npm audit` → Controlla vulnerabilità di sicurezza
 
-#### **🔧 .NET MAUI TESTING ENVIRONMENT**
+#### **📦 .NET MAUI TESTING ENVIRONMENT**
 
 - `& "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -list-avds` → Elenca gli AVD (emulatori) disponibili
 - `& "$env:LOCALAPPDATA\Android\Sdk\emulator\emulator.exe" -avd Pixel5_API35` → Avvia emulatore specifico android
@@ -55,5 +53,14 @@ _(Suite separata in `tests/selenium/`, Page Object Model, NUnit, testa lo stesso
 - `dotnet test` → Esegue tutta la suite E2E su Chrome (Selenium Manager scarica/gestisce il chromedriver in automatico)
 - `HEADLESS=true dotnet test` → Esegue i test in modalità headless (senza finestra Chrome visibile)
 - `dotnet test --filter "FullyQualifiedName~ContactFormTests"` → Esegue solo i test del form contatti
+
+#### **⚛️ CYPRESS COMPONENT TESTING**
+
+_(Config in `cypress.config.ts` + `cypress/`, nel progetto root — a differenza delle suite E2E, il component testing monta i singoli componenti React in isolamento tramite il bundler di Next.js, senza bisogno del dev server né di una pagina reale)_
+
+- `npm i` → Installa Cypress (già incluso tra le devDependencies del progetto)
+- `npm run cypress:open` → Apre la Cypress UI in modalità component testing (interattiva, con browser visibile)
+- `npm run cypress:run` → Esegue tutti i test di componente in headless (Electron)
+- `npx cypress run --component --spec "cypress/component/Hero.cy.tsx"` → Esegue solo i test di un componente specifico
 
 ---
