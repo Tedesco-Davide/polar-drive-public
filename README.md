@@ -46,4 +46,14 @@ _(Suite separata in `tests/playwright/`, Page Object Model, testa il sito Next.j
 - `npx playwright test --ui` → Apre la UI mode interattiva per debug
 - `npx playwright show-report` → Apre il report HTML dell'ultima esecuzione
 
+#### **🧪 SELENIUM WEBDRIVER E2E TESTING (C#)**
+
+_(Suite separata in `tests/selenium/`, Page Object Model, NUnit, testa lo stesso sito Next.js su `localhost:3000` — richiede il dev server già avviato con `npm run dev`)_
+
+- `cd tests/selenium && dotnet restore` → Ripristina i pacchetti NuGet (Selenium.WebDriver, Selenium.Support, NUnit)
+- `dotnet build` → Compila il progetto di test
+- `dotnet test` → Esegue tutta la suite E2E su Chrome (Selenium Manager scarica/gestisce il chromedriver in automatico)
+- `HEADLESS=true dotnet test` → Esegue i test in modalità headless (senza finestra Chrome visibile)
+- `dotnet test --filter "FullyQualifiedName~ContactFormTests"` → Esegue solo i test del form contatti
+
 ---
