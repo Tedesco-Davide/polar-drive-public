@@ -1,0 +1,178 @@
+trigger:
+  branches:
+    include:
+      - main
+
+pr:
+  branches:
+    include:
+      - main
+
+variables:
+  buildConfiguration: 'Debug'
+  dotnetVersion: '10.0.x'
+  nodeVersion: '20.x'
+
+stages:
+  # ---------------------------------------------------------------------
+  # STAGE 1 — Build: sito Next.js (validazione build) + APK MAUI Android
+  # Debug, pubblicato come pipeline artifact e riusato dallo stage Appium
+  # (evita di ricompilare l'app in ogni job).
+  # ---------------------------------------------------------------------
+  - stage: Build
+    displayName: 'Build — sito Next.js + APK MAUI Android'
+    jobs:
+      - job: BuildWebApp
+        displayName: 'Build sito Next.js'
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - task: NodeTool@0
+            inputs:
+              versionSpec: $(nodeVersion)
+            displayName: 'Installa Node.js'
+          - script: npm ci
+            displayName: 'npm ci'
+          - script: npm run build
+            displayName: 'npm run build'
+
+      - job: BuildAndroidApk
+        displayName: 'Build APK MAUI Android (Debug)'
+        pool:
+          vmImage: 'windows-latest'
+        steps:
+          - task: UseDotNet@2
+            inputs:
+              packageType: 'sdk'
+              version: $(dotnetVersion)
+            displayName: 'Installa .NET SDK'
+          - script: dotnet workload install android
+            displayName: 'Installa workload MAUI Android'
+          - script: dotnet build PolarDrive.Maui -f net10.0-android -c $(buildConfiguration)
+            displayName: 'Build APK Debug'
+          - publish: 'PolarDrive.Maui/bin/$(buildConfiguration)/net10.0-android/com.companyname.polardrive.maui-Signed.apk'
+            artifact: 'android-apk'
+            displayName: 'Pubblica APK come pipeline artifact'
+
+  # ---------------------------------------------------------------------
+  # STAGE 2 — Test: Playwright, Selenium, Cypress, tre job in parallelo su
+  # agent Microsoft-hosted (nessuno dei tre richiede hardware speciale).
+  # ---------------------------------------------------------------------
+  - stage: Test
+    displayName: 'Test — Playwright, Selenium, Cypress'
+    dependsOn: Build
+    jobs:
+      - job: PlaywrightTests
+        displayName: 'Playwright E2E'
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - task: NodeTool@0
+            inputs:
+              versionSpec: $(nodeVersion)
+            displayName: 'Installa Node.js'
+          - script: npm ci
+            displayName: 'npm ci (root — serve al webServer di Playwright)'
+          - script: |
+              cd tests/playwright
+              npm ci
+              npx playwright install --with-deps
+            displayName: 'Installa dipendenze e browser Playwright'
+          - script: |
+              cd tests/playwright
+              npx playwright test
+            displayName: 'Esegui suite Playwright (avvia da sola npm run dev)'
+          - task: PublishPipelineArtifact@1
+            condition: always()
+            inputs:
+              targetPath: 'tests/playwright/playwright-report'
+              artifact: 'playwright-report'
+            displayName: 'Pubblica report HTML Playwright'
+
+      - job: SeleniumTests
+        displayName: 'Selenium E2E (C#, Chrome headless)'
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - task: NodeTool@0
+            inputs:
+              versionSpec: $(nodeVersion)
+            displayName: 'Installa Node.js'
+          - task: UseDotNet@2
+            inputs:
+              packageType: 'sdk'
+              version: $(dotnetVersion)
+            displayName: 'Installa .NET SDK'
+          - script: |
+              npm ci
+              npm run build
+            displayName: 'Build sito Next.js (produzione)'
+          - script: |
+              setsid nohup npm run start > "$AGENT_TEMPDIRECTORY/nextjs-server.log" 2>&1 < /dev/null &
+              echo $! > "$AGENT_TEMPDIRECTORY/nextjs.pid"
+            displayName: 'Avvia il sito in background (npm run start)'
+          - script: bash pipelines/scripts/wait-for-server.sh http://localhost:3000 60
+            displayName: 'Attendi che il sito sia raggiungibile'
+          - script: |
+              cd tests/selenium
+              HEADLESS=true dotnet test
+            displayName: 'Esegui suite Selenium'
+          - script: |
+              if [ -f "$AGENT_TEMPDIRECTORY/nextjs.pid" ]; then
+                kill "$(cat "$AGENT_TEMPDIRECTORY/nextjs.pid")" || true
+              fi
+            condition: always()
+            displayName: 'Ferma il sito Next.js'
+
+      - job: CypressTests
+        displayName: 'Cypress Component Testing'
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - task: NodeTool@0
+            inputs:
+              versionSpec: $(nodeVersion)
+            displayName: 'Installa Node.js'
+          - script: npm ci
+            displayName: 'npm ci (include Cypress tra le devDependencies)'
+          - script: npx cypress verify
+            displayName: 'Verifica installazione binario Cypress'
+          - script: npm run cypress:run
+            displayName: 'Esegui test di componente'
+
+  # ---------------------------------------------------------------------
+  # STAGE 3 — Appium: RICHIEDE un agent self-hosted con emulatore Android
+  # gia' configurato (vedi pipelines/README.md). Nessun agent Microsoft-
+  # hosted (Windows/Linux/macOS) espone virtualizzazione hardware per far
+  # girare un emulatore Android in modo affidabile: qui non si finge il
+  # contrario, si punta a un pool self-hosted esplicito.
+  # ---------------------------------------------------------------------
+  - stage: AppiumTests
+    displayName: 'Appium E2E (C#, Android emulator)'
+    dependsOn: Build
+    jobs:
+      - job: AppiumAndroid
+        displayName: 'Appium su emulatore Android'
+        pool:
+          name: 'Default'
+          demands:
+            - ANDROID_EMULATOR -equals true
+        steps:
+          - download: current
+            artifact: 'android-apk'
+            displayName: 'Scarica APK buildato nello stage Build'
+          - task: UseDotNet@2
+            inputs:
+              packageType: 'sdk'
+              version: $(dotnetVersion)
+            displayName: 'Installa .NET SDK'
+          - pwsh: pipelines/scripts/start-appium-android.ps1 -AvdName 'Pixel5_API35'
+            displayName: 'Avvia emulatore Android + server Appium'
+          - pwsh: |
+              $env:POLARDRIVE_APK_PATH = "$(Pipeline.Workspace)/android-apk/com.companyname.polardrive.maui-Signed.apk"
+              Set-Location tests/appium
+              dotnet test
+            displayName: 'Esegui suite Appium'
+          - pwsh: pipelines/scripts/stop-appium-android.ps1
+            condition: always()
+            displayName: 'Ferma server Appium ed emulatore'

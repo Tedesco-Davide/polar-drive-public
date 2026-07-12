@@ -88,4 +88,17 @@ _(Suite separata in `tests/appium/`, Page Object Model, NUnit, testa `PolarDrive
 - Click su un elemento nello screenshot → nel pannello destro compaiono i suoi attributi; il campo **resource-id** è il locator da usare (`com.companyname.polardrive.maui:id/<AutomationId>`, perché su Android l'AutomationId MAUI è mappato sul resource-id, non sul content-desc)
 - Click **Quit Session** (in alto) quando hai finito di ispezionare, per liberare l'app prima di lanciare `dotnet test`
 
+#### **⚙️ AZURE DEVOPS PIPELINE (CI/CD)**
+
+_(`azure-pipelines.yml` alla root, script di supporto in `pipelines/scripts/`, spiegazione dei limiti reali dell'emulatore in CI in `pipelines/README.md` — orchestra Build → Test (Playwright/Selenium/Cypress in parallelo) → AppiumTests)_
+
+- Azure DevOps → **Pipelines → New pipeline → GitHub** (questo repo è su `github.com/Tedesco-Davide/polar-drive-public`, non su Azure Repos — al primo utilizzo Azure DevOps chiede di autorizzare l'accesso al repo GitHub via OAuth o installando la Azure Pipelines GitHub App) → seleziona il repo → **Existing Azure Pipelines YAML file** → `/azure-pipelines.yml` → Run
+- Stage `Build` e `Test` (Playwright/Selenium/Cypress) girano su agent Microsoft-hosted (`ubuntu-latest`/`windows-latest`), nessun setup richiesto
+- Stage `AppiumTests` richiede invece un **agent self-hosted** con la capability `ANDROID_EMULATOR = true` — per registrarlo:
+  - Azure DevOps → **Organization Settings → Agent pools → Default → New agent** → scarica il pacchetto Windows
+  - `.\config.cmd` → wizard (URL organizzazione, Personal Access Token, pool `Default`)
+  - **Agent pools → Default → (il tuo agent) → Capabilities → User capabilities** → aggiungi `ANDROID_EMULATOR` = `true`
+  - `.\run.cmd` → avvia l'agent (deve restare attivo quando gira lo stage Appium; sulla stessa macchina devono già esserci Android SDK + AVD `Pixel5_API35` + Appium, come impostato sopra)
+- Variabili già configurate in `azure-pipelines.yml`: `buildConfiguration: Debug`, `dotnetVersion: 10.0.x`, `nodeVersion: 20.x`
+
 ---
